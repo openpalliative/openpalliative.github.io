@@ -1,0 +1,161 @@
+version: 1
+situations:
+  - id: night-pain
+    urgent: true
+    title: Сильная боль ночью или в праздники
+    hint: Кому звонить и что сказать диспетчеру
+    icon: moon
+    roles: [pain, pmp, general]
+    ideas: [4]
+    today:
+      - { repo: home-care-kit, entry: night, label: Что сказать диспетчеру }
+      - { repo: obrashchenie-kit, entry: call, label: Отказали по телефону - что записать }
+    later:
+      - { repo: home-care-kit, entry: night, label: Распечатать карту на ночь и праздники }
+      - { repo: pal-norms, entry: calendar, label: Когда ближайшие праздники }
+    if_failed:
+      - { repo: obrashchenie-kit, entry: oral-refusal, label: Попросить ответ на бумаге }
+      - { repo: pal-norms, entry: escalation, label: Куда обращаться дальше }
+    related: [dying, who-to-call]
+
+  - id: discharge
+    title: Выписывают домой из больницы
+    hint: Что получить на руки до выхода из больницы
+    icon: clipboard-list
+    roles: [pmp, general]
+    ideas: [1]
+    today:
+      - { repo: home-care-kit, entry: discharge, label: Распечатать чек-лист выписки }
+      - { repo: obrashchenie-kit, entry: discharge, label: "Что делать, если выписывают без нужных бумаг" }
+    later:
+      - { repo: pal-devices-data, entry: search, label: Какие изделия просить для дома }
+      - { repo: home-care-kit, entry: night, label: Карта на ночь и праздники }
+    if_failed:
+      - { repo: obrashchenie-kit, path: case/, params: { new: "1", s: discharge }, label: Начать дело и следить за сроком }
+      - { repo: pal-norms, entry: escalation, label: Куда обращаться дальше }
+    related: [device, conclusion]
+
+  - id: refused
+    title: Отказали на словах или не отвечают
+    hint: Как получить ответ на бумаге и не пропустить срок
+    icon: file-text
+    roles: [rzn, minzdrav, tfoms]
+    ideas: [2, 5]
+    today:
+      - { repo: obrashchenie-kit, entry: oral-refusal, label: Попросить ответ на бумаге }
+      - { repo: obrashchenie-kit, entry: call, label: Отказали по телефону - что записать }
+    later:
+      - { repo: obrashchenie-kit, path: case/, params: { new: "1", s: oral-refusal }, label: Начать дело и следить за сроком }
+      - { repo: pal-norms, entry: deadlines, label: Посчитать срок ответа }
+    if_failed:
+      - { repo: obrashchenie-kit, entry: no-answer, label: Не ответили в срок }
+      - { repo: obrashchenie-kit, entry: forwarded, label: "Жалобу переслали тому, на кого вы жалуетесь" }
+      - { repo: obrashchenie-kit, entry: answer, label: "Пришёл ответ, но непонятно, что он значит" }
+    related: [conclusion, device]
+
+  - id: device
+    title: Нужен аппарат, кровать, расходники или питание
+    hint: Кто выдаёт и по какому документу
+    icon: package
+    roles: [rzn, minzdrav]
+    ideas: [3]
+    today:
+      - { repo: pal-devices-data, entry: search, label: Найти изделие по своему названию }
+      - { repo: pal-devices-data, entry: nutrition, label: Лечебное питание }
+    later:
+      - { repo: pal-devices-data, entry: channels, label: Через кого получают изделия }
+      - { repo: home-care-kit, entry: discharge, label: Что просить при выписке }
+    if_failed:
+      - { repo: obrashchenie-kit, entry: oral-refusal, label: Не выдают - попросить ответ на бумаге }
+      - { repo: pal-devices-data, entry: changes, label: "Говорят, что этого больше нет в перечне" }
+    related: [discharge, refused]
+
+  - id: conclusion
+    title: Не дают заключение о паллиативной помощи или оно ничего не дало
+    hint: Что написано в приказе и что просить отдельно
+    icon: file-check
+    roles: [minzdrav, rzn]
+    ideas: [7]
+    today:
+      - { repo: pal-norms, entry: indications, label: Показания дословно }
+      - { repo: home-care-kit, entry: conclusion, label: Лист для разговора с врачом }
+    later:
+      - { repo: obrashchenie-kit, entry: vk-refused, label: Врачебную комиссию не созывают }
+    if_failed:
+      - { repo: obrashchenie-kit, path: case/, params: { new: "1", s: vk-refused }, label: Начать дело и следить за сроком }
+      - { repo: pal-norms, entry: escalation, label: Куда обращаться дальше }
+    related: [refused, device]
+
+  - id: dying
+    urgent: true
+    title: Близкий умирает дома
+    hint: Кого звать днём и ночью и где держать документы
+    icon: folder-open
+    roles: [pmp, general]
+    ideas: [4]
+    today:
+      - { repo: home-care-kit, entry: night, anchor: folder, label: Папка на случай }
+    later:
+      - { repo: home-care-kit, entry: ahead, label: "Что подписать, пока человек может" }
+    if_failed:
+      - { repo: obrashchenie-kit, entry: oral-refusal, label: Выездная служба не приезжает }
+    related: [night-pain, prepare]
+
+  - id: who-to-call
+    title: Не знаю, куда звонить
+    hint: Номера вашего региона с датой проверки
+    icon: map-pin
+    roles: [pmp, pain, general, rzn, minzdrav, tfoms]
+    ideas: [10]
+    today:
+      - { repo: pal-directory, entry: regions, label: Номера вашего региона }
+    later:
+      - { repo: home-care-kit, entry: night, label: Вписать номера в карту на ночь }
+    if_failed:
+      - { repo: pal-directory, entry: federal, label: Номера по всей стране }
+    related: [night-pain, refused]
+
+  - id: emergency-sheet
+    title: "Ребёнок на сложном уходе: лист для скорой"
+    hint: Аппараты, трубки и кто ведёт ребёнка, на одном листе
+    icon: list-checks
+    roles: [pmp]
+    ideas: [6]
+    today:
+      - { repo: home-care-kit, entry: emergency, label: Заполнить лист для скорой }
+    later:
+      - { repo: home-care-kit, entry: night, label: Карта на ночь и праздники }
+      - { repo: obrashchenie-kit, entry: turning-18, label: Ребёнку скоро 18 }
+    if_failed:
+      - { repo: obrashchenie-kit, entry: call, label: Скорая отказала - что записать }
+    related: [turning-18, night-pain]
+
+  - id: turning-18
+    title: Ребёнку скоро 18
+    hint: Что и до какой даты оформить
+    icon: calendar-clock
+    roles: []
+    ideas: [8]
+    today:
+      - { repo: obrashchenie-kit, entry: turning-18, label: Построить календарь дат }
+    later:
+      - { repo: home-care-kit, entry: ahead, label: Что подписать заранее }
+      - { repo: pal-devices-data, entry: search, label: Оборудование после 18 }
+    if_failed:
+      - { repo: pal-norms, entry: deadlines, label: Откуда эти сроки }
+      - { repo: obrashchenie-kit, entry: oral-refusal, label: Попросить ответ на бумаге }
+    related: [emergency-sheet, prepare]
+
+  - id: prepare
+    title: Хочу подготовиться заранее
+    hint: Какую доверенность оформить, пока человек может подписать
+    icon: pencil
+    roles: []
+    ideas: [9]
+    today:
+      - { repo: home-care-kit, entry: ahead, label: Что подписать на этой неделе }
+    later:
+      - { repo: home-care-kit, entry: night, label: Карта на ночь и праздники }
+      - { repo: home-care-kit, entry: emergency, label: Лист для скорой }
+    if_failed: []
+    related: [dying, night-pain]

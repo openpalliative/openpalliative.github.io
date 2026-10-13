@@ -1,0 +1,45 @@
+{% import "op/macros.html.j2" as op with context %}
+
+{% macro rows(items) -%}
+<ul class="op-rows hub-rows">
+  {% for s in items %}
+  <li>{{ op.row(s.title, href=url('s/' ~ s.id ~ '/'), icon_name=s.icon, hint=s.hint) }}</li>
+  {% endfor %}
+</ul>
+{%- endmacro %}
+
+{% macro step(l) -%}
+{% if l.ready %}
+{% call op.card(l.label | replace(" - ", " - "), href=xurl(l.repo, l.path, l.params) ~ (('#' ~ l.anchor) if l.anchor else ''), icon_name=l.icon, cls="hub-step") %}
+<div class="hub-step__meta"><span>{{ l.tool_title }}</span>{{ op.entry_badges(l.entry) }}</div>
+{% endcall %}
+{% else %}
+{% call op.card(l.label | replace(" - ", " - "), icon_name=l.icon, cls="hub-step hub-step--soon") %}
+<div class="hub-step__meta"><span>{{ l.tool_title }}</span>{{ op.soon() }}</div>
+{% endcall %}
+{% endif %}
+{%- endmacro %}
+
+{% macro region_block(roles, title="Номера вашего региона") -%}
+<section class="hub-region op-no-print" aria-labelledby="hub-region-title" data-source-titles="{{ site.line_sources | join("|") }}">
+  <h2 id="hub-region-title">{{ title }}</h2>
+  {{ op.region_lines(site.regions, roles) }}
+  <template id="hub-federal">
+    <div class="hub-federal">
+      <p class="hub-federal__lead">По вашему региону проверенных номеров пока нет. Звоните на номера, которые работают по всей стране:</p>
+      <ul class="op-lines">
+        {% for line in opdata.now.lines %}
+        <li class="op-line{{ ' op-line--verified' if line.verified }}"><a class="op-line__tel" data-tel="{{ line.number | tel }}">{{ line.number | tel_display }}</a>{% if not line.verified %} {{ unverified_inline() }}{% endif %}<span class="op-line__what">{{ line.label }}{% if line.third_party %}. Сторонняя линия, мы с ней не связаны{% endif %}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </template>
+  <script type="module" src="{{ url('assets/js/hub.js') }}"></script>
+</section>
+{%- endmacro %}
+
+{% macro page_head(title, lead=none, crumb=none) -%}
+{{ op.crumbs([("openpalliative", url('')), (crumb or title, "")]) }}
+<h1>{{ title }}</h1>
+{% if lead %}<p class="op-lead">{{ lead }}</p>{% endif %}
+{%- endmacro %}

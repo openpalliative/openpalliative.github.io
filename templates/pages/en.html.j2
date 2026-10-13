@@ -1,0 +1,36 @@
+{% extends "op/base.html.j2" %}
+{% set lang = "en" %}
+{% set alternates = [("ru", ""), ("en", "en/"), ("x-default", "")] %}
+{% set en_tools = {
+  "obrashchenie-kit": ("Requests and complaints", "Build a written request or complaint, track the legal deadline for the answer and see the next step. Works offline"),
+  "home-care-kit": ("Sheets for home", "Printable sheets: who to call at night and on holidays, a sheet for the ambulance crew, a discharge checklist. Works offline"),
+  "pal-devices-data": ("Who provides medical devices", "Open dataset of medical devices for palliative care at home and the official documents they are issued under"),
+  "pal-directory": ("Who to call", "Regional hotlines from the open data of the federal healthcare watchdog, with source and date"),
+  "pal-norms": ("Regulations and deadlines", "Machine-readable registry of regulations with verbatim quotes from official publications, response deadlines and escalation steps"),
+} %}
+{% block title %}About in English{% endblock %}
+{% block description %}openpalliative: open-source tools that make palliative care easier to navigate for families and nonprofits in Russia{% endblock %}
+{% block main %}
+<div class="op-wrap op-page">
+  <nav class="op-crumbs" aria-label="Breadcrumbs"><ol><li><a href="{{ url('') }}" lang="ru">{{ icon("chevron-left", "op-crumbs__back") }}<span>openpalliative</span></a>{{ icon("chevron-right", "op-crumbs__sep") }}</li><li><span aria-current="page">English</span></li></ol></nav>
+  <h1>openpalliative</h1>
+  <p class="op-lead">Open-source tools that make palliative care easier to navigate for families and nonprofits in Russia. The interface is in Russian</p>
+  <div class="op-prose">
+    <p>This is not a help service and we do not answer requests. In an emergency in Russia, call <a href="tel:112">112</a> or <a href="tel:103">103</a> (ambulance)</p>
+    <h2>The problem</h2>
+    <p>Families caring for a seriously ill person at home often have to write formal requests and complaints to get pain relief, equipment or home visits, and then track legal deadlines for the answer. The rules exist, but they are scattered across official documents</p>
+    <h2>The tools</h2>
+    <ul>
+      {% for t in opdata.tools %}
+      {% set en = en_tools.get(t.repo) %}
+      <li><a href="{{ xurl(t.repo, '') }}">{{ en[0] if en else t.title }}</a> (<span lang="ru">{{ t.title }}</span>). {{ en[1] if en else "" }}. Source code: <a href="https://github.com/openpalliative/{{ t.repo }}">openpalliative/{{ t.repo }}</a></li>
+      {% endfor %}
+    </ul>
+    <p>This site itself: <a href="https://github.com/openpalliative/openpalliative.github.io">openpalliative/openpalliative.github.io</a>. It holds the shared build tool and design system used by all five tools</p>
+    <h2>Principles</h2>
+    <p>No backend, data stays on the device. Static sites only, no trackers, no third-party requests. Official sources with review dates, unverified records are marked as such. Not medical or legal advice. Not affiliated with any foundation, healthcare provider or government body. We do not accept donations</p>
+    <h2>How to help</h2>
+    <p>Accessibility, offline support, printing, data validation, tests. Knowing Russian is not required for most of it. We are also looking for maintainers based in Russia: a lawyer, a medical professional and a developer. Start with the <a href="https://github.com/openpalliative/openpalliative.github.io/issues">issues</a> or the <a href="https://github.com/openpalliative/openpalliative.github.io/discussions">discussions</a>. Everything posted there is public</p>
+  </div>
+</div>
+{% endblock %}

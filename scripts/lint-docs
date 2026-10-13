@@ -1,0 +1,27 @@
+#!/bin/sh
+set -eu
+ROOT="${1:-$(cd "$(dirname "$0")/.." && pwd)}"
+HUB="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$HUB"
+exec uv run --quiet python - "$ROOT" <<'PY'
+import sys
+from pathlib import Path
+from opsite.lint import lint_md, lint_yaml_text
+
+root = Path(sys.argv[1]).resolve()
+names = ["README.md", "ARCHITECTURE.md", "CONTRIBUTING.md", "SECURITY.md", "CODE_OF_CONDUCT.md", "RELEASE.md",
+         "LICENSE-DATA"]
+files = [root / n for n in names if (root / n).is_file()]
+files += sorted(p for p in (root / "docs").rglob("*.md")) if (root / "docs").is_dir() else []
+files += sorted(p for p in (root / ".github").rglob("*") if p.suffix in (".md", ".yml", ".yaml")
+                and "workflows" not in p.parts) if (root / ".github").is_dir() else []
+errors = 0
+for p in files:
+    rel = p.relative_to(root).as_posix()
+    found = lint_yaml_text(p.read_text(encoding="utf-8"), rel) if p.suffix in (".yml", ".yaml") else lint_md(p, rel)
+    for f in found:
+        print(f)
+        errors += f.level == "error"
+print(f"{root.name}: файлов {len(files)}, ошибок {errors}")
+sys.exit(1 if errors else 0)
+PY

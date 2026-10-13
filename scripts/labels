@@ -1,0 +1,26 @@
+#!/bin/sh
+set -eu
+HERE="$(cd "$(dirname "$0")" && pwd)"
+ORG="${OP_ORG:-openpalliative}"
+REPOS="openpalliative.github.io pal-norms pal-devices-data pal-directory obrashchenie-kit home-care-kit"
+DRY=0
+case "${1:-}" in
+  --dry-run) DRY=1 ;;
+  "") ;;
+  *) echo "Использование: scripts/labels [--dry-run]"; exit 2 ;;
+esac
+if [ "$DRY" = 0 ] && ! command -v gh >/dev/null 2>&1; then
+  echo "Нужен gh: https://cli.github.com"
+  exit 1
+fi
+tab="$(printf '\t')"
+for repo in $REPOS; do
+  while IFS="$tab" read -r name color description; do
+    [ -n "$name" ] || continue
+    if [ "$DRY" = 1 ]; then
+      printf 'gh label create "%s" --force --repo %s/%s --color %s --description "%s"\n' "$name" "$ORG" "$repo" "$color" "$description"
+    else
+      gh label create "$name" --force --repo "$ORG/$repo" --color "$color" --description "$description"
+    fi
+  done < "$HERE/labels.tsv"
+done

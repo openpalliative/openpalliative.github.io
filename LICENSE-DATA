@@ -1,0 +1,23 @@
+Тексты хаба openpalliative
+
+Тексты страниц и ситуаций в content/ (content/pages/*.md, content/*.yaml) и тексты
+общих блоков в opsite/now.yaml распространяются по лицензии Creative Commons
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.ru
+
+Атрибуция: openpalliative, https://github.com/openpalliative/openpalliative.github.io
+
+Снимки соседних репо в vendor/ распространяются на их условиях, см. LICENSE-DATA каждого репо:
+- vendor/pal-norms: CC BY 4.0, https://github.com/openpalliative/pal-norms
+- vendor/pal-devices-data: разметка проекта CC0 1.0, названия видов изделий из открытых данных
+  Росздравнадзора на условиях источника, https://github.com/openpalliative/pal-devices-data
+- vendor/pal-directory: номера и названия ведомств из таблицы Росздравнадзора на условиях
+  источника, разметка проекта CC0 1.0, https://github.com/openpalliative/pal-directory
+- vendor/obrashchenie-kit: CC BY-SA 4.0, https://github.com/openpalliative/obrashchenie-kit
+- vendor/home-care-kit: CC BY-SA 4.0, https://github.com/openpalliative/home-care-kit
+
+Официальные тексты законов и приказов и цитаты из них не являются объектами авторского
+права (п. 6 ст. 1259 ГК РФ)
+
+Код распространяется по лицензии MIT, см. LICENSE. Сторонние шрифт и иконки описаны
+в README.md, раздел «Сторонние лицензии»

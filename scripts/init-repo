@@ -1,0 +1,42 @@
+#!/bin/sh
+set -eu
+if [ $# -lt 5 ]; then
+  echo "Использование: scripts/init-repo REPO PREFIX PORT \"Название\" \"Строка о том, что делает\" [--pwa] [--draft legal|medical|both|none]"
+  exit 2
+fi
+REPO="$1"; PREFIX="$2"; PORT="$3"; TITLE="$4"; TAGLINE="$5"; shift 5
+PWA=false; DRAFT=none
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --pwa) PWA=true ;;
+    --draft) DRAFT="$2"; shift ;;
+  esac
+  shift
+done
+HUB="$(cd "$(dirname "$0")/.." && pwd)"
+DEST="$(dirname "$HUB")/$REPO"
+TPL="$HUB/scripts/repo-template"
+mkdir -p "$DEST"
+cd "$TPL"
+find . -type f | while read -r f; do
+  target="$DEST/$f"
+  case "$f" in
+    ./docs/social-preview-"$REPO".png) target="$DEST/docs/social-preview.png" ;;
+    ./docs/social-preview-*.png) continue ;;
+  esac
+  if [ -e "$target" ]; then
+    echo "есть, не трогаю: $f"
+    continue
+  fi
+  mkdir -p "$(dirname "$target")"
+  case "$f" in
+    *.png | *.svg | *.woff2 | *.ico) cp "$f" "$target"; continue ;;
+  esac
+  sed -e "s|__REPO__|$REPO|g" -e "s|__PREFIX__|$PREFIX|g" -e "s|__PORT__|$PORT|g" \
+      -e "s|__TITLE__|$TITLE|g" -e "s|__TAGLINE__|$TAGLINE|g" -e "s|__PWA__|$PWA|g" -e "s|__DRAFT__|$DRAFT|g" "$f" > "$target"
+  case "$f" in ./scripts/*) chmod +x "$target" ;; esac
+done
+mkdir -p "$DEST/assets/css" "$DEST/data/schema" "$DEST/content"
+touch "$DEST/assets/css/$PREFIX.css"
+cd "$DEST" && OP_HUB="$HUB" sh scripts/sync-ui
+echo "Готово: $DEST. Дальше: uv lock && pnpm install && uv run python -m opsite build"

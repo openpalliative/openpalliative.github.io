@@ -1,0 +1,103 @@
+{
+ "repo": "pal-devices-data",
+ "generated_at": "2026-10-13T06:32:04Z",
+ "opsite_version": "0.2.16",
+ "datasets": [
+  {
+   "name": "aliases",
+   "path": "aliases.json",
+   "schema": "aliases.schema.json",
+   "schema_version": "1.1.0",
+   "version": "2026.10.12",
+   "data_date": "2026-10-12",
+   "content_sha256": "ec8d2612a5bb7f0b30443b183518c69f3f9e11175389f5f53794c62db2cea7cc",
+   "bytes": 56637,
+   "items": 108,
+   "sha256": "c9ff32d3afef8574c7f1579d320667bf80de6b102d920c334e6795f894ab6ac8"
+  },
+  {
+   "name": "channels",
+   "path": "channels.json",
+   "schema": "channels.schema.json",
+   "schema_version": "1.1.0",
+   "version": "2026.10.12",
+   "data_date": "2026-10-12",
+   "content_sha256": "f72b0ef6af3a123553dddbc2f0a5ac8c2aa6418447792c9321ad410fa21693ad",
+   "bytes": 4926,
+   "items": 2,
+   "sha256": "b4e890cdd4a8588501a0baf766f4b7006c57c2b86a19d980d7cd23ecf0d15fba"
+  },
+  {
+   "name": "devices-348n-diff",
+   "path": "devices-348n-diff.json",
+   "schema": "devices-348n-diff.schema.json",
+   "schema_version": "1.1.0",
+   "version": "2026.10.12",
+   "data_date": "2026-10-12",
+   "content_sha256": "3f2b033a1383aa5d5816758ab049c9f9639fda55a824412907604feb4cbcad97",
+   "bytes": 115548,
+   "items": 265,
+   "sha256": "8bbe16c7b2d92a781d7d4ddba1404a2dbb8a93494096814440f261d6eca75fd2"
+  },
+  {
+   "name": "devices-398n",
+   "path": "devices-398n.json",
+   "schema": "devices-398n.schema.json",
+   "schema_version": "1.1.0",
+   "version": "2026.10.12",
+   "data_date": "2026-10-12",
+   "content_sha256": "eb18cf29a2285e1da1b29c2699f4893a1d99ecfed9ccb610ed3c2c36aebb7c01",
+   "bytes": 219606,
+   "items": 170,
+   "sha256": "481a50fd7868b2ca85324f89885376ce7050a857a5921e7ed12bb82b40e98d5a"
+  },
+  {
+   "name": "entrypoints",
+   "path": "entrypoints.json",
+   "schema": "entrypoints.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.12",
+   "data_date": "2026-10-12",
+   "content_sha256": "616d120d189602b913f5ffe9fc5ad57ed159d5d09c59f78698a08e9379034848",
+   "bytes": 2852,
+   "items": 5,
+   "sha256": "8823fcc554dde8fddcf28782081096315470a791d279b5cfe2f3aa1d57dd5514"
+  },
+  {
+   "name": "nutrition-3551r",
+   "path": "nutrition-3551r.json",
+   "schema": "nutrition-3551r.schema.json",
+   "schema_version": "1.1.0",
+   "version": "2026.10.12",
+   "data_date": "2026-10-12",
+   "content_sha256": "8c9e5bfa270d37293fa63cbc3c26f394493f46714eda72d9108fc3e3a3aa5bf5",
+   "bytes": 7079,
+   "items": 4,
+   "sha256": "05727215d4ce46593e9ce20ff8620e403c49de9aeac5d9de088d1051ca4b27c7"
+  },
+  {
+   "name": "quotes",
+   "path": "quotes.json",
+   "schema": "quotes.schema.json",
+   "schema_version": "1.1.0",
+   "version": "2026.10.12",
+   "data_date": "2026-10-12",
+   "content_sha256": "087dd7fbc5c3878fdc5153079dd024bd389620bb66415990ba843cbbd7a7de7d",
+   "bytes": 20651,
+   "items": 13,
+   "sha256": "aad0cf3ebf8d1c32eb08a272531783a726b117d3a7fcff88c39d38b87e37e598"
+  },
+  {
+   "name": "warnings",
+   "path": "warnings.json",
+   "schema": "warnings.schema.json",
+   "schema_version": "1.1.0",
+   "version": "2026.10.12",
+   "data_date": "2026-10-12",
+   "content_sha256": "5d552d66002047390666eb5750cc41c955e280ea39d7931b9fa0d0e673f8f71d",
+   "bytes": 10698,
+   "items": 11,
+   "sha256": "e29c8466aec488e40c362d154296bd6909e43eb84c7b794bf81e846188959833"
+  }
+ ]
+}

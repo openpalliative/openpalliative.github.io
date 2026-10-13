@@ -1,0 +1,29 @@
+#!/bin/sh
+set -eu
+HUB="$(cd "$(dirname "$0")/.." && pwd)"
+ORG="$(dirname "$HUB")"
+sh "$HUB/scripts/tools/install" >/dev/null
+BIN="$HUB/scripts/tools/bin"
+if [ $# -gt 0 ]; then
+  targets="$*"
+else
+  targets="$HUB $HUB/scripts/repo-template"
+  for repo in pal-norms pal-devices-data pal-directory obrashchenie-kit home-care-kit; do
+    targets="$targets $ORG/$repo"
+  done
+fi
+status=0
+for dir in $targets; do
+  if [ ! -d "$dir/.github/workflows" ]; then
+    echo "$(basename "$dir"): нет .github/workflows"
+    status=1
+    continue
+  fi
+  if (cd "$dir" && "$BIN/actionlint" -shellcheck "$BIN/shellcheck" .github/workflows/*.yml); then
+    echo "$(basename "$dir"): ok"
+  else
+    echo "$(basename "$dir"): есть ошибки"
+    status=1
+  fi
+done
+exit $status

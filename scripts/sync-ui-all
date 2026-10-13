@@ -1,0 +1,14 @@
+#!/bin/sh
+set -eu
+HUB="$(cd "$(dirname "$0")/.." && pwd)"
+ORG="$(dirname "$HUB")"
+(cd "$HUB" && uv run --quiet python -m opsite manifest)
+for repo in pal-norms pal-directory pal-devices-data obrashchenie-kit home-care-kit; do
+  dir="$ORG/$repo"
+  if [ -d "$dir" ]; then
+    printf '%s: ' "$repo"
+    (cd "$dir" && OP_HUB="$HUB" sh "$HUB/scripts/sync-ui")
+  else
+    echo "$repo: папки нет, пропускаю"
+  fi
+done

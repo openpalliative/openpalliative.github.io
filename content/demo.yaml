@@ -1,0 +1,157 @@
+toc:
+  - id: type
+    title: Текст
+  - id: colors
+    title: Цвета
+  - id: buttons
+    title: Кнопки
+  - id: fields
+    title: Поля
+  - id: rows
+    title: Строки
+  - id: cards
+    title: Карточки
+  - id: status
+    title: Статусы
+  - id: draft
+    title: Черновик
+  - id: dates
+    title: Дата данных
+  - id: now
+    title: Помощь прямо сейчас
+  - id: quote
+    title: Цитата нормы
+  - id: steps
+    title: Шаги
+  - id: region
+    title: Регион
+  - id: table
+    title: Таблица
+  - id: search
+    title: Поиск
+  - id: share
+    title: Отправить и скопировать
+  - id: icons
+    title: Иконки
+  - id: print
+    title: Печать
+swatches:
+  - token: bg
+    use: фон страницы, бумага
+  - token: surface
+    use: карточки и поля
+  - token: sunken
+    use: подложки и таблицы
+  - token: text
+    use: основной текст
+  - token: muted
+    use: подписи и подсказки
+  - token: border
+    use: рамки и поля
+  - token: primary
+    use: основные кнопки и знак
+  - token: link
+    use: ссылки, только текстом
+  - token: honey
+    use: только графика
+  - token: highlight
+    use: блоки «важно» и «прямо сейчас»
+  - token: success
+    use: статус «готово»
+  - token: warning
+    use: статус «срок»
+  - token: danger
+    use: только ошибки
+  - token: focus
+    use: кольцо фокуса
+icons:
+  - arrow-left
+  - arrow-right
+  - book-open
+  - calendar-clock
+  - calendar-days
+  - check
+  - chevron-down
+  - chevron-right
+  - circle-alert
+  - circle-check
+  - circle-help
+  - clipboard-list
+  - clock
+  - code-xml
+  - copy
+  - door-open
+  - download
+  - external-link
+  - file-check
+  - file-text
+  - file-warning
+  - folder-open
+  - history
+  - info
+  - list-checks
+  - lock
+  - mail
+  - map-pin
+  - message-square
+  - monitor
+  - moon
+  - package
+  - pencil
+  - phone
+  - phone-call
+  - plus
+  - printer
+  - refresh-cw
+  - scale
+  - search
+  - share-2
+  - shield-check
+  - signature
+  - sun
+  - trash-2
+  - triangle-alert
+  - type
+  - upload
+  - users-round
+  - wifi-off
+  - x
+addressees:
+  - value: chief
+    label: Главному врачу
+  - value: health-ministry
+    label: В региональный минздрав
+  - value: oms
+    label: В страховую компанию
+channels:
+  - value: paper
+    label: Лично на бумаге
+    hint: Попросите отметку о приёме на своём экземпляре
+  - value: post
+    label: Письмом по почте
+    hint: Сохраните квитанцию и опись вложения
+  - value: online
+    label: Через сайт или портал
+    hint: Сохраните номер обращения
+quote:
+  text: 'Для доступа абонентов и пользователей услугами фиксированной телефонной связи и услугами подвижной связи к экстренным оперативным службам на всей территории Российской Федерации используется единый номер «112», а также номера соответствующих экстренных служб: «101», «102», «103», «104».'
+  source:
+    title: Приказ Министерства цифрового развития, связи и массовых коммуникаций Российской Федерации от 31.01.2022 № 75 «Об утверждении российской системы и плана нумерации»
+    point: п. 34 российской системы и плана нумерации
+    eoNumber: "0001202205300035"
+    url: http://publication.pravo.gov.ru/document/0001202205300035
+    verified: true
+    verified_at: 2026-10-11
+  lint_allow:
+    - rule: act-number
+      reason: заголовок официальной публикации, дословно
+table:
+  - step: Заявление подано
+    due: 11.10.2026
+    state: Готово
+  - step: Ответ
+    due: 10.11.2026
+    state: Ждём
+  - step: Жалоба, если ответа нет
+    due: после 10.11.2026
+    state: Не начато

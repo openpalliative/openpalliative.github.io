@@ -1,0 +1,49 @@
+{% extends "op/base.html.j2" %}
+{% block title %}Откуда данные{% endblock %}
+{% block description %}Все наборы данных openpalliative: источник, версия, дата данных, сколько записей сверено с источником{% endblock %}
+{% block main %}
+<div class="op-wrap op-page hub-sources-page">
+  {{ op.crumbs([("openpalliative", url('')), ("Откуда данные", "")]) }}
+  <h1>Откуда данные</h1>
+  <p class="op-lead">Каждый инструмент публикует свои данные открытыми файлами. Здесь все наборы сразу: откуда взяты, от какой даты и сколько записей сверено с источником</p>
+  {% set groups = site.data_sources %}
+  {% set t = site.data_totals %}
+  {% if groups %}
+  {% if t.full %}
+  <ul class="hub-src-totals" aria-label="Всего">
+    <li><strong>{{ t.datasets }}</strong> наборов в {{ groups | length }} инструментах</li>
+    <li><strong>{{ t.count }}</strong> записей</li>
+    <li>{{ icon("circle-check") }}<span><strong>{{ t.verified }}</strong> сверены с источником</span></li>
+    <li>{{ icon("circle-help") }}<span><strong>{{ t.unverified }}</strong> не проверены</span></li>
+  </ul>
+  {% endif %}
+  {% for g in groups %}{% set repo = g.repo %}{% set items = g.rows %}
+  <section class="op-section" aria-labelledby="src-{{ repo }}">
+    <h2 id="src-{{ repo }}">{{ g.tool }}</h2>
+    <p><a href="{{ xurl(repo, 'data/') }}">Все наборы «{{ g.tool }}» и их описание</a></p>
+    <div class="op-table-wrap" tabindex="0" role="region" aria-label="Таблица: наборы «{{ g.tool }}»">
+      <table class="op-table hub-src-table hub-stack">
+        <thead><tr><th scope="col">Набор</th><th scope="col">Источник</th><th scope="col">Версия, дата данных</th><th scope="col">Записей</th><th scope="col">Сверено</th><th scope="col">Не проверено</th></tr></thead>
+        <tbody>
+          {% for d in items %}
+          <tr>
+            <th scope="row"><span class="op-code">{{ d.name }}</span></th>
+            <td data-label="Источник">{% if d.sources %}<ul class="hub-src-list">{% for s in d.sources[:2] %}<li>{{ s.title }}{% if s.version %}, версия {{ s.version }}{% endif %}{% if s.date %}, получено {{ s.date | ru_date }}{% endif %}</li>{% endfor %}</ul>{% if d.sources | length > 2 %}<p class="op-muted hub-src-more">И ещё {{ d.sources | length - 2 }}, полный список в описании набора</p>{% endif %}{% else %}<span class="op-muted">В описании набора по ссылке выше</span>{% endif %}</td>
+            <td data-label="Версия, дата данных">{{ d.version }}, {{ d.data_date | ru_date }}</td>
+            <td data-label="Записей">{{ d.count if d.count is not none else "-" }}</td>
+            <td data-label="Сверено">{{ d.verified if d.verified is not none else "-" }}</td>
+            <td data-label="Не проверено">{{ d.unverified if d.unverified is not none else "-" }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {% endfor %}
+  {% if t.full < t.datasets %}<p class="op-muted">Прочерк значит, что набор не входит в снимок, который хранит этот сайт. Точные числа есть в описании набора по ссылке выше</p>{% endif %}
+  <p class="op-muted">Числа посчитаны по снимку данных, который этот сайт взял у инструментов. «Сверено» значит, что запись сверена с указанным источником. Это не проверка юристом или медиком</p>
+  {% else %}
+  {{ op.status("info", "Снимков данных инструментов пока нет. Они появятся после первой синхронизации") }}
+  {% endif %}
+</div>
+{% endblock %}

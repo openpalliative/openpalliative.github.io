@@ -1,0 +1,2699 @@
+{
+ "format": "openpalliative-dataset/1",
+ "dataset": "region-view",
+ "repo": "home-care-kit",
+ "schema_version": "1.0.0",
+ "version": "2026.10.13",
+ "generated_at": "2026-10-13T06:32:05Z",
+ "data_date": "2026-10-13",
+ "stale_after_days": 90,
+ "license": "rzn-source-terms",
+ "source": [
+  {
+   "id": "pal-directory",
+   "title": "Снимок pal-directory, версия 2026.10.11, данные от 13.10.2026",
+   "url": "https://openpalliative.github.io/pal-directory/data/v1/index.json",
+   "retrieved_at": "2026-10-13",
+   "license": "rzn-source-terms"
+  },
+  {
+   "id": "rzn-hotlines",
+   "title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+   "url": "https://roszdravnadzor.gov.ru/i/upload/files/Главная%20страница/горячая%20линия/горячая%20линия-03.03.2026.xlsx",
+   "license": "на условиях источника, с указанием источника: Росздравнадзор",
+   "retrieved_at": "2026-10-13",
+   "sha256": "0594711b33cfc449e5842c608a9b056b39f6cbaf9427209271132815cf9e3e90"
+  },
+  {
+   "id": "iso-3166-2-ru",
+   "title": "ISO 3166-2:RU, коды субъектов",
+   "url": "https://www.iso.org/obp/ui/#iso:code:3166:RU"
+  },
+  {
+   "id": "pravo-api",
+   "title": "Официальный интернет-портал правовой информации, API публикаций по субъектам",
+   "url": "http://publication.pravo.gov.ru/api/Documents",
+   "retrieved_at": "2026-10-12",
+   "license": "public domain (ст. 1259 п. 6 ГК РФ, официальные документы)"
+  }
+ ],
+ "content_sha256": "c541ef546368bbd4303264601e5cdc6341cc0690b19aee25eaa1299332c6ed49",
+ "counts": {
+  "items": 83,
+  "unverified": 0,
+  "excluded": 17
+ },
+ "items": [
+  {
+   "id": "RU-ALT",
+   "name": "Алтайский край",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-alt-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Алтайского края",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-alt-minzdrav-83852507114",
+     "role": "general",
+     "phone": "8 (3852) 50-71-14",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Алтайского края",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-AMU",
+   "name": "Амурская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-amu-minzdrav-84162200952",
+     "role": "general",
+     "phone": "8 (4162) 20-09-52",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Амурской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-ARK",
+   "name": "Архангельская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ark-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Архангельской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-AST",
+   "name": "Астраханская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ast-minzdrav-88003003723",
+     "role": "general",
+     "phone": "8 (800) 300-37-23",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Астраханской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-ast-minzdrav-88512523030",
+     "role": "general",
+     "phone": "8 (8512) 52-30-30",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Астраханской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-ast-minzdrav-88512524040",
+     "role": "general",
+     "phone": "8 (8512) 52-40-40",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Астраханской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-BEL",
+   "name": "Белгородская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-bel-minzdrav-84722732003",
+     "role": "pain",
+     "phone": "8 (4722) 73-20-03",
+     "ext": "31-00-1",
+     "label": "Министерство здравоохранения Белгородской области, по вопросам обезболивания и паллиативной помощи",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-BRY",
+   "name": "Брянская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-bry-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения по Брянской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-VLA",
+   "name": "Владимирская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-vla-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Владимирской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-vla-minzdrav-84922778529",
+     "role": "general",
+     "phone": "8 (4922) 77-85-29",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Владимирской области",
+     "hours": "с 9:00 до 17:30 по будням",
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-VGG",
+   "name": "Волгоградская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-vgg-minzdrav-88442598575",
+     "role": "pain",
+     "phone": "8 (8442) 59-85-75",
+     "ext": null,
+     "label": "Комитет здравоохранения Волгоградской области, Горячая линия по вопросам обезболивания",
+     "hours": "круглосуточно",
+     "is_24x7": true,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-VLG",
+   "name": "Вологодская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-vlg-minzdrav-88172230076",
+     "role": "general",
+     "phone": "8 (8172) 23-00-76",
+     "ext": "6217",
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Вологодской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-VOR",
+   "name": "Воронежская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-vor-minzdrav-84732126179",
+     "role": "general",
+     "phone": "8 (473) 212-61-79",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Воронежской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-YEV",
+   "name": "Еврейская автономная область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": []
+  },
+  {
+   "id": "RU-ZAB",
+   "name": "Забайкальский край",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-zab-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Забайкальского края",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-IVA",
+   "name": "Ивановская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-iva-minzdrav-84932939797",
+     "role": "general",
+     "phone": "8 (4932) 93-97-97",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Ивановской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-IRK",
+   "name": "Иркутская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-irk-minzdrav-83952597126",
+     "role": "pain",
+     "phone": "8 (3952) 59-71-26",
+     "ext": null,
+     "label": "Министерство здравоохранения Иркутской области, по оказанию паллиативной медицинской помощи и обезболивающей терапии детскому населению",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-irk-minzdrav-89086632696",
+     "role": "pain",
+     "phone": "8 (908) 663-26-96",
+     "ext": null,
+     "label": "Министерство здравоохранения Иркутской области, по оказанию паллиативной медицинской помощи и обезболивающей терапии детскому населению",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-irk-minzdrav-89526171109",
+     "role": "pain",
+     "phone": "8 (952) 617-11-09",
+     "ext": null,
+     "label": "Министерство здравоохранения Иркутской области, по оказанию паллиативной медицинской помощи и обезболивающей терапии взрослому населению",
+     "hours": "круглосуточно",
+     "is_24x7": true,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KB",
+   "name": "Кабардино-Балкарская Республика",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kb-minzdrav-88662400911-2",
+     "role": "pmp",
+     "phone": "8 (8662) 40-09-11",
+     "ext": null,
+     "label": "Министерство здравоохранения Кабардино-Балкарской Республики, оказание паллиативной помощи",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KGD",
+   "name": "Калининградская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kgd-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": "5",
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Калининградской области (Медицинский информационный аналитический центр (Контакт-центр 122)",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KLU",
+   "name": "Калужская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-klu-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Калужской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-klu-minzdrav-84842719002",
+     "role": "general",
+     "phone": "8 (4842) 71-90-02",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Калужской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-klu-minzdrav-84842719003",
+     "role": "general",
+     "phone": "8 (4842) 71-90-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Калужской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-klu-minzdrav-84842719416",
+     "role": "general",
+     "phone": "8 (4842) 71-94-16",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Калужской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KAM",
+   "name": "Камчатский край",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kam-rzn-84152490211",
+     "role": "pain",
+     "phone": "8 (4152) 49-02-11",
+     "ext": null,
+     "label": "Территориальный орган Росздравнадзора по Камчатскому краю, по вопросам обеспечения наркотических средств и психотропных веществ",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KC",
+   "name": "Карачаево-Черкесская Республика",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kc-minzdrav-88782204483",
+     "role": "general",
+     "phone": "8 (8782) 20-44-83",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Карачаево-Черкесской Республики",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KEM",
+   "name": "Кемеровская область - Кузбасс",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kem-minzdrav-83842584356",
+     "role": "general",
+     "phone": "8 (3842) 58-43-56",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Кузбасса",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KIR",
+   "name": "Кировская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kir-minzdrav-88001004303",
+     "role": "general",
+     "phone": "8 (800) 100-43-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Кировской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KOS",
+   "name": "Костромская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kos-minzdrav-84942316858",
+     "role": "general",
+     "phone": "8 (4942) 31-68-58",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Костромской области",
+     "hours": "пн - пт: 9:00 - 18:00, перерыв: пн-пт с 13.00 - 14.00",
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KDA",
+   "name": "Краснодарский край",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kda-minzdrav-88002000366",
+     "role": "general",
+     "phone": "8 (800) 200-03-66",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Краснодарского края",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KYA",
+   "name": "Красноярский край",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kya-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Красноярского края",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KGN",
+   "name": "Курганская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kgn-minzdrav-83522250303",
+     "role": "general",
+     "phone": "8 (3522) 25-03-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Курганской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KRS",
+   "name": "Курская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-krs-minzdrav-84712587886",
+     "role": "general",
+     "phone": "8 (4712) 58-78-86",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Курской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-krs-minzdrav-84712587887",
+     "role": "general",
+     "phone": "8 (4712) 58-78-87",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Курской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-LEN",
+   "name": "Ленинградская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-len-minzdrav-88126796004",
+     "role": "general",
+     "phone": "8 (812) 679-60-04",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Комитет по здравоохранению Ленинградской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-LIP",
+   "name": "Липецкая область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-lip-minzdrav-84742238070",
+     "role": "general",
+     "phone": "8 (4742) 23-80-70",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Управление здравоохранения Липецкой области, по вопросам организации медицинской помощи детям и службы родовспоможения",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-lip-minzdrav-84742238082",
+     "role": "general",
+     "phone": "8 (4742) 23-80-82",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Управление здравоохранения Липецкой области, по вопросам организации медицинской помощи детям и службы родовспоможения",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-lip-minzdrav-88004504848",
+     "role": "general",
+     "phone": "8 (800) 450-48-48",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Управление здравоохранения Липецкой области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-lip-minzdrav-89623500553",
+     "role": "general",
+     "phone": "8 (962) 350-05-53",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Управление здравоохранения Липецкой области, по вопросам организации медицинской помощи детям и службы родовспоможения",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-MAG",
+   "name": "Магаданская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-mag-minzdrav-84132609234",
+     "role": "general",
+     "phone": "8 (4132) 60-92-34",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения и демографической политики Магаданской области, по вопросам медицинской помощи",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-mag-minzdrav-84132624043",
+     "role": "general",
+     "phone": "8 (4132) 62-40-43",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения и демографической политики Магаданской области, горячая линия Министерства здравоохранения и демографической политики",
+     "hours": "круглосуточно",
+     "is_24x7": true,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-MOW",
+   "name": "Москва",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-mow-minzdrav-84957777777",
+     "role": "general",
+     "phone": "8 (495) 777-77-77",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения г. Москвы",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-MOS",
+   "name": "Московская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-mos-minzdrav-84986020303",
+     "role": "general",
+     "phone": "8 (498) 602-03-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Московской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-MUR",
+   "name": "Мурманская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-mur-minzdrav-88152567810",
+     "role": "general",
+     "phone": "8 (8152) 56-78-10",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Мурманской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-NEN",
+   "name": "Ненецкий автономный округ",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-nen-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения, труда и социальной защиты населения Ненецкого автономного округа",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-NIZ",
+   "name": "Нижегородская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-niz-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Нижегородской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-niz-minzdrav-88314131113",
+     "role": "general",
+     "phone": "8 (831) 413-11-13",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Нижегородской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-NGR",
+   "name": "Новгородская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ngr-minzdrav-88162732511",
+     "role": "general",
+     "phone": "8 (8162) 73-25-11",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Новгородской области",
+     "hours": "в рабочие дни с 14.00 до 16.00",
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-ngr-minzdrav-89218437111",
+     "role": "general",
+     "phone": "8 (921) 843-71-11",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Новгородской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-NVS",
+   "name": "Новосибирская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-nvs-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Новосибирской области, по вопросам вакцинации и оказании медицинской помощи (запись на прием к врачу, вызов врача на дом, диспансеризация)",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-OMS",
+   "name": "Омская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-oms-minzdrav-83812211226",
+     "role": "general",
+     "phone": "8 (3812) 21-12-26",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Омской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-ORE",
+   "name": "Оренбургская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ore-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Оренбургской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-ore-minzdrav-83532448938",
+     "role": "general",
+     "phone": "8 (3532) 44-89-38",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Оренбургской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-ORL",
+   "name": "Орловская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-orl-minzdrav-84862435155",
+     "role": "general",
+     "phone": "8 (4862) 43-51-55",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Орловской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-orl-minzdrav-84862745545",
+     "role": "general",
+     "phone": "8 (4862) 74-55-45",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Орловской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-PNZ",
+   "name": "Пензенская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-pnz-minzdrav-89875169882",
+     "role": "general",
+     "phone": "8 (987) 516-98-82",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Пензенской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-PER",
+   "name": "Пермский край",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-per-minzdrav-83422414444",
+     "role": "pain",
+     "phone": "8 (342) 241-44-44",
+     "ext": null,
+     "label": "Министерство здравоохранения Пермского края, по вопросам обезболивания",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-PRI",
+   "name": "Приморский край",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-pri-minzdrav-84232605098",
+     "role": "general",
+     "phone": "8 (423) 260-50-98",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Приморского края",
+     "hours": "круглосуточно",
+     "is_24x7": true,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-PSK",
+   "name": "Псковская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-psk-minzdrav-88004441041",
+     "role": "general",
+     "phone": "8 (800) 444-10-41",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Комитет по здравоохранению Псковской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-AD",
+   "name": "Республика Адыгея",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ad-minzdrav-88772534997",
+     "role": "general",
+     "phone": "8 (8772) 53-49-97",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Адыгея",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-AL",
+   "name": "Республика Алтай",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-al-minzdrav-89136910220",
+     "role": "general",
+     "phone": "8 (913) 691-02-20",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Алтай",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-BA",
+   "name": "Республика Башкортостан",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ba-minzdrav-83472222225",
+     "role": "pain",
+     "phone": "8 (347) 222-22-25",
+     "ext": null,
+     "label": "Министерство здравоохранения Республики Башкортостан, по вопросам обезболивания, неотложного обеспечения лекартсвенными препаратами",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-BU",
+   "name": "Республика Бурятия",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-bu-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": "3",
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Бурятия",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-DA",
+   "name": "Республика Дагестан",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-da-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Дагестан",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-da-minzdrav-88722682803",
+     "role": "general",
+     "phone": "8 (8722) 68-28-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Дагестан",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-da-minzdrav-88722780303",
+     "role": "general",
+     "phone": "8 (8722) 78-03-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Дагестан",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-IN",
+   "name": "Республика Ингушетия",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-in-minzdrav-89280990545",
+     "role": "general",
+     "phone": "8 (928) 099-05-45",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Ингушетия",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KL",
+   "name": "Республика Калмыкия",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kl-minzdrav-88472240369",
+     "role": "general",
+     "phone": "8 (8472) 24-03-69",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Калмыкия",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KR",
+   "name": "Республика Карелия",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kr-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здраоохранения Республики Карелия",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KO",
+   "name": "Республика Коми",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ko-minzdrav-88005500000",
+     "role": "general",
+     "phone": "8 (800) 550-00-00",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Коми",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-ME",
+   "name": "Республика Марий Эл",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-me-minzdrav-88362450585",
+     "role": "pain",
+     "phone": "8 (8362) 45-05-85",
+     "ext": null,
+     "label": "Министерство здравоохранения Республики Марий Эл, по лекарственному обеспечению и обезболивающим препаратам",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-MO",
+   "name": "Республика Мордовия",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-mo-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Мордовия",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-SA",
+   "name": "Республика Саха (Якутия)",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-sa-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Саха (Якутия)",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-SE",
+   "name": "Республика Северная Осетия-Алания",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-se-minzdrav-88672333305",
+     "role": "general",
+     "phone": "8 (8672) 33-33-05",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Северная Осетия- Алания, по вопросам качества оказания медицинской помощи",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-TA",
+   "name": "Республика Татарстан",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ta-minzdrav-88435580303",
+     "role": "general",
+     "phone": "8 (843) 558-03-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Татарстан (ГАУЗ Республиканская клиническая больница МЗ РТ, Республиканский центр медицины катастроф, оперативно - диспетчерский отдел)",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-TY",
+   "name": "Республика Тыва",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ty-minzdrav-83942256262",
+     "role": "general",
+     "phone": "8 (3942) 25-62-62",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Тыва",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KK",
+   "name": "Республика Хакасия",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kk-minzdrav-83902295091",
+     "role": "general",
+     "phone": "8 (3902) 29-50-91",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Хакасия",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-kk-minzdrav-83902305811",
+     "role": "general",
+     "phone": "8 (3902) 30-58-11",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Республики Хакасия",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-ROS",
+   "name": "Ростовская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ros-minzdrav-88632632050",
+     "role": "pain",
+     "phone": "8 (863) 263-20-50",
+     "ext": null,
+     "label": "МИНИСТЕРСТВО ЗДРАВООХРАНЕНИЯ РОСТОВСКОЙ ОБЛАСТИ, по вопросам лекарственного обеспечения и обезболивания",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-ros-minzdrav-88632699064",
+     "role": "pain",
+     "phone": "8 (863) 269-90-64",
+     "ext": null,
+     "label": "МИНИСТЕРСТВО ЗДРАВООХРАНЕНИЯ РОСТОВСКОЙ ОБЛАСТИ, по вопросам обезболивания и паллиативной помощи детям",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-RYA",
+   "name": "Рязанская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-rya-minzdrav-84912984222",
+     "role": "general",
+     "phone": "8 (4912) 98-42-22",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Рязанской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-SAM",
+   "name": "Самарская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-sam-minzdrav-88463077799",
+     "role": "general",
+     "phone": "8 (846) 307-77-99",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Самарской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-sam-minzdrav-88463320274",
+     "role": "general",
+     "phone": "8 (846) 332-02-74",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Самарской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-SPE",
+   "name": "Санкт-Петербург",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-spe-minzdrav-88125710906",
+     "role": "general",
+     "phone": "8 (812) 571-09-06",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Комитет по Здравоохранению Санкт-Петербурга",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-spe-minzdrav-88125713406",
+     "role": "general",
+     "phone": "8 (812) 571-34-06",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Комитет по Здравоохранению Санкт-Петербурга",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-spe-minzdrav-88126355563",
+     "role": "general",
+     "phone": "8 (812) 635-55-63",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Комитет по Здравоохранению Санкт-Петербурга",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-spe-minzdrav-88126355564",
+     "role": "general",
+     "phone": "8 (812) 635-55-64",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Комитет по Здравоохранению Санкт-Петербурга",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-spe-minzdrav-88126355577",
+     "role": "general",
+     "phone": "8 (812) 635-55-77",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Комитет по Здравоохранению Санкт-Петербурга",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-SAR",
+   "name": "Саратовская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-sar-minzdrav-88452670702",
+     "role": "general",
+     "phone": "8 (8452) 67-07-02",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Саратовской области",
+     "hours": "с 8:00 - 17:00 МСК",
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-sar-minzdrav-88452799312",
+     "role": "general",
+     "phone": "8 (8452) 79-93-12",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Саратовской области",
+     "hours": "круглосуточно",
+     "is_24x7": true,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-SAK",
+   "name": "Сахалинская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-sak-minzdrav-84242671300",
+     "role": "general",
+     "phone": "8 (4242) 67-13-00",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Сахалинской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-sak-minzdrav-88003006503",
+     "role": "general",
+     "phone": "8 (800) 300-65-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Сахалинской области, по вопросам оказания бесплатной медицинской помощи",
+     "hours": "с понедельника по пятницу с 9:00 до 13:00 и с 14:00 до 17:00",
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-SVE",
+   "name": "Свердловская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-sve-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Свердловской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-sve-minzdrav-88001000153",
+     "role": "general",
+     "phone": "8 (800) 100-01-53",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Свердловской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-SMO",
+   "name": "Смоленская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-smo-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент Смоленской области по здравоохранению",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-STA",
+   "name": "Ставропольский край",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-sta-minzdrav-88002002603",
+     "role": "general",
+     "phone": "8 (800) 200-26-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Ставропольского края",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-TAM",
+   "name": "Тамбовская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-tam-minzdrav-84752454586",
+     "role": "pain",
+     "phone": "8 (4752) 45-45-86",
+     "ext": null,
+     "label": "Управление здравоохранения Тамбовской области, по вопросам организации медицинской помощи, по вопросам обезболивания",
+     "hours": "круглосуточно",
+     "is_24x7": true,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-TVE",
+   "name": "Тверская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-tve-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Тверской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-TOM",
+   "name": "Томская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-tom-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Томской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-tom-minzdrav-83822516616",
+     "role": "general",
+     "phone": "8 (3822) 51-66-16",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Томской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-tom-minzdrav-88003508850",
+     "role": "general",
+     "phone": "8 (800) 350-88-50",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Томской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-TUL",
+   "name": "Тульская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-tul-minzdrav-88004444003",
+     "role": "general",
+     "phone": "8 (800) 444-40-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Тульской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-TYU",
+   "name": "Тюменская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-tyu-minzdrav-83452684565",
+     "role": "general",
+     "phone": "8 (3452) 68-45-65",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Тюменской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-tyu-minzdrav-88002503091",
+     "role": "general",
+     "phone": "8 (800) 250-30-91",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Тюменской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-UD",
+   "name": "Удмуртская Республика",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-ud-minzdrav-83412727389",
+     "role": "pain",
+     "phone": "8 (3412) 72-73-89",
+     "ext": null,
+     "label": "Министерство здравоохранения Удмуртской Республики, по вопросам обезболивающей терапии",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-ULY",
+   "name": "Ульяновская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-uly-minzdrav-88002007307",
+     "role": "general",
+     "phone": "8 (800) 200-73-07",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Ульяновской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KHA",
+   "name": "Хабаровский край",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-kha-minzdrav-84212402201",
+     "role": "general",
+     "phone": "8 (4212) 40-22-01",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения по Хабаровскому краю",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-KHM",
+   "name": "Ханты-Мансийский автономный округ - Югра",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-khm-minzdrav-88001008603",
+     "role": "general",
+     "phone": "8 (800) 100-86-03",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Ханты-Мансийского автономного округа -Югры",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-CHE",
+   "name": "Челябинская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-che-minzdrav-122",
+     "role": "general",
+     "phone": "122",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Челябинской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-che-minzdrav-83512402222",
+     "role": "general",
+     "phone": "8 (351) 240-22-22",
+     "ext": "101",
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Челябинской области",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-CE",
+   "name": "Чеченская Республика",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": []
+  },
+  {
+   "id": "RU-CU",
+   "name": "Чувашская Республика",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-cu-minzdrav-88352261414",
+     "role": "general",
+     "phone": "8 (8352) 26-14-14",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Министерство здравоохранения Чувашской Республики",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-CHU",
+   "name": "Чукотский автономный округ",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-chu-minzdrav-84272261112",
+     "role": "general",
+     "phone": "8 (4272) 26-11-12",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения Чукотского автономного округа",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-YAN",
+   "name": "Ямало-Ненецкий автономный округ",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-yan-minzdrav-83492247706",
+     "role": "pain",
+     "phone": "8 (3492) 24-77-06",
+     "ext": null,
+     "label": "Департамент здравоохранения Ямало-Ненецкого автономного округа, по вопросам обращений граждан о нарушении порядка назначения и выписывания обезболивающих препаратов и лекарственного обеспечения",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  },
+  {
+   "id": "RU-YAR",
+   "name": "Ярославская область",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "lines": [
+    {
+     "id": "ru-yar-minzdrav-84852400489",
+     "role": "general",
+     "phone": "8 (4852) 40-04-89",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения и фармации Ярославской области, первичная медико-санитарная и скорая мед. помощь",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-yar-minzdrav-84852401136",
+     "role": "general",
+     "phone": "8 (4852) 40-11-36",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения и фармации Ярославской области, мед. помощь детям",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    },
+    {
+     "id": "ru-yar-minzdrav-84852401141",
+     "role": "general",
+     "phone": "8 (4852) 40-11-41",
+     "ext": null,
+     "label": "Общая горячая линия минздрава региона, Департамент здравоохранения и фармации Ярославской области, специализированная мед. помощь",
+     "hours": null,
+     "is_24x7": false,
+     "other_org": false,
+     "printable": false,
+     "demo": false,
+     "verified": false,
+     "verified_at": null,
+     "source_ref": "rzn-hotlines",
+     "source_title": "Росздравнадзор. Номера телефонов «Горячих линий» в субъектах Российской Федерации",
+     "source_date": "2026-03-03"
+    }
+   ]
+  }
+ ]
+}

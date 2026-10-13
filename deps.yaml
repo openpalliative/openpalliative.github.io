@@ -1,0 +1,65 @@
+obrashchenie-kit:
+  major: 1
+  datasets: [addressees-federal, channels, documents, entrypoints, ladder, pack, reply-types,
+    scenarios, turning18]
+  version: 2026.10.11
+  data_date: '2026-10-11'
+  content_sha256: {addressees-federal: 097faef09c7c4b41f0d2093ee0780d6c32b8723216f5fcdf3fda39e3b3dbd8dc,
+    channels: b45203028cacaca83c541c7b8fc5e0ee220f0816bab55c1fd4e69652fdd878d1, documents: a83eb8d3ac96b43e7b0a239574cbb862584a569ce51947dba1446f880ec18d91,
+    entrypoints: d2bde2caaaff7ac30c2a25cb7b47c0ddca2b7bdc844188b534e4068489f13a2d,
+    ladder: 1ecc6fd4a3825e76225022221ec00b0f3f71e21b7f81d14609431449bf564785, pack: 97dd9375621fc3d928c476ba2ce5174b06c5336486a569b7e2f788c2d6dab1ae,
+    reply-types: 82059ac5cb272d7dcda186af928dc3c1ab0ce020a3f1449efc2e266c898f7f32,
+    scenarios: df5e31e751da8a759e545070f36ca429a2538c79fa7b5c445ab4e0ea5f360a0c, turning18: 949b3fbff26ed824427f18b55f8aa16a396293d28d8327ed8aa9d9ae14fd6cfb}
+  synced_at: '2026-10-13T06:32:06Z'
+home-care-kit:
+  major: 1
+  datasets: [entrypoints, holiday-runs, norm-view, region-view, sheets]
+  version: 2026.10.13
+  data_date: '2026-10-13'
+  content_sha256: {entrypoints: 2346c64902dca57bd25ee5185ea5e4f06a74d6e243b2ba70dd07cf8d946b3fe5,
+    holiday-runs: 2b029513dccc8b3701a99f8df44eacef817d63d02434c0dfbc5754643689fcab,
+    norm-view: cba04c3307800dfcab041d26500110219a259bc16f29aa5bf36a1573f6e6b391, region-view: c541ef546368bbd4303264601e5cdc6341cc0690b19aee25eaa1299332c6ed49,
+    sheets: 916cbbd1d995f2dd2f51e3f347707b4590d93e91fa5dd1d359b6fcb443271908}
+  synced_at: '2026-10-13T06:32:06Z'
+pal-devices-data:
+  major: 1
+  datasets: [aliases, channels, devices-348n-diff, devices-398n, entrypoints, nutrition-3551r,
+    quotes, warnings]
+  version: 2026.10.12
+  data_date: '2026-10-12'
+  content_sha256: {aliases: ec8d2612a5bb7f0b30443b183518c69f3f9e11175389f5f53794c62db2cea7cc,
+    channels: f72b0ef6af3a123553dddbc2f0a5ac8c2aa6418447792c9321ad410fa21693ad, devices-348n-diff: 3f2b033a1383aa5d5816758ab049c9f9639fda55a824412907604feb4cbcad97,
+    devices-398n: eb18cf29a2285e1da1b29c2699f4893a1d99ecfed9ccb610ed3c2c36aebb7c01,
+    entrypoints: 616d120d189602b913f5ffe9fc5ad57ed159d5d09c59f78698a08e9379034848,
+    nutrition-3551r: 8c9e5bfa270d37293fa63cbc3c26f394493f46714eda72d9108fc3e3a3aa5bf5,
+    quotes: 087dd7fbc5c3878fdc5153079dd024bd389620bb66415990ba843cbbd7a7de7d, warnings: 5d552d66002047390666eb5750cc41c955e280ea39d7931b9fa0d0e673f8f71d}
+  synced_at: '2026-10-13T06:32:06Z'
+pal-directory:
+  major: 1
+  datasets: [addressees, entrypoints, federal-lines, region-acts, region-lines, regions,
+    routers, routes]
+  version: 2026.10.11
+  data_date: '2026-10-13'
+  content_sha256: {addressees: 1e5ded6c8ea5baf282a0421e4b185ce88f7e47ac46153c0f6393d6923dea1424,
+    entrypoints: b6dfd99968d8faa65013236b5162fe873c3b0adf5f359c6a66b9321db41a70b5,
+    federal-lines: aa449ff9d35ab752a5df22bfcaf73ba4cf351e579199137cba6d3dc309cbfeb8,
+    region-acts: 985cbdcb3c58cad0ce0e6a4bae32045581d6e1a17c35b5f833b03d0c5cc2200d,
+    region-lines: 543878f48b14d2569162896495ed3becbfbfa6c796e2efe3109ead7154e3d2a9,
+    regions: 83745e83d632d397a07c063a205aac474df41a0b73cc94441557ae577b3823f5, routers: f4826d83df7c64a9c94296cb7a65c2031c7b3ab6fb461b1b5f25f59b21d49ced,
+    routes: 25e49e732fb2a39500d99aa492e899c6ff67535889c0d96325eabfc098dbd8df}
+  synced_at: '2026-10-13T06:32:06Z'
+pal-norms:
+  major: 1
+  datasets: [acts, calendar, changes, deadline-rules, entrypoints, escalation, indications,
+    lint-rules, quotes]
+  version: 2026.10.11
+  data_date: '2026-10-11'
+  content_sha256: {acts: 157fd6f370c077d379560d119a161a308ff742040f4aef99259ee7da527f8a04,
+    calendar: 3d018c8d06d6be8f6958ebf6dc59aa3b60764b9b3f9f86f832f758f897c0c976, changes: 9ca5b032738bf2d2685fca9da8f06f28c9107e78176c401ec8d236c63c4e4bea,
+    deadline-rules: ee3903bed7add904f7654f77d314be9da4d5718a09c6f697fa5273dba0802d2d,
+    entrypoints: ea4cd0f15fdcfeca3a9e01128ddc71cb8c6d325dbf534f6d2573eac06a5c700a,
+    escalation: fe139d64e598f1093810f2f2f4db4959a5761667845e931414105e479528c963,
+    indications: 86152aaecede32917190b2eea3c73bbc2832c3cf427a5e99c305c045d900a960,
+    lint-rules: e1388376c2f258e18c901af55d26969060633c62715d6d4355aad7a1e119d29c,
+    quotes: e87da78d82a78382e54c2fb48298bd5cccd9f8f073ffdaa1b7f0c046a3337325}
+  synced_at: '2026-10-13T06:32:06Z'

@@ -1,0 +1,49 @@
+{% extends "op/base.html.j2" %}
+{% import "hub.html.j2" as hub_ui with context %}
+{% set print_url = true %}
+{% block title %}Если помощь нужна прямо сейчас{% endblock %}
+{% block description %}Номера экстренных служб и горячей линии, с источником и датой проверки{% endblock %}
+{% block main %}
+{% set now = opdata.now %}
+<div class="op-wrap op-page hub-now">
+  {{ op.crumbs([("openpalliative", url('')), ("Помощь прямо сейчас", "")]) }}
+  {{ op.now(heading_level=1) }}
+  <p class="op-lead">Мы не служба помощи и не принимаем обращения. Если человеку плохо прямо сейчас, звоните в скорую или на единый номер</p>
+  {{ hub_ui.region_block(["pain", "pmp", "general"]) }}
+  <section class="op-no-print" aria-labelledby="now-more-title">
+    <h2 id="now-more-title">Что ещё может случиться сейчас</h2>
+    <ul class="op-rows hub-rows">
+      {% for id in ("night-pain", "dying") %}
+      {% set s = site.situations | selectattr("id", "equalto", id) | first | default(none) %}
+      {% if s %}<li>{{ op.row(s.title, href=url('s/' ~ s.id ~ '/'), icon_name=s.icon, hint=s.hint) }}</li>{% endif %}
+      {% endfor %}
+      {% set call = site.entries.get("obrashchenie-kit", {}).get("call") %}
+      <li>{{ op.row("Отказали по телефону", href=xurl('obrashchenie-kit', call.path) if call else none, icon_name="message-square", hint="Что записать во время разговора", soon=not call) }}</li>
+    </ul>
+  </section>
+  <details class="hub-sources" id="sources" open data-close-on-js>
+    <summary><h2>Откуда номера и когда сверены</h2>{{ icon("chevron-down", "hub-sources__chev") }}</summary>
+    <p class="op-no-print">Ниже дословные цитаты из официальных публикаций, где установлены эти номера, и номера, которые ещё не сверены</p>
+    {% set ns = namespace(seen=[]) %}
+    {% for line in now.lines if line.verified and line.source.eoNumber %}
+    {% set key = line.source.eoNumber ~ "|" ~ line.source.point %}
+    {% if key not in ns.seen %}
+    {% set ns.seen = ns.seen + [key] %}
+    {% set same = now.lines | selectattr("verified") | selectattr("source.eoNumber", "equalto", line.source.eoNumber) | selectattr("source.point", "equalto", line.source.point) | map(attribute="number") | list %}
+    {% set quoted = now.lines | selectattr("verified") | selectattr("source.eoNumber", "equalto", line.source.eoNumber) | selectattr("source.point", "equalto", line.source.point) | selectattr("source.quote_verbatim") | first | default(none) %}
+    <h3>{{ same | map("tel_display") | join(" и ") }}</h3>
+    {% if quoted %}
+    {{ op.quote(quoted.source.quote_verbatim, {"title": line.source.title, "point": line.source.point, "eoNumber": line.source.eoNumber, "url": line.source.url, "verified_at": line.verified_at}) }}
+    {% else %}
+    <p>{{ op.cite({"title": line.source.title, "point": line.source.point, "eoNumber": line.source.eoNumber, "url": line.source.url, "verified_at": line.verified_at}) }}</p>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% for line in now.lines if not line.verified %}
+    <h3 class="op-no-print">{{ line.number | tel_display }}</h3>
+    <p class="op-no-print">{{ unverified_inline() }} {{ line.label }}. {{ line.source.title }}{% if line.third_party %}. Это сторонняя линия, мы с ней не связаны{% endif %}</p>
+    {% endfor %}
+    <p class="op-muted op-no-print">Сверено {{ now.checked_at | ru_date }}</p>
+  </details>
+</div>
+{% endblock %}

@@ -1,0 +1,110 @@
+{
+ "format": "openpalliative-dataset/1",
+ "dataset": "entrypoints",
+ "repo": "pal-devices-data",
+ "schema_version": "1.0.0",
+ "version": "2026.10.12",
+ "generated_at": "2026-10-13T06:32:04Z",
+ "data_date": "2026-10-12",
+ "stale_after_days": 90,
+ "license": "CC0-1.0",
+ "source": [
+  {
+   "id": "openpalliative",
+   "title": "Разделы инструмента «Кто выдаёт изделия»"
+  }
+ ],
+ "content_sha256": "616d120d189602b913f5ffe9fc5ad57ed159d5d09c59f78698a08e9379034848",
+ "counts": {
+  "items": 5,
+  "unverified": 0,
+  "excluded": 0
+ },
+ "items": [
+  {
+   "id": "search",
+   "title": "Кто выдаёт изделия",
+   "summary": "Найдите аппарат или расходник по тому, как вы его называете, и узнайте, кто его выдаёт",
+   "path": "",
+   "audience": [
+    "family"
+   ],
+   "situations": [
+    "device",
+    "discharge",
+    "turning-18"
+   ],
+   "offline": false,
+   "printable": false,
+   "maturity": "beta",
+   "verified": true,
+   "verified_at": "2026-10-12"
+  },
+  {
+   "id": "nutrition",
+   "title": "Лечебное питание",
+   "summary": "Перечень специализированных продуктов лечебного питания для детей с инвалидностью и его редакции",
+   "path": "nutrition/",
+   "audience": [
+    "family"
+   ],
+   "situations": [
+    "device"
+   ],
+   "offline": false,
+   "printable": false,
+   "maturity": "beta",
+   "verified": true,
+   "verified_at": "2026-10-12"
+  },
+  {
+   "id": "channels",
+   "title": "Через кого получают изделия",
+   "summary": "Медицинская организация или Соцфонд: простыми словами и с основаниями",
+   "path": "channels/",
+   "audience": [
+    "family"
+   ],
+   "situations": [
+    "device"
+   ],
+   "offline": false,
+   "printable": false,
+   "maturity": "beta",
+   "verified": true,
+   "verified_at": "2026-10-12"
+  },
+  {
+   "id": "changes",
+   "title": "Что изменилось в перечне",
+   "summary": "Чем новый перечень изделий для дома отличается от прежнего",
+   "path": "changes/",
+   "audience": [
+    "family"
+   ],
+   "situations": [
+    "device"
+   ],
+   "offline": false,
+   "printable": false,
+   "maturity": "beta",
+   "verified": true,
+   "verified_at": "2026-10-12"
+  },
+  {
+   "id": "list",
+   "title": "Весь перечень",
+   "summary": "Все позиции перечня таблицей и лист «что просить» для печати",
+   "path": "list/",
+   "audience": [
+    "family"
+   ],
+   "situations": [],
+   "offline": false,
+   "printable": true,
+   "maturity": "beta",
+   "verified": true,
+   "verified_at": "2026-10-12"
+  }
+ ]
+}

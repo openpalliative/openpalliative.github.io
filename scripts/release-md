@@ -1,0 +1,35 @@
+#!/bin/sh
+set -eu
+HUB="$(cd "$(dirname "$0")/.." && pwd)"
+ORG="$(dirname "$HUB")"
+OUT="${1:-$ORG/RELEASE.md}"
+demote() {
+  awk -v title="$1" '{ gsub(/→/, ">") }
+    NR == 1 && /^# / { print "## " title; next }
+    /^```/ { fence = !fence }
+    !fence && /^#/ { print "#" $0; next }
+    { print }' "$2"
+}
+{
+  echo "# openpalliative: как выпустить"
+  echo
+  echo "Собрано командой \`sh scripts/release-md\` хаба из \`docs/release.md\` шести репо. Править разделы в репо, потом собрать заново"
+  echo
+  echo "Порядок: общие шаги, затем репо в порядке пуша: pal-norms, pal-devices-data, pal-directory, obrashchenie-kit, home-care-kit"
+  echo
+  demote "Общие шаги" "$HUB/docs/release.md"
+  for spec in pal-norms:N-i03 pal-devices-data:V-i02 pal-directory:D-i04 obrashchenie-kit:K-i03 home-care-kit:C-i03; do
+    repo="${spec%%:*}"
+    task="${spec#*:}"
+    echo
+    file="$ORG/$repo/docs/release.md"
+    if [ -f "$file" ]; then
+      demote "$repo" "$file"
+    else
+      echo "## $repo"
+      echo
+      echo "Раздел ещё не написан: \`$repo/docs/release.md\`, задача $task. До него действуют общие шаги"
+    fi
+  done
+} > "$OUT"
+echo "$OUT"

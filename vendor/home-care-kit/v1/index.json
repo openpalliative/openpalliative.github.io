@@ -1,0 +1,67 @@
+{
+ "repo": "home-care-kit",
+ "generated_at": "2026-10-13T06:32:05Z",
+ "opsite_version": "0.2.16",
+ "datasets": [
+  {
+   "name": "entrypoints",
+   "path": "entrypoints.json",
+   "schema": "entrypoints.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.13",
+   "data_date": "2026-10-13",
+   "content_sha256": "2346c64902dca57bd25ee5185ea5e4f06a74d6e243b2ba70dd07cf8d946b3fe5",
+   "bytes": 3165,
+   "items": 5,
+   "sha256": "81224a7ff575b13847fa52137c5c0425e87b58f7d2a1c74346c1565d80328cbe"
+  },
+  {
+   "name": "holiday-runs",
+   "path": "holiday-runs.json",
+   "schema": "holiday-runs.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.13",
+   "data_date": "2026-10-11",
+   "content_sha256": "2b029513dccc8b3701a99f8df44eacef817d63d02434c0dfbc5754643689fcab",
+   "bytes": 18300,
+   "items": 31,
+   "sha256": "fe54829234dba5f64d9a5f24a44539343d8d48679a3ce1db8e6d807194d10eb0"
+  },
+  {
+   "name": "norm-view",
+   "path": "norm-view.json",
+   "schema": "norm-view.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.13",
+   "data_date": "2026-10-11",
+   "content_sha256": "cba04c3307800dfcab041d26500110219a259bc16f29aa5bf36a1573f6e6b391",
+   "bytes": 65212,
+   "items": 74,
+   "sha256": "68326e5269fb6cb6557bba54261cb37f65b17d58c13a2cfb08ac11eea560810b"
+  },
+  {
+   "name": "region-view",
+   "path": "region-view.json",
+   "schema": "region-view.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.13",
+   "data_date": "2026-10-13",
+   "content_sha256": "c541ef546368bbd4303264601e5cdc6341cc0690b19aee25eaa1299332c6ed49",
+   "bytes": 101340,
+   "items": 83,
+   "sha256": "fee92ede9314855c1add63b0b299c7e69da28dcd8ceb8299e53200e576d104b0"
+  },
+  {
+   "name": "sheets",
+   "path": "sheets.json",
+   "schema": "sheets.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.13",
+   "data_date": "2026-10-13",
+   "content_sha256": "916cbbd1d995f2dd2f51e3f347707b4590d93e91fa5dd1d359b6fcb443271908",
+   "bytes": 67450,
+   "items": 5,
+   "sha256": "3b0d7d8c69c276345f97e22471b79f0c8097d6193dc8c5698773e31c83dbdf2d"
+  }
+ ]
+}

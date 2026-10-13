@@ -1,0 +1,41 @@
+{% extends "op/base.html.j2" %}
+{% block title %}Все инструменты{% endblock %}
+{% block description %}Инструменты openpalliative: заявления и жалобы, листы для дома, кто выдаёт изделия, куда звонить, нормы и сроки{% endblock %}
+{% block main %}
+<div class="op-wrap op-page">
+  {{ op.crumbs([("openpalliative", url('')), ("Все инструменты", "")]) }}
+  <h1>Все инструменты</h1>
+  <p class="op-lead">Бесплатно, без регистрации и без сервера. Откройте «Заявления и жалобы» и «Листы для дома» один раз с интернетом, и они будут работать без него</p>
+  {% for group, gtitle in (("do", "Сделать"), ("learn", "Узнать")) %}
+  <h2>{{ gtitle }}</h2>
+  <ul class="op-cards op-cards--2 hub-tools">
+    {% for t in opdata.tools if t.group == group %}
+    {% set eps = site.entries.get(t.repo) %}
+    <li>
+      <article class="op-card hub-tool" data-repo="{{ t.repo }}">
+        <span class="op-card__icon">{{ icon(t.icon) }}</span>
+        <div class="op-card__body">
+          <h3 class="op-card__title"><a href="{{ xurl(t.repo, '') }}">{{ t.title }}</a></h3>
+          <p class="op-card__text">{{ t.summary }}</p>
+          {% if eps %}
+          <ul class="hub-eps">
+            {% for e in eps.values() %}
+            {% set regional = e.path.startswith("routes/") %}
+            <li>
+              <a href="{{ xurl(t.repo, e.path) }}">{{ e.title }}</a>{% if regional %} <span class="op-muted">(пример одного региона)</span>{% endif %}
+              {{ op.entry_badges(e) }}
+            </li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <p>{{ op.soon() }}</p>
+          {% endif %}
+        </div>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+  <p><a href="{{ url('orgs/') }}">Как развернуть инструменты у себя</a></p>
+</div>
+{% endblock %}

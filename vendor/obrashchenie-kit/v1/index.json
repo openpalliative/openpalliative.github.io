@@ -1,0 +1,115 @@
+{
+ "repo": "obrashchenie-kit",
+ "generated_at": "2026-10-13T06:32:05Z",
+ "opsite_version": "0.2.16",
+ "datasets": [
+  {
+   "name": "addressees-federal",
+   "path": "addressees-federal.json",
+   "schema": "addressees-federal.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.11",
+   "data_date": "2026-10-11",
+   "content_sha256": "097faef09c7c4b41f0d2093ee0780d6c32b8723216f5fcdf3fda39e3b3dbd8dc",
+   "bytes": 2728,
+   "items": 3,
+   "sha256": "a2caf1045b4c7d7ae37f7b8c2006bcd8f9b4030cba1bbaedd5106a79ae3e6c6f"
+  },
+  {
+   "name": "channels",
+   "path": "channels.json",
+   "schema": "channels.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.11",
+   "data_date": "2026-10-11",
+   "content_sha256": "b45203028cacaca83c541c7b8fc5e0ee220f0816bab55c1fd4e69652fdd878d1",
+   "bytes": 5720,
+   "items": 5,
+   "sha256": "42fabd7d19b38e1ff95ef68bfdf64c06a8720166bfb98c87729423ad21242c98"
+  },
+  {
+   "name": "documents",
+   "path": "documents.json",
+   "schema": "documents.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.11",
+   "data_date": "2026-10-11",
+   "content_sha256": "a83eb8d3ac96b43e7b0a239574cbb862584a569ce51947dba1446f880ec18d91",
+   "bytes": 82826,
+   "items": 6,
+   "sha256": "211e19640dd3cbff795ad657fc79318f730fab625fb803a3a0e4dd96aeb35db4"
+  },
+  {
+   "name": "entrypoints",
+   "path": "entrypoints.json",
+   "schema": "entrypoints.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.11",
+   "data_date": "2026-10-11",
+   "content_sha256": "d2bde2caaaff7ac30c2a25cb7b47c0ddca2b7bdc844188b534e4068489f13a2d",
+   "bytes": 4609,
+   "items": 9,
+   "sha256": "ca9f83c3238a53f218f1fb7b00555e62daef2836f767e3e32cbce9568978d7f4"
+  },
+  {
+   "name": "ladder",
+   "path": "ladder.json",
+   "schema": "ladder.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.11",
+   "data_date": "2026-10-11",
+   "content_sha256": "1ecc6fd4a3825e76225022221ec00b0f3f71e21b7f81d14609431449bf564785",
+   "bytes": 32501,
+   "items": 51,
+   "sha256": "51709dd0492b95c4226c092ec77542bd593d0e4191a4cb2161d3cf8f4de02f54"
+  },
+  {
+   "name": "pack",
+   "path": "pack.json",
+   "schema": "pack.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.11",
+   "data_date": "2026-10-11",
+   "content_sha256": "97dd9375621fc3d928c476ba2ce5174b06c5336486a569b7e2f788c2d6dab1ae",
+   "bytes": 9968,
+   "items": 1,
+   "sha256": "aa5efd80807847841dff5ee72b49defee9a2790bf0bc31d7211732dd132cd17e"
+  },
+  {
+   "name": "reply-types",
+   "path": "reply-types.json",
+   "schema": "reply-types.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.11",
+   "data_date": "2026-10-11",
+   "content_sha256": "82059ac5cb272d7dcda186af928dc3c1ab0ce020a3f1449efc2e266c898f7f32",
+   "bytes": 7188,
+   "items": 13,
+   "sha256": "371e28f239b68048ff48cee37529eee797f65a36cfbf8a6505a63f39cbdf828b"
+  },
+  {
+   "name": "scenarios",
+   "path": "scenarios.json",
+   "schema": "scenarios.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.11",
+   "data_date": "2026-10-11",
+   "content_sha256": "df5e31e751da8a759e545070f36ca429a2538c79fa7b5c445ab4e0ea5f360a0c",
+   "bytes": 8696,
+   "items": 5,
+   "sha256": "52ee3d31710308fb1b0d6ee07ec3d763e04ba8095189bae58c644ac2fb2bc76b"
+  },
+  {
+   "name": "turning18",
+   "path": "turning18.json",
+   "schema": "turning18.schema.json",
+   "schema_version": "1.0.0",
+   "version": "2026.10.11",
+   "data_date": "2026-10-11",
+   "content_sha256": "949b3fbff26ed824427f18b55f8aa16a396293d28d8327ed8aa9d9ae14fd6cfb",
+   "bytes": 4009,
+   "items": 4,
+   "sha256": "327666d87a2acd3602a0c694a5d506c1390f6b775240c5168bc33c0652c5f54f"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{% extends "op/base.html.j2" %}
+{% import "hub.html.j2" as hub_ui with context %}
+{% set print_url = true %}
+{% block title %}{{ sit.title }}{% endblock %}
+{% block description %}{{ sit.hint }}{% endblock %}
+{% block main %}
+<div class="op-wrap op-page hub-sit{{ ' hub-sit--urgent' if sit.urgent }}">
+  {{ op.crumbs([("openpalliative", url('')), (sit.title, "")]) }}
+  <h1>{{ sit.title }}</h1>
+  <p class="op-lead">{{ sit.hint }}</p>
+  {% if sit.urgent %}{{ op.now(compact=true) }}{% endif %}
+  {% if sit.roles %}{{ hub_ui.region_block(sit.roles) }}{% endif %}
+  {% for block in sit.blocks %}
+  <section class="hub-sit__block" aria-labelledby="b-{{ block.key }}">
+    <h2 id="b-{{ block.key }}">{{ block.title }}</h2>
+    <ul class="op-cards hub-steps">
+      {% for l in block.links %}
+      <li>{{ hub_ui.step(l) }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+  {% if sit.related_items %}
+  <section class="hub-sit__related op-no-print" aria-labelledby="related-title">
+    <h2 id="related-title">Что ещё может пригодиться</h2>
+    {{ hub_ui.rows(sit.related_items) }}
+  </section>
+  {% endif %}
+  {% if not sit.urgent %}{{ op.now(compact=true) }}{% endif %}
+</div>
+{% endblock %}

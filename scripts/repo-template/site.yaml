@@ -1,0 +1,12 @@
+repo: __REPO__
+title: __TITLE__
+tagline: __TAGLINE__
+prefix: __PREFIX__
+port: __PORT__
+base: /__REPO__/
+pwa: __PWA__
+stale_after_days: 90
+draft_default: __DRAFT__
+github: https://github.com/openpalliative/__REPO__
+nav: []
+site_url: https://openpalliative.github.io

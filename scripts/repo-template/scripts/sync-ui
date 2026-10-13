@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+HUB="${OP_HUB:-../openpalliative.github.io}"
+test -f "$HUB/opsite/VERSION" || { echo "Не найден хаб: $HUB"; exit 1; }
+if [ -f opsite/VERSION ] && [ "$(cat opsite/VERSION)" = "$(cat "$HUB/opsite/VERSION")" ] \
+  && ! cmp -s opsite/MANIFEST.sha256 "$HUB/opsite/MANIFEST.sha256"; then
+  echo "Ошибка: у копии и у хаба одна версия opsite $(cat opsite/VERSION), а файлы разные."
+  echo "В хабе запустите uv run python -m opsite manifest, он поднимет VERSION, потом повторите sync-ui"
+  exit 1
+fi
+rsync -a --delete --exclude '__pycache__' --exclude '*.pyc' --exclude '.DS_Store' "$HUB/opsite/" ./opsite/
+( cd opsite && shasum -a 256 -c MANIFEST.sha256 --quiet )
+echo "opsite $(cat opsite/VERSION)"

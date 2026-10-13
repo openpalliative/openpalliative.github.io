@@ -1,0 +1,8 @@
+#!/bin/sh
+set -u
+status=0
+for browser in ${OP_BROWSERS:-chromium firefox webkit}; do
+  echo "== $browser"
+  OP_BROWSER="$browser" pnpm exec playwright test --grep-invert @shots "$@" || status=1
+done
+exit $status

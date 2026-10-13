@@ -1,0 +1,34 @@
+{% extends "op/base.html.j2" %}
+{% import "hub.html.j2" as hub_ui with context %}
+{% set alternates = [("ru", ""), ("en", "en/"), ("x-default", "")] %}
+{% block doc_title %}openpalliative: инструменты для тех, кто ухаживает за тяжелобольным близким{% endblock %}
+{% block description %}Бесплатные открытые инструменты: заявления и жалобы со сроками ответа, листы для дома и для скорой, кто выдаёт изделия, куда звонить. Работают в браузере, данные остаются на вашем устройстве{% endblock %}
+{% block main %}
+<div class="op-wrap hub-home">
+  <div class="hub-home__now">
+    {{ op.now(compact=true) }}
+  </div>
+  <div class="hub-home__main">
+    <h1>Что случилось?</h1>
+    <p class="op-lead hub-home__lead">Выберите, что ближе. Покажем, что сделать сегодня</p>
+    {{ hub_ui.rows(site.situations) }}
+    {% if site.regions %}{{ op.region(site.regions, compact=true, id="hub-region") }}{% endif %}
+    <ul class="hub-more">
+      <li><a href="{{ url('tools/') }}">Все инструменты</a></li>
+      <li><a href="{{ url('orgs/') }}">Я из НКО, юрист или разработчик</a></li>
+    </ul>
+  </div>
+</div>
+<section class="op-wrap op-section hub-principles-wrap" aria-labelledby="principles-title">
+  <h2 id="principles-title">Почему этому можно доверять</h2>
+  <ul class="hub-principles">
+    {% for p in content.principles.short %}
+    <li>
+      <span class="hub-principles__icon">{{ icon(p.icon) }}</span>
+      <h3>{{ p.title }}</h3>
+      <p>{{ p.text }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

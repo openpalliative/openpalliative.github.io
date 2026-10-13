@@ -1,0 +1,78 @@
+#!/bin/sh
+set -u
+HUB="$(cd "$(dirname "$0")/.." && pwd)"
+ORG="${OP_ORG_DIR:-$(dirname "$HUB")}"
+
+OUT="${OP_ALL_SITE:-$ORG/_site}"
+PORT="${PORT:-8080}"
+ORDER="pal-norms pal-directory pal-devices-data obrashchenie-kit home-care-kit openpalliative.github.io"
+TOOLS="pal-norms pal-directory pal-devices-data obrashchenie-kit home-care-kit"
+BUILD=1
+ONLY=""
+SERVE=1
+
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --no-build) BUILD=0 ;;
+    --only) ONLY="$2"; shift ;;
+    --no-serve) SERVE=0 ;;
+    --port) PORT="$2"; shift ;;
+    -h|--help)
+      echo "scripts/serve-all               собрать всё и отдать на http://localhost:$PORT"
+      echo "scripts/serve-all --no-build    только собрать _site/ из готовых сборок и отдать"
+      echo "scripts/serve-all --only REPO   пересобрать один репо и общий _site/"
+      echo "scripts/serve-all --no-serve    собрать и не поднимать сервер"
+      exit 0 ;;
+    *) echo "Неизвестный параметр: $1"; exit 2 ;;
+  esac
+  shift
+done
+
+build_repo() {
+  repo="$1"
+  dir="$ORG/$repo"
+  if [ ! -f "$dir/site.yaml" ] || [ ! -f "$dir/opsite/VERSION" ]; then
+    echo "-- $repo: ещё нет site.yaml или opsite/, пропускаю"
+    return 0
+  fi
+  echo "-- $repo: сборка"
+  if [ -f "$dir/deps.yaml" ]; then
+    (cd "$dir" && uv run --quiet python -m opsite sync-data --from local) || echo "   $repo: sync-data не прошёл, беру старые снимки"
+  fi
+  if ! (cd "$dir" && uv run --quiet python -m opsite build); then
+    echo "   $repo: не собрался, продолжаю с остальными"
+  fi
+}
+
+if [ "$BUILD" = 1 ]; then
+  for repo in $ORDER; do
+    if [ -z "$ONLY" ] || [ "$ONLY" = "$repo" ]; then
+      build_repo "$repo"
+    fi
+  done
+fi
+
+if [ ! -d "$HUB/_site" ]; then
+  echo "Хаб не собран: $HUB/_site. Без него общий сайт не собрать"
+  exit 1
+fi
+
+mkdir -p "$OUT"
+set --
+for t in $TOOLS; do set -- "$@" "--exclude=/$t/"; done
+rsync -a --delete "$@" "$HUB/_site/" "$OUT/"
+for t in $TOOLS; do
+  if [ -d "$ORG/$t/_site" ]; then
+    rsync -a --delete "$ORG/$t/_site/" "$OUT/$t/"
+    echo "-- $t: на /$t/"
+  else
+    rm -rf "${OUT:?}/$t"
+    echo "-- $t: сборки нет, /$t/ пока пусто"
+  fi
+done
+
+(cd "$HUB" && uv run --quiet python -m opsite check --org "$OUT") || echo "-- есть битые межрепные ссылки, список выше"
+
+if [ "$SERVE" = 1 ]; then
+  cd "$HUB" && exec uv run --quiet python -m opsite serve --dir "$OUT" --port "$PORT"
+fi

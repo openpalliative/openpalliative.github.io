@@ -1,0 +1,2043 @@
+{
+ "format": "openpalliative-dataset/1",
+ "dataset": "aliases",
+ "repo": "pal-devices-data",
+ "schema_version": "1.1.0",
+ "version": "2026.10.12",
+ "generated_at": "2026-10-13T06:32:04Z",
+ "data_date": "2026-10-12",
+ "stale_after_days": 90,
+ "license": "CC0-1.0",
+ "source": [
+  {
+   "id": "openpalliative-aliases",
+   "title": "Бытовые названия изделий: разметка openpalliative по справочнику видов Росздравнадзора и исследованиям проекта"
+  },
+  {
+   "id": "rzn-nkmi",
+   "title": "Открытые данные Росздравнадзора, набор 7710537160-mi_types, версия 20261001",
+   "url": "https://roszdravnadzor.gov.ru/opendata/7710537160-mi_types/meta.csv",
+   "retrieved_at": "2026-10-11",
+   "license": "открытые данные Росздравнадзора, лицензия в паспорте набора не указана, нужна атрибуция",
+   "sha256": "9f7f001bec94df0ff778d742a36f15a41eece715624e282de8a96a1d8a85b8a8"
+  }
+ ],
+ "content_sha256": "ec8d2612a5bb7f0b30443b183518c69f3f9e11175389f5f53794c62db2cea7cc",
+ "counts": {
+  "items": 108,
+  "unverified": 7,
+  "excluded": 0
+ },
+ "items": [
+  {
+   "id": "otkashlivatel",
+   "alias": "откашливатель",
+   "kind": "household",
+   "codes": [
+    "303260"
+   ],
+   "primary_for": "303260",
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026; исследование проекта о медицинских изделиях, 2026",
+   "basis": "симулируя кашель",
+   "norm_text": "откашливатель",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "otkashlevatel",
+   "alias": "откашлеватель",
+   "kind": "misspelling",
+   "codes": [
+    "303260"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "вариант написания",
+   "basis": "симулируя кашель",
+   "norm_text": "откашлеватель",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kislorodnik",
+   "alias": "кислородник",
+   "kind": "household",
+   "codes": [
+    "113810",
+    "191160"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "исследование проекта о медицинских изделиях, 2026",
+   "basis": "концентратор кислорода",
+   "norm_text": "кислородник",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kislorod",
+   "alias": "кислород",
+   "kind": "household",
+   "codes": [
+    "113810",
+    "191160"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "исследование проекта о медицинских изделиях, 2026",
+   "basis": "концентратор кислорода",
+   "norm_text": "кислород",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kontsentrator-kisloroda",
+   "alias": "концентратор кислорода",
+   "kind": "household",
+   "codes": [
+    "113810",
+    "191160"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "концентратор кислорода",
+   "norm_text": "концентратор кислорода",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "podacha-kisloroda",
+   "alias": "подача кислорода",
+   "kind": "household",
+   "codes": [
+    "156250",
+    "156010",
+    "156030",
+    "349900",
+    "136410"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "для подачи кислорода",
+   "norm_text": "подача кислорода",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kislorodnaya-trubka",
+   "alias": "кислородная трубка",
+   "kind": "household",
+   "codes": [
+    "156030"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "трубка для подачи кислорода",
+   "norm_text": "кислородная трубка",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "nosovaya-kanyulya",
+   "alias": "носовая канюля",
+   "kind": "household",
+   "codes": [
+    "349900",
+    "136410"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "введения в ноздри пациента",
+   "norm_text": "носовая канюля",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kislorodnye-usy",
+   "alias": "кислородные усы",
+   "kind": "household",
+   "codes": [
+    "349900",
+    "136410"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "",
+   "norm_text": "кислородные усы",
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "openpalliative-aliases",
+   "reason": "так в быту называют назальную канюлю, в описании вида этого слова нет"
+  },
+  {
+   "id": "otsos",
+   "alias": "отсос",
+   "kind": "household",
+   "codes": [
+    "260570",
+    "358700",
+    "358710",
+    "162580"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "исследование проекта о медицинских изделиях, 2026",
+   "basis": "посредством всасывания",
+   "norm_text": "отсос",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "aspirator",
+   "alias": "аспиратор",
+   "kind": "household",
+   "codes": [
+    "260570",
+    "358700",
+    "358710",
+    "162580"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026; исследование проекта о медицинских изделиях, 2026",
+   "basis": "система аспирационная",
+   "norm_text": "аспиратор",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "banka-dlya-otsosa",
+   "alias": "банка для отсоса",
+   "kind": "household",
+   "codes": [
+    "190940"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "сбора отсасываемых материалов",
+   "norm_text": "банка для отсоса",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "ivl",
+   "alias": "ИВЛ",
+   "kind": "abbr",
+   "codes": [
+    "113890",
+    "114040",
+    "232890",
+    "169180",
+    "318670",
+    "318710"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "аппарат искусственной вентиляции легких",
+   "norm_text": "ивл",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "nivl",
+   "alias": "НИВЛ",
+   "kind": "abbr",
+   "codes": [
+    "318670",
+    "318710"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "",
+   "norm_text": "нивл",
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "openpalliative-aliases",
+   "reason": "так семьи называют неинвазивную вентиляцию, в справочнике этого сокращения нет; соответствие видам CPAP и BPAP не проверено медиком"
+  },
+  {
+   "id": "sipap",
+   "alias": "сипап",
+   "kind": "household",
+   "codes": [
+    "318710"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "постоянным положительным давлением",
+   "norm_text": "сипап",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "bipap",
+   "alias": "бипап",
+   "kind": "household",
+   "codes": [
+    "318670"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "двухфазным положительным давлением",
+   "norm_text": "бипап",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "maska-sipap",
+   "alias": "маска для сипапа",
+   "kind": "household",
+   "codes": [
+    "109720",
+    "109740"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "cpap/bpap",
+   "norm_text": "маска для сипапа",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "maska-ivl",
+   "alias": "маска ИВЛ",
+   "kind": "household",
+   "codes": [
+    "271370",
+    "271390",
+    "109720",
+    "109740"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "маска для искусственной вентиляции легких",
+   "norm_text": "маска ивл",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "maska-dlya-ingalyatsiy",
+   "alias": "маска для ингаляций",
+   "kind": "household",
+   "codes": [
+    "274030"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "используется вместе с ингалятором",
+   "norm_text": "маска для ингаляций",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kontur-ivl",
+   "alias": "контур ИВЛ",
+   "kind": "household",
+   "codes": [
+    "185610",
+    "185600"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "контур дыхательный аппарата искусственной вентиляции легких",
+   "norm_text": "контур ивл",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "dykhatelnyy-meshok",
+   "alias": "дыхательный мешок",
+   "kind": "household",
+   "codes": [
+    "283460"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "описание вида в справочнике Росздравнадзора",
+   "basis": "дыхательный мешок",
+   "norm_text": "дыхательный мешок",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "perekhodnik-dlya-kontura",
+   "alias": "переходник для контура",
+   "kind": "household",
+   "codes": [
+    "327610",
+    "327640",
+    "165140",
+    "165230"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "для подключения дыхательного контура",
+   "norm_text": "переходник для контура",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "datchik-kontura",
+   "alias": "датчик для контура",
+   "kind": "household",
+   "codes": [
+    "322330"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "датчик дыхательного контура",
+   "norm_text": "датчик для контура",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "derzhatel-kontura",
+   "alias": "держатель контура",
+   "kind": "household",
+   "codes": [
+    "185520"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "для удержания трубок дыхательного контура",
+   "norm_text": "держатель контура",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "stoyka-dlya-apparata",
+   "alias": "стойка для аппарата",
+   "kind": "household",
+   "codes": [
+    "136860"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "стойка для медицинской техники",
+   "norm_text": "стойка для аппарата",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "iskusstvennyy-nos",
+   "alias": "искусственный нос",
+   "kind": "household",
+   "codes": [
+    "110250",
+    "218750",
+    "324650"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "описание вида в справочнике Росздравнадзора",
+   "basis": "искусственный нос",
+   "norm_text": "искусственный нос",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "teplovlagoobmennik",
+   "alias": "тепловлагообменник",
+   "kind": "household",
+   "codes": [
+    "110250",
+    "218750",
+    "324650"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "описание вида в справочнике Росздравнадзора",
+   "basis": "широко известное как тепловлагообменник",
+   "norm_text": "тепловлагообменник",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "bakterialnyy-filtr",
+   "alias": "бактериальный фильтр",
+   "kind": "household",
+   "codes": [
+    "218750",
+    "324650",
+    "322250"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "бактериальный фильтр",
+   "norm_text": "бактериальный фильтр",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "filtr-dlya-ivl",
+   "alias": "фильтр для ИВЛ",
+   "kind": "household",
+   "codes": [
+    "218750",
+    "324650",
+    "322250",
+    "110250"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "дыхательный контур",
+   "norm_text": "фильтр для ивл",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "obratnyy-klapan",
+   "alias": "обратный клапан",
+   "kind": "household",
+   "codes": [
+    "321960"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "односторонний клапан",
+   "norm_text": "обратный клапан",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "ruchnoy-ivl",
+   "alias": "ручной аппарат ИВЛ",
+   "kind": "household",
+   "codes": [
+    "121270",
+    "121180"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "аппарат искусственной вентиляции легких ручной",
+   "norm_text": "ручной аппарат ивл",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "trakheostoma",
+   "alias": "трахеостома",
+   "kind": "household",
+   "codes": [
+    "136490",
+    "136500",
+    "169080",
+    "173710",
+    "355410",
+    "330490"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "трахеостомическая",
+   "norm_text": "трахеостома",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "trakheostomicheskaya-trubka",
+   "alias": "трахеостомическая трубка",
+   "kind": "household",
+   "codes": [
+    "136490",
+    "136500",
+    "169080"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "трубка трахеостомическая",
+   "norm_text": "трахеостомическая трубка",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "trubka",
+   "alias": "трубка",
+   "kind": "household",
+   "codes": [
+    "156030",
+    "136490",
+    "136500",
+    "169080",
+    "268590",
+    "191040"
+   ],
+   "primary_for": null,
+   "ambiguous": true,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "трубка",
+   "norm_text": "трубка",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "fiksator-trakheostomy",
+   "alias": "фиксатор трахеостомы",
+   "kind": "household",
+   "codes": [
+    "355410"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "фиксатор трахеостомической трубки",
+   "norm_text": "фиксатор трахеостомы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "ershik-dlya-trakheostomy",
+   "alias": "ёршик для трахеостомы",
+   "kind": "household",
+   "codes": [
+    "330490"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "щеточка для очистки внутренней канюли",
+   "norm_text": "ершик для трахеостомы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "gastrostoma",
+   "alias": "гастростома",
+   "kind": "household",
+   "codes": [
+    "268590"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "трубка гастростомическая",
+   "norm_text": "гастростома",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "zond",
+   "alias": "зонд",
+   "kind": "household",
+   "codes": [
+    "157910",
+    "169450",
+    "169460"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "зонд",
+   "norm_text": "зонд",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "nazogastralnyy-zond",
+   "alias": "назогастральный зонд",
+   "kind": "household",
+   "codes": [
+    "169450",
+    "169460"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "зонд назогастральный",
+   "norm_text": "назогастральный зонд",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "pompa-dlya-pitaniya",
+   "alias": "помпа для питания",
+   "kind": "household",
+   "codes": [
+    "260010"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "помпа для энтерального питания",
+   "norm_text": "помпа для питания",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "enteralnoe-pitanie",
+   "alias": "энтеральное питание",
+   "kind": "household",
+   "codes": [
+    "260010",
+    "259820",
+    "364630",
+    "325930",
+    "169450"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "энтерального питания",
+   "norm_text": "энтеральное питание",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "sistema-dlya-zondovogo-pitaniya",
+   "alias": "система для зондового питания",
+   "kind": "household",
+   "codes": [
+    "259820",
+    "364630"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "для энтерального питания",
+   "norm_text": "система для зондового питания",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "konnektor-dlya-zonda",
+   "alias": "коннектор для зонда",
+   "kind": "household",
+   "codes": [
+    "325930"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "коннектор для энтерального питания",
+   "norm_text": "коннектор для зонда",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "shprits-dlya-kormleniya",
+   "alias": "шприц для кормления",
+   "kind": "household",
+   "codes": [
+    "109790"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "для обеспечения энтерального питания",
+   "norm_text": "шприц для кормления",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "infuzionnyy-nasos",
+   "alias": "инфузионный насос",
+   "kind": "household",
+   "codes": [
+    "260420",
+    "157620",
+    "288180",
+    "229860"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "насос инфузионный",
+   "norm_text": "инфузионный насос",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "shpritsevoy-nasos",
+   "alias": "шприцевой насос",
+   "kind": "household",
+   "codes": [
+    "229860"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "насос шприцевой",
+   "norm_text": "шприцевой насос",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "pompa-dlya-obezbolivaniya",
+   "alias": "помпа для обезболивания",
+   "kind": "household",
+   "codes": [
+    "157620"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "контролируемой пациентом анальгезии",
+   "norm_text": "помпа для обезболивания",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "nabor-dlya-nasosa",
+   "alias": "набор для инфузионного насоса",
+   "kind": "household",
+   "codes": [
+    "273610"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "для инфузионного насоса",
+   "norm_text": "набор для инфузионного насоса",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "paket-dlya-kapelnitsy",
+   "alias": "пакет для капельницы",
+   "kind": "household",
+   "codes": [
+    "131910"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "пакет/бутыль для внутривенных вливаний",
+   "norm_text": "пакет для капельницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "stoyka-dlya-kapelnitsy",
+   "alias": "стойка для капельницы",
+   "kind": "household",
+   "codes": [
+    "131950"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "стойка для внутривенных вливаний",
+   "norm_text": "стойка для капельницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "nabor-dlya-ukolov",
+   "alias": "набор для уколов",
+   "kind": "household",
+   "codes": [
+    "300940"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "набор для чрескожных инъекций",
+   "norm_text": "набор для уколов",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "zamok-dlya-katetera",
+   "alias": "замок для катетера",
+   "kind": "household",
+   "codes": [
+    "134620"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "для создания замка для катетера",
+   "norm_text": "замок для катетера",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "matras",
+   "alias": "матрас",
+   "kind": "household",
+   "codes": [
+    "118170",
+    "167990",
+    "168020",
+    "168030",
+    "266680",
+    "266750"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "противопролежнев",
+   "norm_text": "матрас",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "protivoprolezhnevyy-matras",
+   "alias": "противопролежневый матрас",
+   "kind": "household",
+   "codes": [
+    "118170",
+    "167990",
+    "168020",
+    "168030",
+    "266680",
+    "266750"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "противопролежнев",
+   "norm_text": "противопролежневый матрас",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "protivoprolezhnyy-matras",
+   "alias": "противопролежный матрас",
+   "kind": "misspelling",
+   "codes": [
+    "118170",
+    "167990",
+    "168020",
+    "168030",
+    "266680",
+    "266750"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "вариант написания",
+   "basis": "противопролежнев",
+   "norm_text": "противопролежный матрас",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "namatrasnik",
+   "alias": "наматрасник",
+   "kind": "household",
+   "codes": [
+    "167990",
+    "168020",
+    "168030",
+    "266680",
+    "269270"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "наматрасник",
+   "norm_text": "наматрасник",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "nepromokaemyy-namatrasnik",
+   "alias": "непромокаемый наматрасник",
+   "kind": "household",
+   "codes": [
+    "269270"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "наматрасник водонепроницаемый",
+   "norm_text": "непромокаемый наматрасник",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "krovat",
+   "alias": "кровать",
+   "kind": "household",
+   "codes": [
+    "136210",
+    "290200",
+    "118440",
+    "120210",
+    "131200",
+    "116510",
+    "178810"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "кровать",
+   "norm_text": "кровать",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "funktsionalnaya-krovat",
+   "alias": "функциональная кровать",
+   "kind": "household",
+   "codes": [
+    "136210",
+    "290200",
+    "118440",
+    "120210",
+    "131200"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "",
+   "norm_text": "функциональная кровать",
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "openpalliative-aliases",
+   "reason": "«функциональной» в быту называют кровать с регулировкой, в справочнике такого слова нет; какие виды подходят, решает медик"
+  },
+  {
+   "id": "meditsinskaya-krovat",
+   "alias": "медицинская кровать",
+   "kind": "household",
+   "codes": [
+    "136210",
+    "290200",
+    "118440",
+    "120210",
+    "131200",
+    "116510",
+    "178810"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "кровать больничная",
+   "norm_text": "медицинская кровать",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "prikrovatnyy-stolik",
+   "alias": "прикроватный столик",
+   "kind": "household",
+   "codes": [
+    "134230"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "столик прикроватный",
+   "norm_text": "прикроватный столик",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "ortopedicheskaya-podushka",
+   "alias": "ортопедическая подушка",
+   "kind": "household",
+   "codes": [
+    "185030"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "подушка ортопедическая",
+   "norm_text": "ортопедическая подушка",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "ochistitel-vozdukha",
+   "alias": "очиститель воздуха",
+   "kind": "household",
+   "codes": [
+    "152690"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "очиститель воздуха",
+   "norm_text": "очиститель воздуха",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kvarts",
+   "alias": "кварц",
+   "kind": "household",
+   "codes": [
+    "131980"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "",
+   "norm_text": "кварц",
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "openpalliative-aliases",
+   "reason": "«кварцем» в быту называют разные ультрафиолетовые лампы, не все они относятся к этому виду"
+  },
+  {
+   "id": "bakteritsidnaya-lampa",
+   "alias": "бактерицидная лампа",
+   "kind": "household",
+   "codes": [
+    "131980"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "облучатель ультрафиолетовый бактерицидный",
+   "norm_text": "бактерицидная лампа",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "vibratsionnyy-zhilet",
+   "alias": "вибрационный жилет",
+   "kind": "household",
+   "codes": [
+    "288800"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "",
+   "norm_text": "вибрационный жилет",
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "openpalliative-aliases",
+   "reason": "жилет входит в комплект системы осцилляции не всегда, по описанию вида это не подтверждается"
+  },
+  {
+   "id": "ochishchenie-dykhatelnykh-putey",
+   "alias": "очищение дыхательных путей",
+   "kind": "household",
+   "codes": [
+    "288800",
+    "124600"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "очищения дыхательных путей",
+   "norm_text": "очищение дыхательных путей",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "podemnik",
+   "alias": "подъёмник",
+   "kind": "household",
+   "codes": [
+    "172880",
+    "191170",
+    "191250",
+    "209440",
+    "209530",
+    "275140"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "система подъема и перемещения пациента",
+   "norm_text": "подъемник",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "potolochnyy-podemnik",
+   "alias": "потолочный подъёмник",
+   "kind": "household",
+   "codes": [
+    "172880"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "установленной на потолке рельсы",
+   "norm_text": "потолочный подъемник",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "poruchen-dlya-vstavaniya",
+   "alias": "поручень для вставания",
+   "kind": "household",
+   "codes": [
+    "331530"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "",
+   "norm_text": "поручень для вставания",
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "openpalliative-aliases",
+   "reason": "поручнем называют и простые опоры у кровати; этот вид по описанию поднимает человека в положение стоя"
+  },
+  {
+   "id": "pomoshch-pri-vstavanii",
+   "alias": "приспособление для вставания",
+   "kind": "household",
+   "codes": [
+    "331530"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "приспособление для помощи при вставании",
+   "norm_text": "приспособление для вставания",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kolyaska",
+   "alias": "коляска",
+   "kind": "household",
+   "codes": [
+    "207920",
+    "207930",
+    "207990",
+    "208020",
+    "208120",
+    "208150"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "кресло-коляска",
+   "norm_text": "коляска",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "invalidnaya-kolyaska",
+   "alias": "инвалидная коляска",
+   "kind": "household",
+   "codes": [
+    "207920",
+    "207930",
+    "207990",
+    "208020",
+    "208120",
+    "208150"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "кресло-коляска",
+   "norm_text": "инвалидная коляска",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "elektrokolyaska",
+   "alias": "электроколяска",
+   "kind": "household",
+   "codes": [
+    "207920"
+   ],
+   "primary_for": "207920",
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "с электродвигателем",
+   "norm_text": "электроколяска",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "khodunki",
+   "alias": "ходунки",
+   "kind": "household",
+   "codes": [
+    "136520",
+    "136530",
+    "136540",
+    "187990"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "ходунки",
+   "norm_text": "ходунки",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "vertikalizator",
+   "alias": "вертикализатор",
+   "kind": "household",
+   "codes": [
+    "147070",
+    "256110"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "вертикализатор",
+   "norm_text": "вертикализатор",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kalopriemnik",
+   "alias": "калоприёмник",
+   "kind": "household",
+   "codes": [
+    "152450",
+    "152460",
+    "156410",
+    "156420"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "калоприемник для кишечной стомы",
+   "norm_text": "калоприемник",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "stomnyy-meshok",
+   "alias": "стомный мешок",
+   "kind": "household",
+   "codes": [
+    "152450",
+    "152460",
+    "156410",
+    "156420",
+    "200040",
+    "365490"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "стомы",
+   "norm_text": "стомный мешок",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "poyas-dlya-kalopriemnika",
+   "alias": "пояс для калоприёмника",
+   "kind": "household",
+   "codes": [
+    "221790"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "бандаж давящий для калоприемника",
+   "norm_text": "пояс для калоприемника",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "derzhatel-meshka",
+   "alias": "держатель для мочеприёмника",
+   "kind": "household",
+   "codes": [
+    "149440"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "держатель неносимого мочеприемника/калоприемника",
+   "norm_text": "держатель для мочеприемника",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "mochepriemnik",
+   "alias": "мочеприёмник",
+   "kind": "household",
+   "codes": [
+    "152440",
+    "152470",
+    "152480",
+    "152490",
+    "156370",
+    "156390",
+    "156400",
+    "152430"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "мочеприемник",
+   "norm_text": "мочеприемник",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "urostoma",
+   "alias": "уростома",
+   "kind": "household",
+   "codes": [
+    "200040",
+    "365490"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "мешок уростомный",
+   "norm_text": "уростома",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kateter",
+   "alias": "катетер",
+   "kind": "household",
+   "codes": [
+    "155640",
+    "155670",
+    "187780",
+    "190950"
+   ],
+   "primary_for": null,
+   "ambiguous": true,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "катетер",
+   "norm_text": "катетер",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "mochevoy-kateter",
+   "alias": "мочевой катетер",
+   "kind": "household",
+   "codes": [
+    "155640",
+    "155670"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "катетер уретральный",
+   "norm_text": "мочевой катетер",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kateter-foleya",
+   "alias": "катетер Фолея",
+   "kind": "household",
+   "codes": [
+    "155670"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "",
+   "norm_text": "катетер фолея",
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "openpalliative-aliases",
+   "reason": "так называют баллонный уретральный катетер по фамилии автора; в описании вида этого названия нет"
+  },
+  {
+   "id": "podguzniki",
+   "alias": "подгузники",
+   "kind": "household",
+   "codes": [
+    "280360",
+    "233160"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "подгузник",
+   "norm_text": "подгузники",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "pampersy",
+   "alias": "памперсы",
+   "kind": "household",
+   "codes": [
+    "280360",
+    "233160"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": true,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "подгузник",
+   "norm_text": "памперсы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "trusy-podguzniki",
+   "alias": "трусы-подгузники",
+   "kind": "household",
+   "codes": [
+    "233900"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "трусы при недержании мочи",
+   "norm_text": "трусы подгузники",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "pelenki",
+   "alias": "пелёнки",
+   "kind": "household",
+   "codes": [
+    "320550"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "пеленка впитывающая",
+   "norm_text": "пеленки",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "vpityvayushchaya-prostynya",
+   "alias": "впитывающая простыня",
+   "kind": "household",
+   "codes": [
+    "331330"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "простыня впитывающая",
+   "norm_text": "впитывающая простыня",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "urologicheskie-prokladki",
+   "alias": "урологические прокладки",
+   "kind": "household",
+   "codes": [
+    "233860"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "вкладыш",
+   "norm_text": "урологические прокладки",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "sudno",
+   "alias": "судно",
+   "kind": "household",
+   "codes": [
+    "148100"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "судно подкладное",
+   "norm_text": "судно",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "kreslo-tualet",
+   "alias": "кресло-туалет",
+   "kind": "household",
+   "codes": [
+    "220280"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "кресло-туалет",
+   "norm_text": "кресло туалет",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "stul-tualet",
+   "alias": "стул-туалет",
+   "kind": "household",
+   "codes": [
+    "220280"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "особый вид стула со встроенной емкостью для туалета",
+   "norm_text": "стул туалет",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "pulsoksimetr",
+   "alias": "пульсоксиметр",
+   "kind": "household",
+   "codes": [
+    "149980"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "пульсоксиметр",
+   "norm_text": "пульсоксиметр",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "pulsaksimetr",
+   "alias": "пульсаксиметр",
+   "kind": "misspelling",
+   "codes": [
+    "149980"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "вариант написания",
+   "basis": "пульсоксиметр",
+   "norm_text": "пульсаксиметр",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "oksimetr",
+   "alias": "оксиметр",
+   "kind": "household",
+   "codes": [
+    "149980"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "пульсоксиметр",
+   "norm_text": "оксиметр",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "monitor",
+   "alias": "монитор",
+   "kind": "household",
+   "codes": [
+    "190850"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "монитор у постели больного",
+   "norm_text": "монитор",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "spirometr",
+   "alias": "спирометр",
+   "kind": "household",
+   "codes": [
+    "232490"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "спирометр",
+   "norm_text": "спирометр",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "nebulayzer",
+   "alias": "небулайзер",
+   "kind": "household",
+   "codes": [
+    "213220",
+    "139780"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "небулайзер",
+   "norm_text": "небулайзер",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "nebulazer",
+   "alias": "небулазер",
+   "kind": "misspelling",
+   "codes": [
+    "213220",
+    "139780"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "вариант написания",
+   "basis": "небулайзер",
+   "norm_text": "небулазер",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "ingalyator",
+   "alias": "ингалятор",
+   "kind": "household",
+   "codes": [
+    "127540",
+    "202950",
+    "213220"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "ингалятор",
+   "norm_text": "ингалятор",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "uvlazhnitel",
+   "alias": "увлажнитель",
+   "kind": "household",
+   "codes": [
+    "152090",
+    "321970"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "увлажн",
+   "norm_text": "увлажнитель",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "perchatki",
+   "alias": "перчатки",
+   "kind": "household",
+   "codes": [
+    "122540",
+    "122560",
+    "122610",
+    "139350",
+    "139360",
+    "185830",
+    "185850",
+    "205280",
+    "335680"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "перчатки",
+   "norm_text": "перчатки",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "povyazki",
+   "alias": "повязки",
+   "kind": "household",
+   "codes": [
+    "144780",
+    "144790",
+    "144800",
+    "147390",
+    "147400",
+    "147410",
+    "147420",
+    "161310",
+    "128820",
+    "173530",
+    "173540",
+    "218680",
+    "234600",
+    "128790"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "повязка",
+   "norm_text": "повязки",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "plastyr",
+   "alias": "пластырь",
+   "kind": "household",
+   "codes": [
+    "142270",
+    "136010"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "сообщества семей, 2026",
+   "basis": "лейкопластырь",
+   "norm_text": "пластырь",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "krovoostanavlivayushchee",
+   "alias": "кровоостанавливающее средство",
+   "kind": "household",
+   "codes": [
+    "248420",
+    "259910"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "кровоточащую",
+   "norm_text": "кровоостанавливающее средство",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  },
+  {
+   "id": "dezinfitsiruyushchie-salfetki",
+   "alias": "дезинфицирующие салфетки",
+   "kind": "household",
+   "codes": [
+    "136940"
+   ],
+   "primary_for": null,
+   "ambiguous": false,
+   "search_only": false,
+   "seen_in": "общеупотребительное слово",
+   "basis": "салфетка для очищения/дезинфекции",
+   "norm_text": "дезинфицирующие салфетки",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "openpalliative-aliases"
+  }
+ ]
+}

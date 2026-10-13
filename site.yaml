@@ -1,0 +1,11 @@
+repo: openpalliative.github.io
+title: openpalliative
+tagline: Бесплатные открытые инструменты для тех, кто ухаживает за тяжелобольным близким. Работают в браузере, данные остаются на вашем устройстве
+prefix: hub
+port: 8700
+base: /
+pwa: false
+stale_after_days: 90
+draft_default: none
+github: https://github.com/openpalliative/openpalliative.github.io
+site_url: https://openpalliative.github.io

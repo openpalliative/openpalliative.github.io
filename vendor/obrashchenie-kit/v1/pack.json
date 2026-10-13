@@ -1,0 +1,278 @@
+{
+ "format": "openpalliative-dataset/1",
+ "dataset": "pack",
+ "repo": "obrashchenie-kit",
+ "schema_version": "1.0.0",
+ "version": "2026.10.11",
+ "generated_at": "2026-10-13T06:32:05Z",
+ "data_date": "2026-10-11",
+ "stale_after_days": 365,
+ "license": "CC-BY-SA-4.0",
+ "source": [
+  {
+   "id": "ok-pack",
+   "title": "Пакет T0 проекта openpalliative (демо, без проверки юристом в РФ)",
+   "url": "https://github.com/openpalliative/obrashchenie-kit",
+   "retrieved_at": "2026-10-11",
+   "license": "CC-BY-SA-4.0"
+  },
+  {
+   "id": "pal-norms-acts",
+   "title": "pal-norms: acts, снимок версии 2026.10.11, данные от 2026-10-11",
+   "url": "https://openpalliative.github.io/pal-norms/data/v1/acts.json",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pal-norms-deadline-rules",
+   "title": "pal-norms: deadline-rules, снимок версии 2026.10.11, данные от 2026-10-11",
+   "url": "https://openpalliative.github.io/pal-norms/data/v1/deadline-rules.json",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pal-directory-region-lines",
+   "title": "pal-directory: region-lines, снимок версии 2026.10.11, данные от 2026-10-13",
+   "url": "https://openpalliative.github.io/pal-directory/data/v1/region-lines.json",
+   "retrieved_at": "2026-10-13"
+  }
+ ],
+ "content_sha256": "97dd9375621fc3d928c476ba2ce5174b06c5336486a569b7e2f788c2d6dab1ae",
+ "counts": {
+  "items": 1,
+  "unverified": 1,
+  "excluded": 0
+ },
+ "items": [
+  {
+   "id": "t0-demo",
+   "version": "2026.10.11",
+   "status": "demo",
+   "tiers_enabled": [
+    "T0"
+   ],
+   "reviewers": [],
+   "reviewed_at": null,
+   "released_at": "2026-10-11",
+   "expires_after_days": 365,
+   "first_public_at": null,
+   "notice": "Пример. Не используйте без проверки юристом в РФ",
+   "documents": [
+    "written-answer",
+    "vk-extract",
+    "med-records",
+    "deadline-complaint",
+    "repeat-complaint",
+    "filing-sheet"
+   ],
+   "receipt": {
+    "title": "Отметка о приёме",
+    "lines": [
+     "Дата приёма",
+     "Входящий номер",
+     "Кто принял: должность, фамилия",
+     "Подпись"
+    ]
+   },
+   "print_mark": "Черновик",
+   "region_numbers": "all",
+   "rule_notes": [
+    {
+     "rule_id": "59fz-answer",
+     "to": [
+      "mo_head",
+      "mo_vk"
+     ],
+     "text": "Срок по закону об обращениях граждан для государственных и муниципальных организаций. Если клиника частная, срок может быть другим"
+    }
+   ],
+   "unverified": [
+    {
+     "dataset": "acts",
+     "id": "59-fz",
+     "label": "Закон о порядке рассмотрения обращений граждан",
+     "why": "текст не сверен с официальной публикацией"
+    },
+    {
+     "dataset": "deadline-rules",
+     "id": "59fz-answer",
+     "label": "Написали обращение или жалобу в государственный орган или государственную медицинскую организацию",
+     "why": "срок не сверен с официальной публикацией"
+    },
+    {
+     "dataset": "deadline-rules",
+     "id": "59fz-redirect",
+     "label": "Обращение отправили не туда, куда нужно",
+     "why": "срок не сверен с официальной публикацией"
+    },
+    {
+     "dataset": "deadline-rules",
+     "id": "789n-copies",
+     "label": "Запросили копии медицинских документов или выписку из них",
+     "why": "срок не сверен с официальной публикацией"
+    },
+    {
+     "dataset": "channels",
+     "id": "paper-in-person",
+     "label": "Отнести лично",
+     "why": "порядок подачи описан проектом, юрист в РФ его не проверял"
+    },
+    {
+     "dataset": "channels",
+     "id": "paper-mail",
+     "label": "Отправить заказным письмом",
+     "why": "порядок подачи описан проектом, юрист в РФ его не проверял"
+    },
+    {
+     "dataset": "channels",
+     "id": "ezp",
+     "label": "Электронное заказное письмо Почты России",
+     "why": "ограничения формы взяты из исследования, сайт ведомства проект не открывает"
+    },
+    {
+     "dataset": "channels",
+     "id": "esia-minzdrav-rf",
+     "label": "Форма на сайте Минздрава России",
+     "why": "ограничения формы взяты из исследования, сайт ведомства проект не открывает"
+    },
+    {
+     "dataset": "channels",
+     "id": "esia-pos",
+     "label": "Форма на Госуслугах или на сайте ведомства",
+     "why": "ограничения формы взяты из исследования, сайт ведомства проект не открывает"
+    },
+    {
+     "dataset": "addressees-federal",
+     "id": "rzn-central",
+     "label": "Росздравнадзор",
+     "why": "ссылка и способ подачи взяты из исследования, сайт ведомства проект не открывает"
+    },
+    {
+     "dataset": "addressees-federal",
+     "id": "minzdrav-rf",
+     "label": "Минздрав России",
+     "why": "ссылка и способ подачи взяты из исследования, сайт ведомства проект не открывает"
+    },
+    {
+     "dataset": "addressees-federal",
+     "id": "genproc",
+     "label": "Прокуратура",
+     "why": "ссылка и способ подачи взяты из исследования, сайт ведомства проект не открывает"
+    },
+    {
+     "dataset": "turning18",
+     "id": "representation-orientir",
+     "label": "Опекун или представитель",
+     "why": "ориентир семей, а не срок из закона"
+    },
+    {
+     "dataset": "turning18",
+     "id": "mse-orientir",
+     "label": "Направление на медико-социальную экспертизу",
+     "why": "ориентир семей, а не срок из закона"
+    },
+    {
+     "dataset": "scenarios",
+     "id": "oral-refusal",
+     "label": "Отказали на словах",
+     "why": "текст сценария написал проект, юрист в РФ его не проверял"
+    },
+    {
+     "dataset": "scenarios",
+     "id": "no-answer",
+     "label": "Не ответили в срок",
+     "why": "текст сценария написал проект, юрист в РФ его не проверял"
+    },
+    {
+     "dataset": "scenarios",
+     "id": "vk-refused",
+     "label": "Не созывают врачебную комиссию или отказали в заключении",
+     "why": "текст сценария написал проект, юрист в РФ его не проверял"
+    },
+    {
+     "dataset": "scenarios",
+     "id": "discharge",
+     "label": "Выписывают домой",
+     "why": "текст сценария написал проект, юрист в РФ его не проверял"
+    },
+    {
+     "dataset": "scenarios",
+     "id": "forwarded",
+     "label": "Жалобу переслали тому, на кого вы жалуетесь",
+     "why": "текст сценария написал проект, юрист в РФ его не проверял"
+    },
+    {
+     "dataset": "addressees",
+     "id": "rzn-missing",
+     "label": "Территориального органа Росздравнадзора нет в данных РЗН: Москва, Московская область",
+     "why": "в открытых данных Росздравнадзора для этих регионов нет территориального органа, жалоба на срок идёт в минздрав региона или выше"
+    },
+    {
+     "dataset": "region-lines",
+     "id": "region-lines",
+     "label": "Номера ведомств по регионам",
+     "why": "номеров не проверено звонком: 397"
+    }
+   ],
+   "neighbors": [
+    {
+     "repo": "pal-directory",
+     "dataset": "addressees",
+     "version": "2026.10.11",
+     "data_date": "2026-10-13",
+     "fixture": false
+    },
+    {
+     "repo": "pal-directory",
+     "dataset": "federal-lines",
+     "version": "2026.10.11",
+     "data_date": "2026-10-13",
+     "fixture": false
+    },
+    {
+     "repo": "pal-directory",
+     "dataset": "region-lines",
+     "version": "2026.10.11",
+     "data_date": "2026-10-13",
+     "fixture": false
+    },
+    {
+     "repo": "pal-directory",
+     "dataset": "regions",
+     "version": "2026.10.11",
+     "data_date": "2026-10-13",
+     "fixture": false
+    },
+    {
+     "repo": "pal-norms",
+     "dataset": "acts",
+     "version": "2026.10.11",
+     "data_date": "2026-10-11",
+     "fixture": false
+    },
+    {
+     "repo": "pal-norms",
+     "dataset": "calendar",
+     "version": "2026.10.11",
+     "data_date": "2026-10-11",
+     "fixture": false
+    },
+    {
+     "repo": "pal-norms",
+     "dataset": "deadline-rules",
+     "version": "2026.10.11",
+     "data_date": "2026-10-11",
+     "fixture": false
+    },
+    {
+     "repo": "pal-norms",
+     "dataset": "escalation",
+     "version": "2026.10.11",
+     "data_date": "2026-10-11",
+     "fixture": false
+    }
+   ],
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "ok-pack"
+  }
+ ]
+}

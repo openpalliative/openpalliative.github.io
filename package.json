@@ -1,0 +1,27 @@
+{
+  "name": "openpalliative-hub",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test:unit": "node --test \"tests/unit/**/*.test.js\"",
+    "test:e2e": "playwright test --grep-invert @shots",
+    "test:e2e:browsers": "sh scripts/e2e-browsers",
+    "test:e2e:all": "playwright test --config playwright.all.config.js",
+    "shots": "playwright test --grep @shots",
+    "gate": "sh scripts/gate.sh",
+    "live-check": "node scripts/live-check.mjs",
+    "icons": "node scripts/render-icons.js",
+    "og": "node scripts/render-icons.js og"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@axe-core/playwright": "4.13.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": []
+  }
+}

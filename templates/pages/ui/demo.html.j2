@@ -1,0 +1,195 @@
+{% extends "op/base.html.j2" %}
+{% set noindex = true %}
+{% set icon_sprite = "all" %}
+{% block title %}Витрина компонентов{% endblock %}
+{% block description %}Все компоненты общего интерфейса openpalliative на одной странице для проверки{% endblock %}
+{% block main %}
+{% set demo = content.demo %}
+<div class="op-wrap op-page hub-demo">
+  {{ op.crumbs([("openpalliative", url('')), ("Витрина компонентов", "")]) }}
+  {{ op.status("info", "Витрина компонентов для разработчиков, формы не работают", word="Не для семей") }}
+  <h1>Витрина компонентов</h1>
+  <p class="op-lead">Общий интерфейс всех сайтов openpalliative. Платформа {{ opdata.version }}. Семьям эта страница не нужна</p>
+
+  {{ op.toc(demo.toc) }}
+
+  <section class="op-section" id="type" aria-labelledby="type-title">
+    <h2 id="type-title">Текст</h2>
+    <p>Основной текст Onest 18 пикселей на телефоне и 20 на компьютере, межстрочие 1,5, строка до 36em. Размер меняется кнопкой «Вид». <a href="#type">Ссылка в тексте всегда подчёркнута</a>, при наведении линия толще. Телефон <a href="tel:103">103</a> и дата <strong>14.11.2026</strong> цифрами</p>
+    <h3>Заголовок третьего уровня</h3>
+    <ul>
+      <li>Сначала что сделать сейчас</li>
+      <li>Потом почему</li>
+      <li>Потом что делать, если не получилось</li>
+    </ul>
+    <p class="op-muted">Вторичный текст для подписей и подсказок. Номер публикации <span class="op-code">0001202205300035</span></p>
+  </section>
+
+  <section class="op-section" id="colors" aria-labelledby="colors-title">
+    <h2 id="colors-title">Цвета</h2>
+    <p>Токены из бренд-кита. В тёмной теме значения свои. Мёд только для графики, корица не больше десятой части экрана</p>
+    <ul class="hub-swatches">
+      {% for sw in demo.swatches %}
+      <li><span class="hub-swatch hub-swatch--{{ sw.token }}"></span><span><strong>{{ sw.token }}</strong><span class="op-muted">{{ sw.use }}</span></span></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="op-section" id="buttons" aria-labelledby="buttons-title">
+    <h2 id="buttons-title">Кнопки</h2>
+    <div class="op-actions">
+      {{ op.btn("Собрать заявление", icon_name="file-text") }}
+      {{ op.btn("Скачать копию", kind="secondary", icon_name="download") }}
+      {{ op.btn("Удалить всё с этого устройства", kind="danger", icon_name="trash-2") }}
+      {{ op.btn("Пропустить этот шаг", kind="link") }}
+    </div>
+    <div class="op-actions">
+      {{ op.btn("Продолжить", size="large", icon_name="arrow-right") }}
+      {{ op.btn("Недоступно", kind="secondary", attrs={"disabled": "disabled"}) }}
+      {{ op.print_btn() }}
+    </div>
+    <p class="op-muted">Основная залита корицей. Вторичная с контуром. Удаление только контуром, никогда не залито. Иконка всегда вместе со словом</p>
+    <h3>Группа действий на телефоне</h3>
+    <p>На узком экране каждая кнопка на всю ширину, иконка и текст слева. Залита только одна кнопка группы</p>
+    <div class="op-actions">
+      {{ op.btn("Сохранить документ", icon_name="download") }}
+      {{ op.btn("Распечатать", kind="secondary", icon_name="printer") }}
+      {{ op.btn("Отправить себе", kind="secondary", icon_name="share-2") }}
+      {{ op.btn("Удалить это дело", kind="danger", icon_name="trash-2") }}
+    </div>
+  </section>
+
+  <section class="op-section" id="fields" aria-labelledby="fields-title">
+    <h2 id="fields-title">Поля</h2>
+    <form class="hub-demo-form" action="#fields">
+      {{ op.field("demo-name", "Как к вам обращаться", hint="Имя попадёт только в документ на этом устройстве", autocomplete="name", required=true) }}
+      {{ op.date_field("demo-date", "Когда подали заявление", hint="Нужно, чтобы посчитать срок ответа. Дата на вашем экземпляре с отметкой", min="2020-01-01") }}
+      {{ op.field("demo-phone", "Телефон для ответа", hint="Номер должен быть в виде 8-800-700-84-36 или +7 и 10 цифр", type="tel", value="8 912", inputmode="tel", autocomplete="tel", error="номер неполный. Проверьте, все ли цифры набраны") }}
+      {{ op.field("demo-who", "Кому адресовано", hint="Если не знаете, выберите «Главному врачу»", options=demo.addressees, value="chief", required=true) }}
+      {{ op.field("demo-text", "Что случилось", hint="Своими словами, коротко. Это поле можно не заполнять", type="textarea", rows=3) }}
+      {{ op.choice("demo-how", "Как подали", demo.channels, hint="От этого зависит, как подтвердить подачу", value="paper") }}
+    </form>
+  </section>
+
+  <section class="op-section" id="rows" aria-labelledby="rows-title">
+    <h2 id="rows-title">Строки</h2>
+    <p>Строка-ссылка с иконкой, подсказкой и стрелкой. Нажимается вся строка, высота от 56 пикселей</p>
+    <ul class="op-rows">
+      <li>{{ op.row("Сильная боль ночью или в праздники", href="#rows", icon_name="moon", hint="Кому звонить и что сказать диспетчеру") }}</li>
+      <li>{{ op.row("Выписывают домой из больницы", href="#rows", icon_name="clipboard-list", hint="Что получить на руки до выхода") }}</li>
+      <li>{{ op.row("Дневник боли", icon_name="calendar-days", soon=true) }}</li>
+    </ul>
+  </section>
+
+  <section class="op-section" id="cards" aria-labelledby="cards-title">
+    <h2 id="cards-title">Карточки</h2>
+    <ul class="op-cards op-cards--3">
+      <li>{% call op.card("Карта на холодильник", href="#cards", icon_name="printer", meta="Работает без интернета") %}<p>Кому звонить ночью и где лежат документы, на одном листе</p>{% endcall %}</li>
+      <li>{% call op.card("Кто выдаёт изделие", href="#cards", icon_name="package") %}<p>Вся карточка нажимается, но ссылка одна, в заголовке</p>{% endcall %}</li>
+      <li>{% call op.card("Карточка без ссылки", icon_name="info") %}<p>Просто блок с рамкой для группировки</p>{% endcall %}</li>
+    </ul>
+  </section>
+
+  <section class="op-section" id="status" aria-labelledby="status-title">
+    <h2 id="status-title">Статусы</h2>
+    <p>Всегда иконка, слово и тип рамки. Цвет только дублирует смысл</p>
+    {{ op.status("done", "Заявление собрано и сохранено на этом устройстве") }}
+    {{ op.status("deadline", "Ответ должен прийти до 14 ноября 2026") }}
+    {{ op.status("error", "Срок ответа прошёл. Это повод для следующего шага") }}
+    {{ op.status("info", "Подавайте заявление в двух экземплярах, на втором попросите отметку о приёме") }}
+    {{ op.status("unverified", "Этот номер ещё не сверен с официальным источником") }}
+    {{ op.status("stale", "Снимок данных старше 90 дней. Сверьте с источником по ссылке") }}
+    {{ op.status("warning", "Календарь на 2027 год ещё не утверждён. Дата может сдвинуться на несколько дней") }}
+    {{ op.status("repealed", "Приказ отменён. Ниже ссылка на тот, что действует сейчас") }}
+    {{ op.status("offline", "Всё нужное для работы уже на этом устройстве") }}
+    <p>В строке: телефон линии <a href="tel:+78007008436">8 800 700-84-36</a> {{ unverified_inline() }}, старый приказ {{ repealed_inline() }}</p>
+  </section>
+
+  <section class="op-section" id="draft" aria-labelledby="draft-title">
+    <h2 id="draft-title">Черновик</h2>
+    <p>Одна строка вверху страницы под шапкой. Нажмите, чтобы прочитать целиком. Без JS и при печати текст виден полностью. Страница без юридического и медицинского текста ставит draft: none, и плашки нет</p>
+    <h3>Свёрнуто</h3>
+    {{ op.draft("legal") }}
+    {{ op.draft("medical") }}
+    <h3>Раскрыто</h3>
+    {{ op.draft("both", open=true) }}
+  </section>
+
+  <section class="op-section" id="dates" aria-labelledby="dates-title">
+    <h2 id="dates-title">Дата данных</h2>
+    <div>{{ op.data_date(opdata.now.checked_at) }}</div>
+    <div>{{ op.data_date("2026-03-03", stale_after=90, label="Таблица линий от") }}</div>
+    <div>{{ op.data_date(none, verified=false) }}</div>
+    {{ op.unverified() }}
+  </section>
+
+  <section class="op-section" id="now" aria-labelledby="now-title">
+    <h2 id="now-title">Помощь прямо сейчас</h2>
+    {{ op.now(heading_level=3) }}
+  </section>
+
+  <section class="op-section" id="quote" aria-labelledby="quote-title">
+    <h2 id="quote-title">Цитата нормы</h2>
+    <p>Только дословно из официальной публикации, с номером публикации и датой сверки</p>
+    {{ op.quote(demo.quote.text, demo.quote.source) }}
+  </section>
+
+  <section class="op-section" id="steps" aria-labelledby="steps-title">
+    <h2 id="steps-title">Шаги</h2>
+    <p>Текущий шаг отличается рамкой и жирной подписью, а не только цветом. Пройденный шаг можно открыть снова</p>
+    {{ op.steps(2, [("Что случилось", "#steps"), "Кому писать", "Документ"]) }}
+  </section>
+
+  <section class="op-section" id="region" aria-labelledby="region-title">
+    <h2 id="region-title">Регион</h2>
+    <p>Поиск по названию, столице или сокращению. Без JS это список ссылок на карточки регионов</p>
+    {{ op.region(site.regions, id="demo-region") }}
+  </section>
+
+  <section class="op-section" id="table" aria-labelledby="table-title">
+    <h2 id="table-title">Таблица</h2>
+    <div class="op-table-wrap">
+      <table class="op-table">
+        <caption>Пример: сроки по шагам</caption>
+        <thead><tr><th scope="col">Шаг</th><th scope="col">Срок</th><th scope="col">Статус</th></tr></thead>
+        <tbody>
+          {% for row in demo.table %}
+          <tr><th scope="row">{{ row.step }}</th><td>{{ row.due }}</td><td>{{ row.state }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="op-section" id="search" aria-labelledby="search-title">
+    <h2 id="search-title">Поиск</h2>
+    {{ op.search("demo-search", "Найти изделие", placeholder="например, кровать или матрас", action="#search") }}
+  </section>
+
+  <section class="op-section" id="share" aria-labelledby="share-title">
+    <h2 id="share-title">Отправить и скопировать</h2>
+    {{ op.share("Ответ на заявление должен прийти до 14.11.2026", title="Срок ответа") }}
+  </section>
+
+  <section class="op-section" id="icons" aria-labelledby="icons-title">
+    <h2 id="icons-title">Иконки</h2>
+    <p>Lucide, лицензия ISC, только нужные. Штрих 2, цвет текста</p>
+    <ul class="hub-icons">
+      {% for name in demo.icons %}
+      <li>{{ icon(name) }}<span>{{ name }}</span></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="op-section" id="print" aria-labelledby="print-title">
+    <h2 id="print-title">Печать</h2>
+    <p>При печати шапка, подвал и кнопки скрыты, всё чёрным на белом, рамки 1-1,5pt. Ниже пример листа A6: на экране это рамка, на печати отдельная страница</p>
+    <article class="op-sheet op-sheet--a6 hub-sheet-demo">
+      <h3>Карта на холодильник</h3>
+      <p>Кому звонить ночью: <strong>103</strong></p>
+      <p>Где лежат документы: верхний ящик комода</p>
+      {{ op.sheet_footer("2026-10-11", "2027-01-09", "openpalliative.github.io/ui/demo/", "medical") }}
+    </article>
+  </section>
+</div>
+{% endblock %}

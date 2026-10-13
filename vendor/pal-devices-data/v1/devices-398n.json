@@ -1,0 +1,6425 @@
+{
+ "format": "openpalliative-dataset/1",
+ "dataset": "devices-398n",
+ "repo": "pal-devices-data",
+ "schema_version": "1.1.0",
+ "version": "2026.10.12",
+ "generated_at": "2026-10-13T06:32:04Z",
+ "data_date": "2026-10-12",
+ "stale_after_days": 90,
+ "license": "CC0-1.0",
+ "source": [
+  {
+   "id": "pravo-398n",
+   "title": "Приказ Министерства здравоохранения Российской Федерации от 09.07.2025 № 398н «Об утверждении перечня медицинских изделий, предназначенных для поддержания функций органов и систем организма человека, предоставляемых пациенту при оказании паллиативной медицинской помощи для использования на дому»",
+   "url": "http://publication.pravo.gov.ru/document/0001202508130021",
+   "eoNumber": "0001202508130021",
+   "retrieved_at": "2026-10-11",
+   "sha256": "2c07b6e75ab79dde7e14e74ea97e35848228a61637e2ca49214ef31adedb257a",
+   "license": "официальный документ, не охраняется авторским правом (ГК РФ ст. 1259 п. 6)"
+  },
+  {
+   "id": "rzn-nkmi",
+   "title": "Открытые данные Росздравнадзора, набор 7710537160-mi_types, версия 20261001",
+   "url": "https://roszdravnadzor.gov.ru/opendata/7710537160-mi_types/meta.csv",
+   "retrieved_at": "2026-10-11",
+   "license": "открытые данные Росздравнадзора, лицензия в паспорте набора не указана, нужна атрибуция",
+   "sha256": "9f7f001bec94df0ff778d742a36f15a41eece715624e282de8a96a1d8a85b8a8"
+  }
+ ],
+ "content_sha256": "eb18cf29a2285e1da1b29c2699f4893a1d99ecfed9ccb610ed3c2c36aebb7c01",
+ "counts": {
+  "items": 170,
+  "unverified": 0,
+  "excluded": 0
+ },
+ "nkmi_check": {
+  "checked_at": "2026-10-12",
+  "version": "20261001",
+  "history_versions": [
+   "20260101",
+   "20260201",
+   "20260301",
+   "20260401",
+   "20260501",
+   "20260601",
+   "20260701",
+   "20260801",
+   "20260901",
+   "20261001"
+  ],
+  "present": 170,
+  "missing": 0,
+  "missing_codes": [],
+  "ok": true
+ },
+ "open_questions": [
+  {
+   "id": "count-173",
+   "text": "В новостях называют 173 позиции нового перечня. В официальной публикации на страницах 3-16 мы нашли 170 строк с кодами, коды не повторяются. Это подтвердили два независимых прохода сверки 11.10.2026. Официального источника с числом 173 мы не нашли, вопрос открыт"
+  },
+  {
+   "id": "tsr-not-checked",
+   "text": "Входит ли позиция в федеральный перечень реабилитационных средств, по тексту этого перечня не сверено. У 29 позиций в перечне стоит сноска 2 об обеспечении людей с инвалидностью, это всё, что мы отмечаем. Текстов правил обеспечения техническими средствами реабилитации и федерального перечня реабилитационных средств на портале официального опубликования нет, поиск 12.10.2026"
+  },
+  {
+   "id": "transfer-order",
+   "text": "Действует ли порядок передачи изделий на дом после выхода нового перечня, проверяется в разделе «Нормы и сроки»"
+  },
+  {
+   "id": "nkmi-reassigned-259910",
+   "text": "Код 259910: в перечне и в справочнике Росздравнадзора до версии от 01.07.2026 это «Средство гемостатическое неорганического происхождения». С версии от 01.07.2026 под этим кодом в справочнике «Система управления/получения видеоизображений для эндоскопа». При этом описание вида в справочнике сейчас такое: «Изделие, изготавливаемое на основе минеральных и/или синтетических компонентов (например, смектита, феррата калия/гидрофильного полимера, глутарового альдегида)...». Поправок к перечню на портале официального опубликования не найдено, проверено 12.10.2026"
+  },
+  {
+   "id": "old-codes-missing",
+   "text": "7 кодов прежнего перечня нет в текущем справочнике Росздравнадзора: 185590, 324410, 173840, 338030, 208770, 118490, 165150"
+  }
+ ],
+ "items": [
+  {
+   "id": "232490",
+   "code": "232490",
+   "nkmi_name": "Спирометр диагностический, профессиональный",
+   "name_in_act": "Спирометр диагностический, профессиональный",
+   "nkmi_name_now": "Спирометр диагностический, профессиональный",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Анализаторы дыхательной функции и сопутствующие изделия",
+   "order": 1,
+   "scan_page": 3,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "spirometr"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "283460",
+   "code": "283460",
+   "nkmi_name": "Мешок для дыхательного контура, многоразового использования",
+   "name_in_act": "Мешок для дыхательного контура, многоразового использования",
+   "nkmi_name_now": "Мешок для дыхательного контура, многоразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Анестезиологические системы и сопутствующие изделия",
+   "order": 2,
+   "scan_page": 3,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "dykhatelnyy-meshok"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "322330",
+   "code": "322330",
+   "nkmi_name": "Датчик дыхательного контура многопараметрический",
+   "name_in_act": "Датчик дыхательного контура многопараметрический",
+   "nkmi_name_now": "Датчик дыхательного контура многопараметрический",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Анестезиологические системы и сопутствующие изделия",
+   "order": 3,
+   "scan_page": 3,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "datchik-kontura"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "327610",
+   "code": "327610",
+   "nkmi_name": "Коннектор прямой/изогнутый для дыхательного контура, одноразового использования",
+   "name_in_act": "Коннектор прямой/изогнутый для дыхательного контура, одноразового использования",
+   "nkmi_name_now": "Коннектор прямой/изогнутый для дыхательного контура, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Анестезиологические системы и сопутствующие изделия",
+   "order": 4,
+   "scan_page": 3,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perekhodnik-dlya-kontura"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "OCR прочёл как 7610, код сверен по изображению страницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "327640",
+   "code": "327640",
+   "nkmi_name": "Коннектор трубки/маски дыхательного контура, одноразового использования, стерильный",
+   "name_in_act": "Коннектор трубки/маски дыхательного контура, одноразового использования, стерильный",
+   "nkmi_name_now": "Коннектор трубки/маски дыхательного контура, одноразового использования, стерильный",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Анестезиологические системы и сопутствующие изделия",
+   "order": 5,
+   "scan_page": 3,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perekhodnik-dlya-kontura"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "113890",
+   "code": "113890",
+   "nkmi_name": "Аппарат искусственной вентиляции легких портативный электрический",
+   "name_in_act": "Аппарат искусственной вентиляции легких портативный электрический",
+   "nkmi_name_now": "Аппарат искусственной вентиляции легких портативный электрический",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 6,
+   "scan_page": 3,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "114040",
+   "code": "114040",
+   "nkmi_name": "Аппарат искусственной вентиляции легких портативный с пневмоприводом",
+   "name_in_act": "Аппарат искусственной вентиляции легких портативный с пневмоприводом",
+   "nkmi_name_now": "Аппарат искусственной вентиляции легких портативный с пневмоприводом",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 7,
+   "scan_page": 3,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "232890",
+   "code": "232890",
+   "nkmi_name": "Аппарат искусственной вентиляции легких общего назначения для интенсивной терапии",
+   "name_in_act": "Аппарат искусственной вентиляции легких общего назначения для интенсивной терапии",
+   "nkmi_name_now": "Аппарат искусственной вентиляции легких общего назначения для интенсивной терапии",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 8,
+   "scan_page": 3,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "165140",
+   "code": "165140",
+   "nkmi_name": "Соединитель для дыхательного контура, одноразового использования",
+   "name_in_act": "Соединитель для дыхательного контура, одноразового использования",
+   "nkmi_name_now": "Соединитель для дыхательного контура, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 9,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perekhodnik-dlya-kontura"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "165230",
+   "code": "165230",
+   "nkmi_name": "Соединитель для дыхательного контура, многоразового использования",
+   "name_in_act": "Соединитель для дыхательного контура, многоразового использования",
+   "nkmi_name_now": "Соединитель для дыхательного контура, многоразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 10,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perekhodnik-dlya-kontura"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "185520",
+   "code": "185520",
+   "nkmi_name": "Держатель трубки дыхательного контура",
+   "name_in_act": "Держатель трубки дыхательного контура",
+   "nkmi_name_now": "Держатель трубки дыхательного контура",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 11,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "derzhatel-kontura"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "136860",
+   "code": "136860",
+   "nkmi_name": "Стойка для медицинской техники",
+   "name_in_act": "Стойка для медицинской техники",
+   "nkmi_name_now": "Стойка для медицинской техники",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 12,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "stoyka-dlya-apparata"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "185610",
+   "code": "185610",
+   "nkmi_name": "Контур дыхательный аппарата искусственной вентиляции легких, одноразового использования",
+   "name_in_act": "Контур дыхательный аппарата искусственной вентиляции легких, одноразового использования",
+   "nkmi_name_now": "Контур дыхательный аппарата искусственной вентиляции легких, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 13,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "kontur-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "318670",
+   "code": "318670",
+   "nkmi_name": "Аппарат искусственной вентиляции легких с двухфазным положительным давлением (BPAP) для домашнего использования",
+   "name_in_act": "Аппарат искусственной вентиляции легких с двухфазным положительным давлением (BPAP) для домашнего использования",
+   "nkmi_name_now": "Аппарат искусственной вентиляции легких с двухфазным положительным давлением (BPAP) для домашнего использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 14,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "ivl",
+    "nivl",
+    "bipap"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "318710",
+   "code": "318710",
+   "nkmi_name": "Аппарат искусственной вентиляции легких с постоянным положительным давлением (CPAP) для домашнего использования",
+   "name_in_act": "Аппарат искусственной вентиляции легких с постоянным положительным давлением (CPAP) для домашнего использования",
+   "nkmi_name_now": "Аппарат искусственной вентиляции легких с постоянным положительным давлением (CPAP) для домашнего использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 15,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "ivl",
+    "nivl",
+    "sipap"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "169180",
+   "code": "169180",
+   "nkmi_name": "Аппарат искусственной вентиляции легких стационарный высокочастотный с электроприводом",
+   "name_in_act": "Аппарат искусственной вентиляции легких стационарный высокочастотный с электроприводом",
+   "nkmi_name_now": "Аппарат искусственной вентиляции легких стационарный высокочастотный с электроприводом",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Вентиляторы респираторные и сопутствующие изделия",
+   "order": 16,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "110250",
+   "code": "110250",
+   "nkmi_name": "Тепло/влагообменник, одноразового использования",
+   "name_in_act": "Тепло/влагообменник, одноразового использования",
+   "nkmi_name_now": "Тепло/влагообменник, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Ингаляторы",
+   "order": 17,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "iskusstvennyy-nos",
+    "teplovlagoobmennik",
+    "filtr-dlya-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "113810",
+   "code": "113810",
+   "nkmi_name": "Концентратор кислорода переносной/портативный",
+   "name_in_act": "Концентратор кислорода мобильный/портативный",
+   "nkmi_name_now": "Концентратор кислорода переносной/портативный",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Ингаляторы",
+   "order": 18,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "nkmi-renamed"
+   ],
+   "aliases": [
+    "kislorodnik",
+    "kislorod",
+    "kontsentrator-kisloroda"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "renamed",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "в справочнике 20261001: Концентратор кислорода переносной/портативный",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "127540",
+   "code": "127540",
+   "nkmi_name": "Ингалятор ультразвуковой",
+   "name_in_act": "Ингалятор ультразвуковой",
+   "nkmi_name_now": "Ингалятор ультразвуковой",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Ингаляторы",
+   "order": 19,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "ingalyator"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "213220",
+   "code": "213220",
+   "nkmi_name": "Небулайзер настольный, без подогрева",
+   "name_in_act": "Небулайзер настольный, без подогрева",
+   "nkmi_name_now": "Небулайзер настольный, без подогрева",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Ингаляторы",
+   "order": 20,
+   "scan_page": 4,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "nebulayzer",
+    "nebulazer",
+    "ingalyator"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "139780",
+   "code": "139780",
+   "nkmi_name": "Спейсер к небулайзеру или ингалятору, многоразового использования",
+   "name_in_act": "Спейсер к небулайзеру или ингалятору, многоразового использования",
+   "nkmi_name_now": "Спейсер к небулайзеру или ингалятору, многоразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Ингаляторы",
+   "order": 21,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "nebulayzer",
+    "nebulazer"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "152090",
+   "code": "152090",
+   "nkmi_name": "Увлажнитель дыхательных смесей с подогревом",
+   "name_in_act": "Увлажнитель дыхательных смесей с подогревом",
+   "nkmi_name_now": "Увлажнитель дыхательных смесей с подогревом",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Ингаляторы",
+   "order": 22,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "uvlazhnitel"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "202950",
+   "code": "202950",
+   "nkmi_name": "Ингалятор аэрозольный, невентиляционный",
+   "name_in_act": "Ингалятор аэрозольный, невентиляционный",
+   "nkmi_name_now": "Ингалятор аэрозольный, невентиляционный",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Ингаляторы",
+   "order": 23,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "ingalyator"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "218750",
+   "code": "218750",
+   "nkmi_name": "Тепло/влагообменник/бактериальный фильтр для медицинских газов",
+   "name_in_act": "Тепло/влагообменник/бактериальный фильтр для медицинских газов",
+   "nkmi_name_now": "Тепло/влагообменник/бактериальный фильтр для медицинских газов",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Ингаляторы",
+   "order": 24,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "iskusstvennyy-nos",
+    "teplovlagoobmennik",
+    "bakterialnyy-filtr",
+    "filtr-dlya-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "321970",
+   "code": "321970",
+   "nkmi_name": "Камера увлажнителя линии вдоха, одноразового использования",
+   "name_in_act": "Камера увлажнения воздуха для линии вдоха, одноразового использования",
+   "nkmi_name_now": "Камера увлажнителя линии вдоха, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Ингаляторы",
+   "order": 25,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "nkmi-renamed"
+   ],
+   "aliases": [
+    "uvlazhnitel"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "renamed",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "в справочнике 20261001: Камера увлажнителя линии вдоха, одноразового использования",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "349900",
+   "code": "349900",
+   "nkmi_name": "Канюля назальная стандартная для подачи кислорода, стерильная",
+   "name_in_act": "Канюля назальная стандартная для подачи кислорода, стерильная",
+   "nkmi_name_now": "Канюля назальная стандартная для подачи кислорода, стерильная",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Канюли респираторные",
+   "order": 26,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "podacha-kisloroda",
+    "nosovaya-kanyulya",
+    "kislorodnye-usy"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "136410",
+   "code": "136410",
+   "nkmi_name": "Канюля назальная для подачи кислорода, стандартная",
+   "name_in_act": "Канюля назальная для подачи кислорода, стандартная",
+   "nkmi_name_now": "Канюля назальная для подачи кислорода, стандартная",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Канюли респираторные",
+   "order": 27,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "podacha-kisloroda",
+    "nosovaya-kanyulya",
+    "kislorodnye-usy"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "185600",
+   "code": "185600",
+   "nkmi_name": "Контур дыхательный аппарата искусственной вентиляции легких, многоразового использования",
+   "name_in_act": "Контур дыхательный аппарата искусственной вентиляции легких, многоразового использования",
+   "nkmi_name_now": "Контур дыхательный аппарата искусственной вентиляции легких, многоразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Магистрали дыхательные и сопутствующие изделия",
+   "order": 28,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "kontur-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "321960",
+   "code": "321960",
+   "nkmi_name": "Клапан нереверсивный, одноразового использования",
+   "name_in_act": "Клапан нереверсивный, одноразового использования",
+   "nkmi_name_now": "Клапан нереверсивный, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Магистрали дыхательные и сопутствующие изделия",
+   "order": 29,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "obratnyy-klapan"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "324650",
+   "code": "324650",
+   "nkmi_name": "Тепло/влагообменник/бактериальный фильтр, стерильный",
+   "name_in_act": "Тепло/влагообменник/бактериальный фильтр, стерильный",
+   "nkmi_name_now": "Тепло/влагообменник/бактериальный фильтр, стерильный",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Магистрали дыхательные и сопутствующие изделия",
+   "order": 30,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "iskusstvennyy-nos",
+    "teplovlagoobmennik",
+    "bakterialnyy-filtr",
+    "filtr-dlya-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "109720",
+   "code": "109720",
+   "nkmi_name": "Маска лицевая аппарата искусственной вентиляции легких CPAP/BPAP, многоразового использования",
+   "name_in_act": "Маска лицевая аппарата искусственной вентиляции легких CPAP/BPAP, многоразового использования",
+   "nkmi_name_now": "Маска лицевая аппарата искусственной вентиляции легких CPAP/BPAP, многоразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Маски респираторные/анестезиологические и сопутствующие изделия",
+   "order": 31,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "maska-sipap",
+    "maska-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "109740",
+   "code": "109740",
+   "nkmi_name": "Маска ротовая аппарата искусственной вентиляции легких CPAP/BPAP",
+   "name_in_act": "Маска ротовая аппарата искусственной вентиляции легких CPAP/BPAP",
+   "nkmi_name_now": "Маска ротовая аппарата искусственной вентиляции легких CPAP/BPAP",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Маски респираторные/анестезиологические и сопутствующие изделия",
+   "order": 32,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "maska-sipap",
+    "maska-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "156010",
+   "code": "156010",
+   "nkmi_name": "Набор для проведения кислородной терапии, стерильный",
+   "name_in_act": "Набор для проведения кислородной терапии, стерильный",
+   "nkmi_name_now": "Набор для проведения кислородной терапии, стерильный",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Маски респираторные/анестезиологические и сопутствующие изделия",
+   "order": 33,
+   "scan_page": 5,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "podacha-kisloroda"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "156030",
+   "code": "156030",
+   "nkmi_name": "Трубка для подачи кислорода",
+   "name_in_act": "Трубка для подачи кислорода",
+   "nkmi_name_now": "Трубка для подачи кислорода",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Маски респираторные/анестезиологические и сопутствующие изделия",
+   "order": 34,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "podacha-kisloroda",
+    "kislorodnaya-trubka",
+    "trubka"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "271370",
+   "code": "271370",
+   "nkmi_name": "Маска для искусственной вентиляции легких, многоразового использования",
+   "name_in_act": "Маска для искусственной вентиляции легких, многоразового использования",
+   "nkmi_name_now": "Маска для искусственной вентиляции легких, многоразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Маски респираторные/анестезиологические и сопутствующие изделия",
+   "order": 35,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "maska-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "271390",
+   "code": "271390",
+   "nkmi_name": "Маска для искусственной вентиляции легких, одноразового использования",
+   "name_in_act": "Маска для искусственной вентиляции легких, одноразового использования",
+   "nkmi_name_now": "Маска для искусственной вентиляции легких, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Маски респираторные/анестезиологические и сопутствующие изделия",
+   "order": 36,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "maska-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "274030",
+   "code": "274030",
+   "nkmi_name": "Маска лицевая аэрозольная, реверсивная, одноразового использования",
+   "name_in_act": "Маска лицевая аэрозольная, реверсивная, одноразового использования",
+   "nkmi_name_now": "Маска лицевая аэрозольная, реверсивная, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Маски респираторные/анестезиологические и сопутствующие изделия",
+   "order": 37,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "maska-dlya-ingalyatsiy"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "303260",
+   "code": "303260",
+   "nkmi_name": "Инсуффлятор-аспиратор",
+   "name_in_act": "Инсуффлятор-аспиратор",
+   "nkmi_name_now": "Инсуффлятор-аспиратор",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Маски респираторные/анестезиологические и сопутствующие изделия",
+   "order": 38,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "otkashlivatel",
+    "otkashlevatel"
+   ],
+   "primary_alias": "otkashlivatel",
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "191160",
+   "code": "191160",
+   "nkmi_name": "Концентратор кислорода стационарный",
+   "name_in_act": "Концентратор кислорода стационарный",
+   "nkmi_name_now": "Концентратор кислорода стационарный",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Оборудование для подведения анестезиологических и респираторных газов",
+   "order": 39,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "kislorodnik",
+    "kislorod",
+    "kontsentrator-kisloroda"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "149980",
+   "code": "149980",
+   "nkmi_name": "Пульсоксиметр",
+   "name_in_act": "Пульсоксиметр",
+   "nkmi_name_now": "Пульсоксиметр",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Оксиметры и сопутствующие изделия",
+   "order": 40,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "pulsoksimetr",
+    "pulsaksimetr",
+    "oksimetr"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "190850",
+   "code": "190850",
+   "nkmi_name": "Монитор у постели больного многопараметрический общего назначения",
+   "name_in_act": "Монитор у постели больного многопараметрический общего назначения",
+   "nkmi_name_now": "Монитор у постели больного многопараметрический общего назначения",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Мониторы/системы мониторирования анестизиологические/респираторные",
+   "order": 41,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "monitor"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [
+    {
+     "name": "Монитор у постели больного многопараметрический общего назначения",
+     "version": "20260101"
+    },
+    {
+     "name": null,
+     "version": "20260201"
+    },
+    {
+     "name": "Монитор у постели больного многопараметрический общего назначения",
+     "version": "20260401"
+    }
+   ],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "152690",
+   "code": "152690",
+   "nkmi_name": "Очиститель воздуха фильтрующий высокоэффективный, передвижной",
+   "name_in_act": "Очиститель воздуха фильтрующий высокоэффективный, передвижной",
+   "nkmi_name_now": "Очиститель воздуха фильтрующий высокоэффективный, передвижной",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Очистители воздуха",
+   "order": 42,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "ochistitel-vozdukha"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "124600",
+   "code": "124600",
+   "nkmi_name": "Устройство для очищения дыхательных путей от секрета методом ПЭД",
+   "name_in_act": "Устройство для очищения дыхательных путей от секрета методом ПЭД",
+   "nkmi_name_now": "Устройство для очищения дыхательных путей от секрета методом ПЭД",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Системы вентиляции легких и сопутствующие изделия",
+   "order": 43,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "ochishchenie-dykhatelnykh-putey"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "288800",
+   "code": "288800",
+   "nkmi_name": "Система очищения дыхательных путей от секрета методом высокочастотной осцилляции грудной клетки",
+   "name_in_act": "Система очищения дыхательных путей от секрета методом высокочастотной осцилляции грудной клетки",
+   "nkmi_name_now": "Система очищения дыхательных путей от секрета методом высокочастотной осцилляции грудной клетки",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Системы вентиляции легких и сопутствующие изделия",
+   "order": 44,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "vibratsionnyy-zhilet",
+    "ochishchenie-dykhatelnykh-putey"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "358700",
+   "code": "358700",
+   "nkmi_name": "Система аспирационная хирургическая общего назначения, вакуумная",
+   "name_in_act": "Система аспирационная хирургическая общего назначения, вакуумная",
+   "nkmi_name_now": "Система аспирационная хирургическая общего назначения, вакуумная",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Системы вентиляции легких и сопутствующие изделия",
+   "order": 45,
+   "scan_page": 6,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "otsos",
+    "aspirator"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "121270",
+   "code": "121270",
+   "nkmi_name": "Аппарат искусственной вентиляции легких, ручной, одноразового использования",
+   "name_in_act": "Аппарат искусственной вентиляции легких, ручной, одноразового использования",
+   "nkmi_name_now": "Аппарат искусственной вентиляции легких, ручной, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Устройства систем искусственной вентиляции",
+   "order": 46,
+   "scan_page": 7,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "ruchnoy-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "121180",
+   "code": "121180",
+   "nkmi_name": "Аппарат искусственной вентиляции легких, ручной, многоразового использования",
+   "name_in_act": "Аппарат искусственной вентиляции легких, ручной, многоразового использования",
+   "nkmi_name_now": "Аппарат искусственной вентиляции легких, ручной, многоразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Устройства систем искусственной вентиляции",
+   "order": 47,
+   "scan_page": 7,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "ruchnoy-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "136490",
+   "code": "136490",
+   "nkmi_name": "Трубка трахеостомическая, неармированная, стандартная, многоразового использования",
+   "name_in_act": "Трубка трахеостомическая, неармированная, стандартная, многоразового использования",
+   "nkmi_name_now": "Трубка трахеостомическая, неармированная, стандартная, многоразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Устройства систем искусственной вентиляции",
+   "order": 48,
+   "scan_page": 7,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "trakheostoma",
+    "trakheostomicheskaya-trubka",
+    "trubka"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "136500",
+   "code": "136500",
+   "nkmi_name": "Трубка трахеостомическая, неармированная, стандартная, одноразового использования",
+   "name_in_act": "Трубка трахеостомическая, неармированная, стандартная, одноразового использования",
+   "nkmi_name_now": "Трубка трахеостомическая, неармированная, стандартная, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Устройства систем искусственной вентиляции",
+   "order": 49,
+   "scan_page": 7,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "trakheostoma",
+    "trakheostomicheskaya-trubka",
+    "trubka"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "169080",
+   "code": "169080",
+   "nkmi_name": "Трубка трахеостомическая, армированная, стандартная, одноразового использования",
+   "name_in_act": "Трубка трахеостомическая, армированная, стандартная, одноразового использования",
+   "nkmi_name_now": "Трубка трахеостомическая, армированная, стандартная, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Устройства систем искусственной вентиляции",
+   "order": 50,
+   "scan_page": 7,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "trakheostoma",
+    "trakheostomicheskaya-trubka",
+    "trubka"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "173710",
+   "code": "173710",
+   "nkmi_name": "Набор для ухода за трахеостомой, одноразового использования",
+   "name_in_act": "Набор для ухода за трахеостомой, одноразового использования",
+   "nkmi_name_now": "Набор для ухода за трахеостомой, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Устройства систем искусственной вентиляции",
+   "order": 51,
+   "scan_page": 7,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "trakheostoma"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "355410",
+   "code": "355410",
+   "nkmi_name": "Фиксатор трахеостомической трубки на шее пациента, одноразового использования",
+   "name_in_act": "Фиксатор трахеостомической трубки на шее пациента, одноразового использования",
+   "nkmi_name_now": "Фиксатор трахеостомической трубки на шее пациента, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Устройства систем искусственной вентиляции",
+   "order": 52,
+   "scan_page": 7,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "trakheostoma",
+    "fiksator-trakheostomy"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "330490",
+   "code": "330490",
+   "nkmi_name": "Щеточка для очистки внутренней канюли трахеостомической трубки, стерильная",
+   "name_in_act": "Щеточка для очистки внутренней канюли трахеостомической трубки, стерильная",
+   "nkmi_name_now": "Щеточка для очистки внутренней канюли трахеостомической трубки, стерильная",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Устройства систем искусственной вентиляции",
+   "order": 53,
+   "scan_page": 7,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "trakheostoma",
+    "ershik-dlya-trakheostomy"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "322250",
+   "code": "322250",
+   "nkmi_name": "Фильтр бактериальный для медицинских газов, стерильный, одноразового использования",
+   "name_in_act": "Фильтр бактериальный для медицинских газов, стерильный, одноразового использования",
+   "nkmi_name_now": "Фильтр бактериальный для медицинских газов, стерильный, одноразового использования",
+   "group_no": 1,
+   "group_title": "Анестезиологические и респираторные медицинские изделия",
+   "subgroup_title": "Прочие анестезиологические и респираторные медицинские изделия",
+   "order": 54,
+   "scan_page": 7,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "bakterialnyy-filtr",
+    "filtr-dlya-ivl"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "157620",
+   "code": "157620",
+   "nkmi_name": "Насос инфузионный для контролируемой пациентом анальгезии",
+   "name_in_act": "Насос инфузионный для контролируемой пациентом анальгезии",
+   "nkmi_name_now": "Насос инфузионный для контролируемой пациентом анальгезии",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Инфузионные насосы и сопутствующие изделия",
+   "order": 55,
+   "scan_page": 7,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "infuzionnyy-nasos",
+    "pompa-dlya-obezbolivaniya"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "229860",
+   "code": "229860",
+   "nkmi_name": "Насос шприцевой прикроватный",
+   "name_in_act": "Насос шприцевой прикроватный",
+   "nkmi_name_now": "Насос шприцевой прикроватный",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Инфузионные насосы и сопутствующие изделия",
+   "order": 56,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "infuzionnyy-nasos",
+    "shpritsevoy-nasos"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "OCR код не прочёл, код сверен по изображению страницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "260010",
+   "code": "260010",
+   "nkmi_name": "Помпа для энтерального питания",
+   "name_in_act": "Помпа для энтерального питания",
+   "nkmi_name_now": "Помпа для энтерального питания",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Инфузионные насосы и сопутствующие изделия",
+   "order": 57,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "pompa-dlya-pitaniya",
+    "enteralnoe-pitanie"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "OCR код не прочёл, код сверен по изображению страницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "260420",
+   "code": "260420",
+   "nkmi_name": "Насос инфузионный прикроватный, одноканальный",
+   "name_in_act": "Насос инфузионный прикроватный, одноканальный",
+   "nkmi_name_now": "Насос инфузионный прикроватный, одноканальный",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Инфузионные насосы и сопутствующие изделия",
+   "order": 58,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "infuzionnyy-nasos"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "273610",
+   "code": "273610",
+   "nkmi_name": "Комплект для введения лекарственных средств для инфузионного насоса с электропитанием, одноразового использования",
+   "name_in_act": "Комплект для введения лекарственных средств для инфузионного насоса с электропитанием, одноразового использования",
+   "nkmi_name_now": "Комплект для введения лекарственных средств для инфузионного насоса с электропитанием, одноразового использования",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Инфузионные насосы и сопутствующие изделия",
+   "order": 59,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "nabor-dlya-nasosa"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "288180",
+   "code": "288180",
+   "nkmi_name": "Насос инфузионный эластомерный",
+   "name_in_act": "Насос инфузионный эластомерный",
+   "nkmi_name_now": "Насос инфузионный эластомерный",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Инфузионные насосы и сопутствующие изделия",
+   "order": 60,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "infuzionnyy-nasos"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "OCR код не прочёл, код сверен по изображению страницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "118170",
+   "code": "118170",
+   "nkmi_name": "Матрас противопролежневый секционный",
+   "name_in_act": "Матрас противопролежневый секционный",
+   "nkmi_name_now": "Матрас противопролежневый секционный",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Кровати медицинские и сопутствующие изделия",
+   "order": 61,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "matras",
+    "protivoprolezhnevyy-matras",
+    "protivoprolezhnyy-matras"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "118440",
+   "code": "118440",
+   "nkmi_name": "Кровать адаптационная с ручным управлением",
+   "name_in_act": "Кровать адаптационная с ручным управлением",
+   "nkmi_name_now": "Кровать адаптационная с ручным управлением",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Кровати медицинские и сопутствующие изделия",
+   "order": 62,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "krovat",
+    "funktsionalnaya-krovat",
+    "meditsinskaya-krovat"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "OCR код не прочёл, код сверен по изображению страницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "136210",
+   "code": "136210",
+   "nkmi_name": "Кровать больничная стандартная с электроприводом",
+   "name_in_act": "Кровать больничная стандартная с электроприводом",
+   "nkmi_name_now": "Кровать больничная стандартная с электроприводом",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Кровати медицинские и сопутствующие изделия",
+   "order": 63,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "krovat",
+    "funktsionalnaya-krovat",
+    "meditsinskaya-krovat"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "178810",
+   "code": "178810",
+   "nkmi_name": "Кровать педиатрическая",
+   "name_in_act": "Кровать педиатрическая",
+   "nkmi_name_now": "Кровать педиатрическая",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Кровати медицинские и сопутствующие изделия",
+   "order": 64,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "krovat",
+    "meditsinskaya-krovat"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "116510",
+   "code": "116510",
+   "nkmi_name": "Кровать адаптационная нерегулируемая",
+   "name_in_act": "Кровать адаптационная нерегулируемая",
+   "nkmi_name_now": "Кровать адаптационная нерегулируемая",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Кровати медицинские и сопутствующие изделия",
+   "order": 65,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "krovat",
+    "meditsinskaya-krovat"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "120210",
+   "code": "120210",
+   "nkmi_name": "Кровать больничная механическая",
+   "name_in_act": "Кровать больничная механическая",
+   "nkmi_name_now": "Кровать больничная механическая",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Кровати медицинские и сопутствующие изделия",
+   "order": 66,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "krovat",
+    "funktsionalnaya-krovat",
+    "meditsinskaya-krovat"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "131200",
+   "code": "131200",
+   "nkmi_name": "Кровать больничная с гидравлическим приводом",
+   "name_in_act": "Кровать больничная с гидравлическим приводом",
+   "nkmi_name_now": "Кровать больничная с гидравлическим приводом",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Кровати медицинские и сопутствующие изделия",
+   "order": 67,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "krovat",
+    "funktsionalnaya-krovat",
+    "meditsinskaya-krovat"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "290200",
+   "code": "290200",
+   "nkmi_name": "Кровать адаптационная с электроприводом",
+   "name_in_act": "Кровать с электроприводом адаптационная",
+   "nkmi_name_now": "Кровать адаптационная с электроприводом",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Кровати медицинские и сопутствующие изделия",
+   "order": 68,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "krovat",
+    "funktsionalnaya-krovat",
+    "meditsinskaya-krovat"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "134230",
+   "code": "134230",
+   "nkmi_name": "Столик прикроватный",
+   "name_in_act": "Столик прикроватный",
+   "nkmi_name_now": "Столик прикроватный",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Кровати медицинские и сопутствующие изделия",
+   "order": 69,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "prikrovatnyy-stolik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "167990",
+   "code": "167990",
+   "nkmi_name": "Наматрасник противопролежневый с наполнителем из пеноматериала",
+   "name_in_act": "Наматрасник противопролежневый с наполнителем из пеноматериала",
+   "nkmi_name_now": "Наматрасник противопролежневый с наполнителем из пеноматериала",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Матрасы медицинские и сопутствующие изделия",
+   "order": 70,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "matras",
+    "protivoprolezhnevyy-matras",
+    "protivoprolezhnyy-matras",
+    "namatrasnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "168020",
+   "code": "168020",
+   "nkmi_name": "Наматрасник противопролежневый с гелевым наполнителем",
+   "name_in_act": "Наматрасник противопролежневый с гелевым наполнителем",
+   "nkmi_name_now": "Наматрасник противопролежневый с гелевым наполнителем",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Матрасы медицинские и сопутствующие изделия",
+   "order": 71,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "matras",
+    "protivoprolezhnevyy-matras",
+    "protivoprolezhnyy-matras",
+    "namatrasnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "168030",
+   "code": "168030",
+   "nkmi_name": "Наматрасник противопролежневый надувной",
+   "name_in_act": "Наматрасник противопролежневый надувной",
+   "nkmi_name_now": "Наматрасник противопролежневый надувной",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Матрасы медицинские и сопутствующие изделия",
+   "order": 72,
+   "scan_page": 8,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "matras",
+    "protivoprolezhnevyy-matras",
+    "protivoprolezhnyy-matras",
+    "namatrasnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "266680",
+   "code": "266680",
+   "nkmi_name": "Наматрасник противопролежневый надувной с регулируемым давлением, многоразового использования",
+   "name_in_act": "Наматрасник противопролежневый надувной с регулируемым давлением, многоразового использования",
+   "nkmi_name_now": "Наматрасник противопролежневый надувной с регулируемым давлением, многоразового использования",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Матрасы медицинские и сопутствующие изделия",
+   "order": 73,
+   "scan_page": 9,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "matras",
+    "protivoprolezhnevyy-matras",
+    "protivoprolezhnyy-matras",
+    "namatrasnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "266750",
+   "code": "266750",
+   "nkmi_name": "Система противопролежневая с надувным наматрасником с регулируемым давлением",
+   "name_in_act": "Система противопролежневая с надувным наматрасником с регулируемым давлением",
+   "nkmi_name_now": "Система противопролежневая с надувным наматрасником с регулируемым давлением",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Матрасы медицинские и сопутствующие изделия",
+   "order": 74,
+   "scan_page": 9,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "matras",
+    "protivoprolezhnevyy-matras",
+    "protivoprolezhnyy-matras"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "269270",
+   "code": "269270",
+   "nkmi_name": "Наматрасник водонепроницаемый, многоразового использования",
+   "name_in_act": "Наматрасник водонепроницаемый, многоразового использования",
+   "nkmi_name_now": "Наматрасник водонепроницаемый, многоразового использования",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Матрасы медицинские и сопутствующие изделия",
+   "order": 75,
+   "scan_page": 9,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "namatrasnik",
+    "nepromokaemyy-namatrasnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "300940",
+   "code": "300940",
+   "nkmi_name": "Набор для чрескожных инъекций, не содержащий лекарственные средства, одноразового использования",
+   "name_in_act": "Набор для чрескожных инъекций, не содержащий лекарственные средства, одноразового использования",
+   "nkmi_name_now": "Набор для чрескожных инъекций, не содержащий лекарственные средства, одноразового использования",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Наборы для подкожных инъекций",
+   "order": 76,
+   "scan_page": 9,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "nabor-dlya-ukolov"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "122540",
+   "code": "122540",
+   "nkmi_name": "Перчатки смотровые/процедурные из латекса гевеи, неопудренные, нестерильные, не антибактериальные",
+   "name_in_act": "Перчатки смотровые/процедурные из латекса гевеи, неопудренные, нестерильные, не антибактериальные",
+   "nkmi_name_now": "Перчатки смотровые/процедурные из латекса гевеи, неопудренные, нестерильные, не антибактериальные",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Перчатки медицинские",
+   "order": 77,
+   "scan_page": 9,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perchatki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "122560",
+   "code": "122560",
+   "nkmi_name": "Перчатки смотровые/процедурные из латекса гевеи, опудренные, нестерильные",
+   "name_in_act": "Перчатки смотровые/процедурные из латекса гевеи, опудренные, нестерильные",
+   "nkmi_name_now": "Перчатки смотровые/процедурные из латекса гевеи, опудренные, нестерильные",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Перчатки медицинские",
+   "order": 78,
+   "scan_page": 9,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perchatki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "122610",
+   "code": "122610",
+   "nkmi_name": "Перчатки смотровые/процедурные из латекса гевеи, неопудренные, стерильные, не антибактериальные",
+   "name_in_act": "Перчатки смотровые/процедурные из латекса гевеи, неопудренные, стерильные, не антибактериальные",
+   "nkmi_name_now": "Перчатки смотровые/процедурные из латекса гевеи, неопудренные, стерильные, не антибактериальные",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Перчатки медицинские",
+   "order": 79,
+   "scan_page": 9,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perchatki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "139350",
+   "code": "139350",
+   "nkmi_name": "Перчатки смотровые/процедурные из полихлоропрена, неопудренные, нестерильные",
+   "name_in_act": "Перчатки смотровые/процедурные из полихлоропрена, неопудренные, нестерильные",
+   "nkmi_name_now": "Перчатки смотровые/процедурные из полихлоропрена, неопудренные, нестерильные",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Перчатки медицинские",
+   "order": 80,
+   "scan_page": 9,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perchatki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "139360",
+   "code": "139360",
+   "nkmi_name": "Перчатки смотровые/процедурные из полихлоропрена, опудренные, нестерильные",
+   "name_in_act": "Перчатки смотровые/процедурные из полихлоропрена, опудренные, нестерильные",
+   "nkmi_name_now": "Перчатки смотровые/процедурные из полихлоропрена, опудренные, нестерильные",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Перчатки медицинские",
+   "order": 81,
+   "scan_page": 9,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perchatki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "185830",
+   "code": "185830",
+   "nkmi_name": "Перчатки смотровые/процедурные нитриловые, неопудренные, нестерильные, не антибактериальные",
+   "name_in_act": "Перчатки смотровые/процедурные нитриловые, неопудренные, нестерильные, не антибактериальные",
+   "nkmi_name_now": "Перчатки смотровые/процедурные нитриловые, неопудренные, нестерильные, не антибактериальные",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Перчатки медицинские",
+   "order": 82,
+   "scan_page": 9,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perchatki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "185850",
+   "code": "185850",
+   "nkmi_name": "Перчатки смотровые/процедурные нитриловые, опудренные, нестерильные",
+   "name_in_act": "Перчатки смотровые/процедурные нитриловые, опудренные, нестерильные",
+   "nkmi_name_now": "Перчатки смотровые/процедурные нитриловые, опудренные, нестерильные",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Перчатки медицинские",
+   "order": 83,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perchatki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "205280",
+   "code": "205280",
+   "nkmi_name": "Перчатки смотровые/процедурные виниловые, неопудренные, нестерильные",
+   "name_in_act": "Перчатки смотровые/процедурные виниловые, неопудренные, нестерильные",
+   "nkmi_name_now": "Перчатки смотровые/процедурные виниловые, неопудренные, нестерильные",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Перчатки медицинские",
+   "order": 84,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perchatki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "335680",
+   "code": "335680",
+   "nkmi_name": "Перчатки смотровые/процедурные виниловые, опудренные, стерильные",
+   "name_in_act": "Перчатки смотровые/процедурные виниловые, опудренные, стерильные",
+   "nkmi_name_now": "Перчатки смотровые/процедурные виниловые, опудренные, стерильные",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Перчатки медицинские",
+   "order": 85,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "perchatki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "185030",
+   "code": "185030",
+   "nkmi_name": "Подушка ортопедическая многофункциональная",
+   "name_in_act": "Подушка ортопедическая многофункциональная",
+   "nkmi_name_now": "Подушка ортопедическая многофункциональная",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Подушки медицинские",
+   "order": 86,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "ortopedicheskaya-podushka"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "134620",
+   "code": "134620",
+   "nkmi_name": "Раствор антибактериальный с антибиотиками для создания замка для катетера",
+   "name_in_act": "Раствор антибактериальный с антибиотиками для создания замка для катетера",
+   "nkmi_name_now": "Раствор антибактериальный с антибиотиками для создания замка для катетера",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Растворы/газы для санитарной обработки/обслуживания медицинских изделий и сопутствующие изделия",
+   "order": 87,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "zamok-dlya-katetera"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "136940",
+   "code": "136940",
+   "nkmi_name": "Салфетка для очищения/дезинфекции медицинских изделий",
+   "name_in_act": "Салфетка для очищения/дезинфекции медицинских изделий",
+   "nkmi_name_now": "Салфетка для очищения/дезинфекции медицинских изделий",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Растворы/газы для санитарной обработки/обслуживания медицинских изделий и сопутствующие изделия",
+   "order": 88,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "dezinfitsiruyushchie-salfetki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "172880",
+   "code": "172880",
+   "nkmi_name": "Система подъема и перемещения пациента с помощью верхних направляющих",
+   "name_in_act": "Система подъема и перемещения пациента с помощью верхних направляющих",
+   "nkmi_name_now": "Система подъема и перемещения пациента с помощью верхних направляющих",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Системы подъема/перемещения пациентов",
+   "order": 89,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "podemnik",
+    "potolochnyy-podemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "191170",
+   "code": "191170",
+   "nkmi_name": "Система подъёма и перемещения пациента стационарная, с электропитанием",
+   "name_in_act": "Система подъема и перемещения пациента стационарная, с электропитанием",
+   "nkmi_name_now": "Система подъёма и перемещения пациента стационарная, с электропитанием",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Системы подъема/перемещения пациентов",
+   "order": 90,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "podemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "191250",
+   "code": "191250",
+   "nkmi_name": "Система подъема и перемещения пациента стационарная, ручная",
+   "name_in_act": "Система подъема и перемещения пациента стационарная, ручная",
+   "nkmi_name_now": "Система подъема и перемещения пациента стационарная, ручная",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Системы подъема/перемещения пациентов",
+   "order": 91,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "podemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "209440",
+   "code": "209440",
+   "nkmi_name": "Система подъема и перемещения пациента передвижная, с электропитанием",
+   "name_in_act": "Система подъема и перемещения пациента передвижная, с электропитанием",
+   "nkmi_name_now": "Система подъема и перемещения пациента передвижная, с электропитанием",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Системы подъема/перемещения пациентов",
+   "order": 92,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "podemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "209530",
+   "code": "209530",
+   "nkmi_name": "Система подъема и перемещения пациента передвижная, ручная",
+   "name_in_act": "Система подъема и перемещения пациента передвижная, ручная",
+   "nkmi_name_now": "Система подъема и перемещения пациента передвижная, ручная",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Системы подъема/перемещения пациентов",
+   "order": 93,
+   "scan_page": 10,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "podemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "275140",
+   "code": "275140",
+   "nkmi_name": "Система для подъёма и перемещения пациента автономная, с питанием от сети",
+   "name_in_act": "Система для подъема и перемещения пациента автономная, с питанием от сети",
+   "nkmi_name_now": "Система для подъёма и перемещения пациента автономная, с питанием от сети",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Системы подъема/перемещения пациентов",
+   "order": 94,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "podemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "331530",
+   "code": "331530",
+   "nkmi_name": "Приспособление для помощи при вставании/тренировки ручное",
+   "name_in_act": "Приспособление для помощи при вставании/тренировки ручное",
+   "nkmi_name_now": "Приспособление для помощи при вставании/тренировки ручное",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Системы подъема/перемещения пациентов",
+   "order": 95,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "poruchen-dlya-vstavaniya",
+    "pomoshch-pri-vstavanii"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "131950",
+   "code": "131950",
+   "nkmi_name": "Стойка для внутривенных вливаний",
+   "name_in_act": "Стойка для внутривенных вливаний",
+   "nkmi_name_now": "Стойка для внутривенных вливаний",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Стойки/держатели для инфузионных растворов и сопутствующие изделия",
+   "order": 96,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "stoyka-dlya-kapelnitsy"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "131980",
+   "code": "131980",
+   "nkmi_name": "Облучатель ультрафиолетовый бактерицидный",
+   "name_in_act": "Облучатель ультрафиолетовый бактерицидный",
+   "nkmi_name_now": "Облучатель ультрафиолетовый бактерицидный",
+   "group_no": 2,
+   "group_title": "Вспомогательные и общебольничные медицинские изделия",
+   "subgroup_title": "Прочие вспомогательные и общебольничные медицинские изделия",
+   "order": 97,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "kvarts",
+    "bakteritsidnaya-lampa"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "187780",
+   "code": "187780",
+   "nkmi_name": "Катетер ректальный для постоянной илеостомии",
+   "name_in_act": "Катетер ректальный для постоянной илеостомии",
+   "nkmi_name_now": "Катетер ректальный для постоянной илеостомии",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Катетеры гастроэнтерологические и сопутствующие изделия",
+   "order": 98,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "kateter"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "157910",
+   "code": "157910",
+   "nkmi_name": "Зонд назоэнтеральный",
+   "name_in_act": "Зонд назоэнтеральный",
+   "nkmi_name_now": "Зонд назоэнтеральный",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Трубки гастроэнтерологические и сопутствующие изделия",
+   "order": 99,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "zond"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "169450",
+   "code": "169450",
+   "nkmi_name": "Зонд назогастрального питания",
+   "name_in_act": "Зонд назогастрального питания",
+   "nkmi_name_now": "Зонд назогастрального питания",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Трубки гастроэнтерологические и сопутствующие изделия",
+   "order": 100,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "zond",
+    "nazogastralnyy-zond",
+    "enteralnoe-pitanie"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "169460",
+   "code": "169460",
+   "nkmi_name": "Зонд назогастральный/орогастральный",
+   "name_in_act": "Зонд назогастральный/орогастральный",
+   "nkmi_name_now": "Зонд назогастральный/орогастральный",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Трубки гастроэнтерологические и сопутствующие изделия",
+   "order": 101,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "zond",
+    "nazogastralnyy-zond"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "364630",
+   "code": "364630",
+   "nkmi_name": "Комплект неинвазивных компонентов для энтерального питания",
+   "name_in_act": "Комплект неинвазивных компонентов для энтерального питания",
+   "nkmi_name_now": "Комплект неинвазивных компонентов для энтерального питания",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Трубки гастроэнтерологические и сопутствующие изделия",
+   "order": 102,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "enteralnoe-pitanie",
+    "sistema-dlya-zondovogo-pitaniya"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "259820",
+   "code": "259820",
+   "nkmi_name": "Набор для энтерального питания, для взрослых/педиатрический, стерильный",
+   "name_in_act": "Набор для энтерального питания, для взрослых/педиатрический, стерильный",
+   "nkmi_name_now": "Набор для энтерального питания, для взрослых/педиатрический, стерильный",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Трубки гастроэнтерологические и сопутствующие изделия",
+   "order": 103,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "enteralnoe-pitanie",
+    "sistema-dlya-zondovogo-pitaniya"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "268590",
+   "code": "268590",
+   "nkmi_name": "Трубка гастростомическая",
+   "name_in_act": "Трубка гастростомическая",
+   "nkmi_name_now": "Трубка гастростомическая",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Трубки гастроэнтерологические и сопутствующие изделия",
+   "order": 104,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "trubka",
+    "gastrostoma"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "325930",
+   "code": "325930",
+   "nkmi_name": "Коннектор для энтерального питания/введения лекарственных средств, нестерильный",
+   "name_in_act": "Коннектор для энтерального питания/введения лекарственных средств, нестерильный",
+   "nkmi_name_now": "Коннектор для энтерального питания/введения лекарственных средств, нестерильный",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Трубки гастроэнтерологические и сопутствующие изделия",
+   "order": 105,
+   "scan_page": 11,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "enteralnoe-pitanie",
+    "konnektor-dlya-zonda"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "152450",
+   "code": "152450",
+   "nkmi_name": "Калоприемник для кишечной стомы однокомпонентный, закрытый",
+   "name_in_act": "Калоприемник для кишечной стомы однокомпонентный, закрытый",
+   "nkmi_name_now": "Калоприемник для кишечной стомы однокомпонентный, закрытый",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Устройства стомирования и сопутствующие изделия",
+   "order": 106,
+   "scan_page": 11,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kalopriemnik",
+    "stomnyy-meshok"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "152460",
+   "code": "152460",
+   "nkmi_name": "Калоприемник для кишечной стомы многокомпонентный, закрытый",
+   "name_in_act": "Калоприемник для кишечной стомы многокомпонентный, закрытый",
+   "nkmi_name_now": "Калоприемник для кишечной стомы многокомпонентный, закрытый",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Устройства стомирования и сопутствующие изделия",
+   "order": 107,
+   "scan_page": 11,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kalopriemnik",
+    "stomnyy-meshok"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "156410",
+   "code": "156410",
+   "nkmi_name": "Калоприемник для кишечной стомы однокомпонентный, открытого типа",
+   "name_in_act": "Калоприемник для кишечной стомы однокомпонентный, открытого типа",
+   "nkmi_name_now": "Калоприемник для кишечной стомы однокомпонентный, открытого типа",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Устройства стомирования и сопутствующие изделия",
+   "order": 108,
+   "scan_page": 12,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kalopriemnik",
+    "stomnyy-meshok"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "156420",
+   "code": "156420",
+   "nkmi_name": "Калоприемник для кишечной стомы многокомпонентный, открытого типа",
+   "name_in_act": "Калоприемник для кишечной стомы многокомпонентный, открытого типа",
+   "nkmi_name_now": "Калоприемник для кишечной стомы многокомпонентный, открытого типа",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Устройства стомирования и сопутствующие изделия",
+   "order": 109,
+   "scan_page": 12,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kalopriemnik",
+    "stomnyy-meshok"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "200040",
+   "code": "200040",
+   "nkmi_name": "Мешок уростомный многокомпонентный, со сливным краном",
+   "name_in_act": "Мешок уростомный многокомпонентный, со сливным краном",
+   "nkmi_name_now": "Мешок уростомный многокомпонентный, со сливным краном",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Устройства стомирования и сопутствующие изделия",
+   "order": 110,
+   "scan_page": 12,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "stomnyy-meshok",
+    "urostoma"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "221790",
+   "code": "221790",
+   "nkmi_name": "Бандаж давящий для калоприемника",
+   "name_in_act": "Бандаж давящий для калоприемника",
+   "nkmi_name_now": "Бандаж давящий для калоприемника",
+   "group_no": 3,
+   "group_title": "Гастроэнтерологические медицинские изделия",
+   "subgroup_title": "Устройства стомирования и сопутствующие изделия",
+   "order": 111,
+   "scan_page": 12,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "poyas-dlya-kalopriemnika"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "144780",
+   "code": "144780",
+   "nkmi_name": "Повязка раневая гидрогелевая, нестерильная",
+   "name_in_act": "Повязка раневая гидрогелевая, нестерильная",
+   "nkmi_name_now": "Повязка раневая гидрогелевая, нестерильная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 112,
+   "scan_page": 12,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "144790",
+   "code": "144790",
+   "nkmi_name": "Повязка раневая гидрогелевая, не антибактериальная",
+   "name_in_act": "Повязка раневая гидрогелевая, не антибактериальная",
+   "nkmi_name_now": "Повязка раневая гидрогелевая, не антибактериальная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 113,
+   "scan_page": 12,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "144800",
+   "code": "144800",
+   "nkmi_name": "Повязка раневая гидрогелевая, стерильная, антибактериальная",
+   "name_in_act": "Повязка раневая гидрогелевая, стерильная, антибактериальная",
+   "nkmi_name_now": "Повязка раневая гидрогелевая, стерильная, антибактериальная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 114,
+   "scan_page": 12,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "147390",
+   "code": "147390",
+   "nkmi_name": "Повязка на рану неприлипающая, абсорбирующая, антибактериальная",
+   "name_in_act": "Повязка на рану неприлипающая, абсорбирующая, антибактериальная",
+   "nkmi_name_now": "Повязка на рану неприлипающая, абсорбирующая, антибактериальная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 115,
+   "scan_page": 12,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "147400",
+   "code": "147400",
+   "nkmi_name": "Повязка раневая неприлипающая, проницаемая, антибактериальная",
+   "name_in_act": "Повязка раневая неприлипающая, проницаемая, антибактериальная",
+   "nkmi_name_now": "Повязка раневая неприлипающая, проницаемая, антибактериальная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 116,
+   "scan_page": 12,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "147410",
+   "code": "147410",
+   "nkmi_name": "Повязка раневая неприлипающая, абсорбирующая, не антибактериальная",
+   "name_in_act": "Повязка раневая неприлипающая, абсорбирующая, не антибактериальная",
+   "nkmi_name_now": "Повязка раневая неприлипающая, абсорбирующая, не антибактериальная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 117,
+   "scan_page": 12,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "147420",
+   "code": "147420",
+   "nkmi_name": "Повязка раневая неприлипающая, проницаемая, не антибактериальная",
+   "name_in_act": "Повязка раневая неприлипающая, проницаемая, не антибактериальная",
+   "nkmi_name_now": "Повязка раневая неприлипающая, проницаемая, не антибактериальная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 118,
+   "scan_page": 12,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "161310",
+   "code": "161310",
+   "nkmi_name": "Повязка на кожу с осмотическими свойствами, не антибактериальная",
+   "name_in_act": "Повязка на кожу с осмотическими свойствами, не антибактериальная",
+   "nkmi_name_now": "Повязка на кожу с осмотическими свойствами, не антибактериальная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 119,
+   "scan_page": 12,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "128820",
+   "code": "128820",
+   "nkmi_name": "Повязка для абсорбции экссудата, с гидрофильным гелем, антибактериальная",
+   "name_in_act": "Повязка для абсорбции экссудата, с гидрофильным гелем, антибактериальная",
+   "nkmi_name_now": "Повязка для абсорбции экссудата, с гидрофильным гелем, антибактериальная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 120,
+   "scan_page": 12,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "173530",
+   "code": "173530",
+   "nkmi_name": "Повязка с биохимическим воздействием",
+   "name_in_act": "Повязка с биохимическим воздействием",
+   "nkmi_name_now": "Повязка с биохимическим воздействием",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 121,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "173540",
+   "code": "173540",
+   "nkmi_name": "Повязка с биохимическим воздействием, антибактериальная",
+   "name_in_act": "Повязка с биохимическим воздействием, антибактериальная",
+   "nkmi_name_now": "Повязка с биохимическим воздействием, антибактериальная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 122,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "248420",
+   "code": "248420",
+   "nkmi_name": "Средство гемостатическое на основе хитозана, профессиональное",
+   "name_in_act": "Средство гемостатическое на основе хитозана, профессиональное",
+   "nkmi_name_now": "Средство гемостатическое на основе хитозана, профессиональное",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 123,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "krovoostanavlivayushchee"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "259910",
+   "code": "259910",
+   "nkmi_name": "Средство гемостатическое неорганического происхождения",
+   "name_in_act": "Средство гемостатическое неорганического происхождения",
+   "nkmi_name_now": "Система управления/получения видеоизображений для эндоскопа",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 124,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n",
+    "nkmi-reassigned"
+   ],
+   "aliases": [
+    "krovoostanavlivayushchee"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "renamed",
+   "nkmi_changed_in": "20260701",
+   "nkmi_history": [
+    {
+     "name": "Средство гемостатическое неорганического происхождения",
+     "version": "20260101"
+    },
+    {
+     "name": "Система управления/получения видеоизображений для эндоскопа",
+     "version": "20260701"
+    }
+   ],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "в скане и в справочнике до версии 20260701 это то же имя; с версии 20260701 под кодом другой вид",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "142270",
+   "code": "142270",
+   "nkmi_name": "Лейкопластырь для кожных покровов, антибактериальный",
+   "name_in_act": "Лейкопластырь для кожных покровов, антибактериальный",
+   "nkmi_name_now": "Лейкопластырь для кожных покровов, антибактериальный",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 125,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "plastyr"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "136010",
+   "code": "136010",
+   "nkmi_name": "Лейкопластырь кожный для фиксации повязки, несиликоновый",
+   "name_in_act": "Лейкопластырь кожный для фиксации повязки, несиликоновый",
+   "nkmi_name_now": "Лейкопластырь кожный для фиксации повязки, несиликоновый",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 126,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "plastyr"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "218680",
+   "code": "218680",
+   "nkmi_name": "Повязка пленочная полупроницаемая антибактериальная из синтетического полимера, неприлипающая",
+   "name_in_act": "Повязка пленочная полупроницаемая антибактериальная из синтетического полимера, неприлипающая",
+   "nkmi_name_now": "Повязка пленочная полупроницаемая антибактериальная из синтетического полимера, неприлипающая",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 127,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "234600",
+   "code": "234600",
+   "nkmi_name": "Повязка гидрофобная бактерицидная",
+   "name_in_act": "Повязка гидрофобная бактерицидная",
+   "nkmi_name_now": "Повязка гидрофобная бактерицидная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 128,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "128790",
+   "code": "128790",
+   "nkmi_name": "Повязка для абсорбции экссудата, негелевая, не антибактериальная",
+   "name_in_act": "Повязка для абсорбции экссудата, негелевая, не антибактериальная",
+   "nkmi_name_now": "Повязка для абсорбции экссудата, негелевая, не антибактериальная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Повязки и сопутствующие изделия",
+   "order": 129,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "povyazki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "190940",
+   "code": "190940",
+   "nkmi_name": "Контейнер для хирургической аспирационной системы, многоразового использования",
+   "name_in_act": "Контейнер для хирургической аспирационной системы, многоразового использования",
+   "nkmi_name_now": "Контейнер для хирургической аспирационной системы, многоразового использования",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Устройства дренирования/удаления жидкостей/тканей",
+   "order": 130,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "banka-dlya-otsosa"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "190950",
+   "code": "190950",
+   "nkmi_name": "Катетер аспирационной системы, общего назначения",
+   "name_in_act": "Катетер аспирационной системы, общего назначения",
+   "nkmi_name_now": "Катетер аспирационной системы, общего назначения",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Устройства дренирования/удаления жидкостей/тканей",
+   "order": 131,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "kateter"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "191040",
+   "code": "191040",
+   "nkmi_name": "Трубка для аспирации/промывания, одноразового использования",
+   "name_in_act": "Трубка для аспирации/промывания, одноразового использования",
+   "nkmi_name_now": "Трубка для аспирации/промывания, одноразового использования",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Устройства дренирования/удаления жидкостей/тканей",
+   "order": 132,
+   "scan_page": 13,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "trubka"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "260570",
+   "code": "260570",
+   "nkmi_name": "Система аспирационная общего назначения, с питанием от сети",
+   "name_in_act": "Система аспирационная общего назначения, с питанием от сети",
+   "nkmi_name_now": "Система аспирационная общего назначения, с питанием от сети",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Устройства дренирования/удаления жидкостей/тканей",
+   "order": 133,
+   "scan_page": 14,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "otsos",
+    "aspirator"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "358710",
+   "code": "358710",
+   "nkmi_name": "Система аспирационная хирургическая общего назначения, электрическая",
+   "name_in_act": "Система аспирационная хирургическая общего назначения, электрическая",
+   "nkmi_name_now": "Система аспирационная хирургическая общего назначения, электрическая",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Устройства дренирования/удаления жидкостей/тканей",
+   "order": 134,
+   "scan_page": 14,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "otsos",
+    "aspirator"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "162580",
+   "code": "162580",
+   "nkmi_name": "Система аспирационная для очищения дыхательных путей для экстренной помощи, электрическая",
+   "name_in_act": "Система аспирационная для очищения дыхательных путей для экстренной помощи, электрическая",
+   "nkmi_name_now": "Система аспирационная для очищения дыхательных путей для экстренной помощи, электрическая",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Устройства дренирования/удаления жидкостей/тканей",
+   "order": 135,
+   "scan_page": 14,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "otsos",
+    "aspirator"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "156250",
+   "code": "156250",
+   "nkmi_name": "Система кислородной терапии респираторная",
+   "name_in_act": "Система кислородной терапии респираторная",
+   "nkmi_name_now": "Система кислородной терапии респираторная",
+   "group_no": 4,
+   "group_title": "Медицинские изделия для манипуляций/восстановления тканей/органов человека",
+   "subgroup_title": "Устройства дренирования/удаления жидкостей/тканей",
+   "order": 136,
+   "scan_page": 14,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "podacha-kisloroda"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "OCR код не прочёл, код сверен по изображению страницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "109790",
+   "code": "109790",
+   "nkmi_name": "Шприц для введения лекарств перорально/энтерального питания формата ENFit, одноразового использования",
+   "name_in_act": "Шприц для введения лекарств перорально/энтерального питания формата ENFit, одноразового использования",
+   "nkmi_name_now": "Шприц для введения лекарств перорально/энтерального питания формата ENFit, одноразового использования",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Изделия бытовые адаптированные",
+   "order": 137,
+   "scan_page": 14,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "shprits-dlya-kormleniya"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "256110",
+   "code": "256110",
+   "nkmi_name": "Параподиум-вертикализатор",
+   "name_in_act": "Параподиум-вертикализатор",
+   "nkmi_name_now": "Параподиум-вертикализатор",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Протезы/ортезы внешние",
+   "order": 138,
+   "scan_page": 14,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "vertikalizator"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "OCR код не прочёл, код сверен по изображению страницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "147070",
+   "code": "147070",
+   "nkmi_name": "Вертикализатор",
+   "name_in_act": "Вертикализатор",
+   "nkmi_name_now": "Вертикализатор",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства медицинские персональные адаптированные",
+   "order": 139,
+   "scan_page": 14,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "vertikalizator"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "136520",
+   "code": "136520",
+   "nkmi_name": "Ходунки опорные стандартные, складные",
+   "name_in_act": "Ходунки опорные стандартные, складные",
+   "nkmi_name_now": "Ходунки опорные стандартные, складные",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства передвижения адаптированные",
+   "order": 140,
+   "scan_page": 14,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "khodunki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "136530",
+   "code": "136530",
+   "nkmi_name": "Ходунки опорные стандартные, нескладные",
+   "name_in_act": "Ходунки опорные стандартные, нескладные",
+   "nkmi_name_now": "Ходунки опорные стандартные, нескладные",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства передвижения адаптированные",
+   "order": 141,
+   "scan_page": 14,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "khodunki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "136540",
+   "code": "136540",
+   "nkmi_name": "Ходунки колесные с ручками, без электропитания, нескладные",
+   "name_in_act": "Ходунки колесные с ручками, без электропитания, нескладные",
+   "nkmi_name_now": "Ходунки колесные с ручками, без электропитания, нескладные",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства передвижения адаптированные",
+   "order": 142,
+   "scan_page": 14,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "khodunki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "187990",
+   "code": "187990",
+   "nkmi_name": "Ходунки-столик для прогулок",
+   "name_in_act": "Ходунки-столик для прогулок",
+   "nkmi_name_now": "Ходунки-столик для прогулок",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства передвижения адаптированные",
+   "order": 143,
+   "scan_page": 14,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "khodunki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "OCR код не прочёл, код сверен по изображению страницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "207920",
+   "code": "207920",
+   "nkmi_name": "Кресло-коляска, с электродвигателем, управляемое пациентом, с ручным рулевым управлением, складное",
+   "name_in_act": "Кресло-коляска, с электродвигателем, управляемое пациентом, с ручным рулевым управлением, складное",
+   "nkmi_name_now": "Кресло-коляска, с электродвигателем, управляемое пациентом, с ручным рулевым управлением, складное",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства передвижения адаптированные",
+   "order": 144,
+   "scan_page": 14,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "kolyaska",
+    "invalidnaya-kolyaska",
+    "elektrokolyaska"
+   ],
+   "primary_alias": "elektrokolyaska",
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "207930",
+   "code": "207930",
+   "nkmi_name": "Кресло-коляска, с приводом, управляемая сопровождающим лицом, нескладная",
+   "name_in_act": "Кресло-коляска, с приводом, управляемая сопровождающим лицом, нескладная",
+   "nkmi_name_now": "Кресло-коляска, с приводом, управляемая сопровождающим лицом, нескладная",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства передвижения адаптированные",
+   "order": 145,
+   "scan_page": 14,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kolyaska",
+    "invalidnaya-kolyaska"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "207990",
+   "code": "207990",
+   "nkmi_name": "Кресло-коляска, управляемая пациентом/сопровождающим лицом, с приводом на задние колеса, складная",
+   "name_in_act": "Кресло-коляска, управляемая пациентом/сопровождающим лицом, с приводом на задние колеса, складная",
+   "nkmi_name_now": "Кресло-коляска, управляемая пациентом/сопровождающим лицом, с приводом на задние колеса, складная",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства передвижения адаптированные",
+   "order": 146,
+   "scan_page": 15,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kolyaska",
+    "invalidnaya-kolyaska"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "208020",
+   "code": "208020",
+   "nkmi_name": "Кресло-коляска, управляемая пациентом, с приводом на задние колеса, складная",
+   "name_in_act": "Кресло-коляска, управляемая пациентом, с приводом на задние колеса, складная",
+   "nkmi_name_now": "Кресло-коляска, управляемая пациентом, с приводом на задние колеса, складная",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства передвижения адаптированные",
+   "order": 147,
+   "scan_page": 15,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kolyaska",
+    "invalidnaya-kolyaska"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "208120",
+   "code": "208120",
+   "nkmi_name": "Кресло-коляска, управляемое пациентом, с двуручным рычажным приводом, нескладная",
+   "name_in_act": "Кресло-коляска, управляемое пациентом, с двуручным рычажным приводом, нескладная",
+   "nkmi_name_now": "Кресло-коляска, управляемое пациентом, с двуручным рычажным приводом, нескладная",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства передвижения адаптированные",
+   "order": 148,
+   "scan_page": 15,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kolyaska",
+    "invalidnaya-kolyaska"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "208150",
+   "code": "208150",
+   "nkmi_name": "Кресло-коляска, с приводом, управляемая пациентом/сопровождающим лицом, нескладная",
+   "name_in_act": "Кресло-коляска, с приводом, управляемая пациентом/сопровождающим лицом, нескладная",
+   "nkmi_name_now": "Кресло-коляска, с приводом, управляемая пациентом/сопровождающим лицом, нескладная",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства передвижения адаптированные",
+   "order": 149,
+   "scan_page": 15,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kolyaska",
+    "invalidnaya-kolyaska"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "148100",
+   "code": "148100",
+   "nkmi_name": "Судно подкладное",
+   "name_in_act": "Судно подкладное",
+   "nkmi_name_now": "Судно подкладное",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства ухода персональные адаптированные",
+   "order": 150,
+   "scan_page": 15,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "sudno"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "220280",
+   "code": "220280",
+   "nkmi_name": "Кресло-туалет",
+   "name_in_act": "Кресло-туалет",
+   "nkmi_name_now": "Кресло-туалет",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства ухода персональные адаптированные",
+   "order": 151,
+   "scan_page": 15,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "kreslo-tualet",
+    "stul-tualet"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "149440",
+   "code": "149440",
+   "nkmi_name": "Держатель неносимого мочеприемника/калоприемника",
+   "name_in_act": "Держатель неносимого мочеприемника/калоприемника",
+   "nkmi_name_now": "Держатель неносимого мочеприемника/калоприемника",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства ухода персональные адаптированные",
+   "order": 152,
+   "scan_page": 15,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown"
+   ],
+   "aliases": [
+    "derzhatel-meshka"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "233160",
+   "code": "233160",
+   "nkmi_name": "Подгузники детские",
+   "name_in_act": "Подгузники детские",
+   "nkmi_name_now": "Подгузники детские",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства ухода персональные адаптированные",
+   "order": 153,
+   "scan_page": 15,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "podguzniki",
+    "pampersy"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "233860",
+   "code": "233860",
+   "nkmi_name": "Вкладыши урологические впитывающие при недержании мочи",
+   "name_in_act": "Вкладыши урологические впитывающие при недержании мочи",
+   "nkmi_name_now": "Вкладыши урологические впитывающие при недержании мочи",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства ухода персональные адаптированные",
+   "order": 154,
+   "scan_page": 15,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "urologicheskie-prokladki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "233900",
+   "code": "233900",
+   "nkmi_name": "Трусы при недержании мочи для взрослых, одноразового использования",
+   "name_in_act": "Трусы при недержании мочи для взрослых, одноразового использования",
+   "nkmi_name_now": "Трусы при недержании мочи для взрослых, одноразового использования",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства ухода персональные адаптированные",
+   "order": 155,
+   "scan_page": 15,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "trusy-podguzniki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "280360",
+   "code": "280360",
+   "nkmi_name": "Подгузники для взрослых",
+   "name_in_act": "Подгузники для взрослых",
+   "nkmi_name_now": "Подгузники для взрослых",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства ухода персональные адаптированные",
+   "order": 156,
+   "scan_page": 15,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "podguzniki",
+    "pampersy"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "OCR код не прочёл, код сверен по изображению страницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "320550",
+   "code": "320550",
+   "nkmi_name": "Пеленка впитывающая",
+   "name_in_act": "Пеленка впитывающая",
+   "nkmi_name_now": "Пеленка впитывающая",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства ухода персональные адаптированные",
+   "order": 157,
+   "scan_page": 15,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "pelenki"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "OCR код не прочёл, код сверен по изображению страницы",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "331330",
+   "code": "331330",
+   "nkmi_name": "Простыня впитывающая, не антибактериальная, одноразового использования",
+   "name_in_act": "Простыня впитывающая, не антибактериальная, одноразового использования",
+   "nkmi_name_now": "Простыня впитывающая, не антибактериальная, одноразового использования",
+   "group_no": 5,
+   "group_title": "Реабилитационные и адаптированные для инвалидов медицинские изделия",
+   "subgroup_title": "Средства ухода персональные адаптированные",
+   "order": 158,
+   "scan_page": 15,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "vpityvayushchaya-prostynya"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "131910",
+   "code": "131910",
+   "nkmi_name": "Пакет/бутыль для внутривенных вливаний",
+   "name_in_act": "Пакет/бутыль для внутривенных вливаний",
+   "nkmi_name_now": "Пакет/бутыль для внутривенных вливаний",
+   "group_no": 6,
+   "group_title": "Сердечно-сосудистые медицинские изделия",
+   "subgroup_title": "Наборы инфузионные и сопутствующие изделия",
+   "order": 159,
+   "scan_page": 15,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "paket-dlya-kapelnitsy"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "152440",
+   "code": "152440",
+   "nkmi_name": "Мочеприемник закрытый носимый, нестерильный",
+   "name_in_act": "Мочеприемник закрытый носимый, нестерильный",
+   "nkmi_name_now": "Мочеприемник закрытый носимый, нестерильный",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Катетеры урологические и сопутствующие изделия",
+   "order": 160,
+   "scan_page": 16,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "mochepriemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "152470",
+   "code": "152470",
+   "nkmi_name": "Мочеприемник для взрослых неносимый, закрытый",
+   "name_in_act": "Мочеприемник для взрослых неносимый, закрытый",
+   "nkmi_name_now": "Мочеприемник для взрослых неносимый, закрытый",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Катетеры урологические и сопутствующие изделия",
+   "order": 161,
+   "scan_page": 16,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "mochepriemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "152480",
+   "code": "152480",
+   "nkmi_name": "Мочеприемник закрытый неносимый, нестерильный",
+   "name_in_act": "Мочеприемник закрытый неносимый, нестерильный",
+   "nkmi_name_now": "Мочеприемник закрытый неносимый, нестерильный",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Катетеры урологические и сопутствующие изделия",
+   "order": 162,
+   "scan_page": 16,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "mochepriemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "152490",
+   "code": "152490",
+   "nkmi_name": "Мочеприемник для взрослых, носимый, закрытый",
+   "name_in_act": "Мочеприемник для взрослых, носимый, закрытый",
+   "nkmi_name_now": "Мочеприемник для взрослых, носимый, закрытый",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Катетеры урологические и сопутствующие изделия",
+   "order": 163,
+   "scan_page": 16,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "mochepriemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "155640",
+   "code": "155640",
+   "nkmi_name": "Катетер уретральный постоянный для дренажа/промывания",
+   "name_in_act": "Катетер уретральный постоянный для дренажа/промывания",
+   "nkmi_name_now": "Катетер уретральный постоянный для дренажа/промывания",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Катетеры урологические и сопутствующие изделия",
+   "order": 164,
+   "scan_page": 16,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kateter",
+    "mochevoy-kateter"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "155670",
+   "code": "155670",
+   "nkmi_name": "Катетер уретральный баллонный постоянный для дренажа, не антибактериальный",
+   "name_in_act": "Катетер уретральный баллонный постоянный для дренажа, не антибактериальный",
+   "nkmi_name_now": "Катетер уретральный баллонный постоянный для дренажа, не антибактериальный",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Катетеры урологические и сопутствующие изделия",
+   "order": 165,
+   "scan_page": 16,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "kateter",
+    "mochevoy-kateter",
+    "kateter-foleya"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "156370",
+   "code": "156370",
+   "nkmi_name": "Мочеприемник для взрослых неносимый, открытый",
+   "name_in_act": "Мочеприемник для взрослых неносимый, открытый",
+   "nkmi_name_now": "Мочеприемник для взрослых неносимый, открытый",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Катетеры урологические и сопутствующие изделия",
+   "order": 166,
+   "scan_page": 16,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "mochepriemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "156390",
+   "code": "156390",
+   "nkmi_name": "Мочеприемник для взрослых, носимый, открытый",
+   "name_in_act": "Мочеприемник для взрослых, носимый, открытый",
+   "nkmi_name_now": "Мочеприемник для взрослых, носимый, открытый",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Катетеры урологические и сопутствующие изделия",
+   "order": 167,
+   "scan_page": 16,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "mochepriemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "156400",
+   "code": "156400",
+   "nkmi_name": "Мочеприемник ножной носимый со сливным краном, нестерильный",
+   "name_in_act": "Мочеприемник ножной носимый со сливным краном, нестерильный",
+   "nkmi_name_now": "Мочеприемник ножной носимый со сливным краном, нестерильный",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Катетеры урологические и сопутствующие изделия",
+   "order": 168,
+   "scan_page": 16,
+   "fn2": true,
+   "tsr_2347r": "by_fn2",
+   "in_348n": "yes",
+   "channel_ids": [
+    "mo-398n",
+    "sfr-pp240"
+   ],
+   "warning_ids": [
+    "fn2-sfr",
+    "ref-repealed-348n",
+    "ref-repealed-345n",
+    "sfr-ipra"
+   ],
+   "aliases": [
+    "mochepriemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": "398n-fn2",
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "365490",
+   "code": "365490",
+   "nkmi_name": "Мешок уростомный однокомпонентный, со сливным краном",
+   "name_in_act": "Мешок уростомный однокомпонентный, со сливным краном",
+   "nkmi_name_now": "Мешок уростомный однокомпонентный, со сливным краном",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Прочие урологические медицинские изделия",
+   "order": 169,
+   "scan_page": 16,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "stomnyy-meshok",
+    "urostoma"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  },
+  {
+   "id": "152430",
+   "code": "152430",
+   "nkmi_name": "Мочеприемник самоклеящийся для младенцев/педиатрический, закрытый",
+   "name_in_act": "Мочеприемник самоклеящийся для младенцев/педиатрический, закрытый",
+   "nkmi_name_now": "Мочеприемник самоклеящийся для младенцев/педиатрический, закрытый",
+   "group_no": 7,
+   "group_title": "Урологические медицинские изделия",
+   "subgroup_title": "Прочие урологические медицинские изделия",
+   "order": 170,
+   "scan_page": 16,
+   "fn2": false,
+   "tsr_2347r": "unknown",
+   "in_348n": "no",
+   "channel_ids": [
+    "mo-398n"
+   ],
+   "warning_ids": [
+    "no-fn2-ipra",
+    "ref-repealed-348n",
+    "tsr-unknown",
+    "new-in-398n"
+   ],
+   "aliases": [
+    "mochepriemnik"
+   ],
+   "primary_alias": null,
+   "nkmi_status": "present",
+   "nkmi_changed_in": null,
+   "nkmi_history": [],
+   "tsr_source_ref": null,
+   "legal_reviewed": false,
+   "note": "",
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-398n"
+  }
+ ]
+}

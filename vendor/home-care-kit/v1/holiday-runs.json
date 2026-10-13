@@ -1,0 +1,546 @@
+{
+ "format": "openpalliative-dataset/1",
+ "dataset": "holiday-runs",
+ "repo": "home-care-kit",
+ "schema_version": "1.0.0",
+ "version": "2026.10.13",
+ "generated_at": "2026-10-13T06:32:05Z",
+ "data_date": "2026-10-11",
+ "stale_after_days": 90,
+ "license": "CC-BY-4.0",
+ "source": [
+  {
+   "id": "pal-norms",
+   "title": "Снимок pal-norms, версия 2026.10.11, данные от 11.10.2026",
+   "url": "https://openpalliative.github.io/pal-norms/data/v1/index.json",
+   "retrieved_at": "2026-10-13",
+   "license": "CC-BY-4.0"
+  },
+  {
+   "id": "pravo-pp-1187",
+   "title": "1187: О переносе выходных дней в 2027 году",
+   "url": "http://publication.pravo.gov.ru/document/0001202609180037",
+   "eoNumber": "0001202609180037",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pravo-pp-1314",
+   "title": "1314: О переносе выходных дней в 2024 году",
+   "url": "http://publication.pravo.gov.ru/document/0001202308180053",
+   "eoNumber": "0001202308180053",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pravo-pp-1335",
+   "title": "1335: О переносе выходных дней в 2025 году",
+   "url": "http://publication.pravo.gov.ru/document/0001202410040023",
+   "eoNumber": "0001202410040023",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pravo-pp-1466",
+   "title": "1466: О переносе выходных дней в 2026 году",
+   "url": "http://publication.pravo.gov.ru/document/0001202509240023",
+   "eoNumber": "0001202509240023",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pravo-0300202512100005",
+   "title": "320: Указ Главы Республики Бурятия от 05.12.2025 № 320  \"О празднике Белого месяца \"Сагаалган\" в 2026 году\"",
+   "url": "http://publication.pravo.gov.ru/document/0300202512100005",
+   "eoNumber": "0300202512100005",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-3800202602170001",
+   "title": "39-уг: Указ Губернатора Иркутской области от 16.02.2026 № 39-уг  \"О праздновании национально-культурного праздника \"Сагаалган\"",
+   "url": "http://publication.pravo.gov.ru/document/3800202602170001",
+   "eoNumber": "3800202602170001",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-0800202602040001",
+   "title": "8: Указ Главы Республики Калмыкия от 03.02.2026 № 8  \"Об объявлении 18 февраля 2026 года Днём национального праздника \"Цаган Сар\"",
+   "url": "http://publication.pravo.gov.ru/document/0800202602040001",
+   "eoNumber": "0800202602040001",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pravo-7500202509050003",
+   "title": "99: Постановление Губернатора Забайкальского края от 05.09.2025 № 99  \"Об объявлении даты праздника Белого месяца \"Сагаалган\" в 2026 году\"",
+   "url": "http://publication.pravo.gov.ru/document/7500202509050003",
+   "eoNumber": "7500202509050003",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pravo-2000202603120001",
+   "title": "46: Указ Главы Чеченской Республики от 10.03.2026 № 46  \"О нерабочих (праздничных) днях\"",
+   "url": "http://publication.pravo.gov.ru/document/2000202603120001",
+   "eoNumber": "2000202603120001",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-0500202603190006",
+   "title": "47: Постановление Правительства Республики Дагестан от 13.03.2026 № 47  \"О мусульманском празднике Ураза-байрам\"",
+   "url": "http://publication.pravo.gov.ru/document/0500202603190006",
+   "eoNumber": "0500202603190006",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-0100202510140001",
+   "title": "117: Указ Главы Республики Адыгея от 13.10.2025 № 117  \"Об установлении дат проведения религиозных праздничных дней и переносе выходного дня в 2026 году\"",
+   "url": "http://publication.pravo.gov.ru/document/0100202510140001",
+   "eoNumber": "0100202510140001",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pravo-0700202603160004",
+   "title": "22-УГ: Указ Главы Кабардино-Балкарской Республики от 13.03.2026 № 22-УГ  \"Об объявлении 20 марта 2026 г. нерабочим праздничным днем\"",
+   "url": "http://publication.pravo.gov.ru/document/0700202603160004",
+   "eoNumber": "0700202603160004",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-1600202601210002",
+   "title": "17: Указ Раиса Республики Татарстан от 17.01.2026 № 17  \"Об определении дней проведения праздников Ураза-байрам и Курбан-байрам в 2026 году\"",
+   "url": "http://publication.pravo.gov.ru/document/1600202601210002",
+   "eoNumber": "1600202601210002",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pravo-0500202604030007",
+   "title": "64: Постановление Правительства Республики Дагестан от 31.03.2026 № 64  \"О православном празднике - Светлом Христовом Воскресении (Пасхе) и дне особого поминовения усопших – Радонице\"",
+   "url": "http://publication.pravo.gov.ru/document/0500202604030007",
+   "eoNumber": "0500202604030007",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-3200202604130001",
+   "title": "40: Указ Губернатора Брянской области от 08.04.2026 № 40  \"Об объявлении нерабочим праздничным днем на территории Брянской области 21 апреля 2026 года\"",
+   "url": "http://publication.pravo.gov.ru/document/3200202604130001",
+   "eoNumber": "3200202604130001",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-0700202603190002",
+   "title": "26-УГ: Указ Главы Кабардино-Балкарской Республики от 18.03.2026 № 26-УГ  \"Об объявлении 21 апреля 2026 г. нерабочим днем\"",
+   "url": "http://publication.pravo.gov.ru/document/0700202603190002",
+   "eoNumber": "0700202603190002",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-5500202604170014",
+   "title": "80: Указ Губернатора Омской области от 17.04.2026 № 80  \"Об объявлении нерабочим праздничным днем на территории Омской области 21 апреля 2026 года\"",
+   "url": "http://publication.pravo.gov.ru/document/5500202604170014",
+   "eoNumber": "5500202604170014",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-1400201805150018",
+   "title": "1993-З № 1545-V: Закон Республики Саха (Якутия) от 26.04.2018  1993-З № 1545-V  \"О дополнительных нерабочих праздничных днях в Республике Саха (Якутия)\"",
+   "url": "http://publication.pravo.gov.ru/document/1400201805150018",
+   "eoNumber": "1400201805150018",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-1700202604170002",
+   "title": "742 ПВХ-IV: Постановление Верховного Хурала (парламента) Республики Тыва от 15.04.2026 № 742 ПВХ-IV  \"О переносе нерабочего праздничного дня\"",
+   "url": "http://publication.pravo.gov.ru/document/1700202604170002",
+   "eoNumber": "1700202604170002",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-0500202605210003",
+   "title": "104: Постановление Правительства Республики Дагестан от 15.05.2026 № 104  \"О мусульманском празднике Курбан-байрам\"",
+   "url": "http://publication.pravo.gov.ru/document/0500202605210003",
+   "eoNumber": "0500202605210003",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-0700202605200003",
+   "title": "46-УГ: Указ Главы Кабардино-Балкарской Республики от 19.05.2026 № 46-УГ  \"Об объявлении 27 мая 2026 г. нерабочим праздничным днем\"",
+   "url": "http://publication.pravo.gov.ru/document/0700202605200003",
+   "eoNumber": "0700202605200003",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-0400202602170004",
+   "title": "4-РЗ: Закон Республики Алтай от 17.02.2026 № 4-РЗ  \"О внесении изменений в статьи 1 и 5-1 Закона Республики Алтай \"О праздничных и памятных днях, юбилейных датах в Республике Алтай\"",
+   "url": "http://publication.pravo.gov.ru/document/0400202602170004",
+   "eoNumber": "0400202602170004",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-1300202512090001",
+   "title": "473-УГ: Указ Главы Республики Мордовия от 08.12.2025 № 473-УГ  \"Об объявлении нерабочего (праздничного) дня на территории Республики Мордовия 5 августа 2026 года\"",
+   "url": "http://publication.pravo.gov.ru/document/1300202512090001",
+   "eoNumber": "1300202512090001",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-7500202608100002",
+   "title": "95: Постановление Губернатора Забайкальского края от 07.08.2026 № 95  \"Об объявлении даты праздника Белого месяца \"Сагаалган\" в 2027 году\"",
+   "url": "http://publication.pravo.gov.ru/document/7500202608100002",
+   "eoNumber": "7500202608100002",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pravo-0100202608170001",
+   "title": "104: Указ Главы Республики Адыгея от 14.08.2026 № 104  \"Об установлении дат проведения религиозных праздничных дней в 2027 году\"",
+   "url": "http://publication.pravo.gov.ru/document/0100202608170001",
+   "eoNumber": "0100202608170001",
+   "retrieved_at": "2026-10-11"
+  },
+  {
+   "id": "pravo-0200202606230015",
+   "title": "205: Постановление Правительства Республики Башкортостан от 16.06.2026 № 205  \"О датах проведения в 2027 году праздников Ураза-байрам и Курбан-байрам в Республике Башкортостан\"",
+   "url": "http://publication.pravo.gov.ru/document/0200202606230015",
+   "eoNumber": "0200202606230015",
+   "retrieved_at": "2026-10-12"
+  },
+  {
+   "id": "pravo-6800202608100021",
+   "title": "870-З: Закон Тамбовской области от 04.08.2026 № 870-З  \"Об объявлении нерабочим (праздничным) днем на территории Тамбовской области дня особого поминовения усопших (Радоницы)\"",
+   "url": "http://publication.pravo.gov.ru/document/6800202608100021",
+   "eoNumber": "6800202608100021",
+   "retrieved_at": "2026-10-12"
+  }
+ ],
+ "content_sha256": "2b029513dccc8b3701a99f8df44eacef817d63d02434c0dfbc5754643689fcab",
+ "counts": {
+  "items": 31,
+  "unverified": 4,
+  "excluded": 0
+ },
+ "items": [
+  {
+   "id": "year-2024",
+   "kind": "year",
+   "year": 2024,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1314"
+  },
+  {
+   "id": "year-2025",
+   "kind": "year",
+   "year": 2025,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1335"
+  },
+  {
+   "id": "year-2026",
+   "kind": "year",
+   "year": 2026,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1466"
+  },
+  {
+   "id": "year-2027",
+   "kind": "year",
+   "year": 2027,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1187"
+  },
+  {
+   "id": "run-2024-01-01",
+   "kind": "run",
+   "year": 2024,
+   "from": "2024-01-01",
+   "to": "2024-01-08",
+   "days": 8,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1314"
+  },
+  {
+   "id": "run-2024-02-23",
+   "kind": "run",
+   "year": 2024,
+   "from": "2024-02-23",
+   "to": "2024-02-25",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1314"
+  },
+  {
+   "id": "run-2024-03-08",
+   "kind": "run",
+   "year": 2024,
+   "from": "2024-03-08",
+   "to": "2024-03-10",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1314"
+  },
+  {
+   "id": "run-2024-04-28",
+   "kind": "run",
+   "year": 2024,
+   "from": "2024-04-28",
+   "to": "2024-05-01",
+   "days": 4,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1314"
+  },
+  {
+   "id": "run-2024-05-09",
+   "kind": "run",
+   "year": 2024,
+   "from": "2024-05-09",
+   "to": "2024-05-12",
+   "days": 4,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1314"
+  },
+  {
+   "id": "run-2024-12-29",
+   "kind": "run",
+   "year": 2024,
+   "from": "2024-12-29",
+   "to": "2025-01-08",
+   "days": 11,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1314"
+  },
+  {
+   "id": "run-2025-05-01",
+   "kind": "run",
+   "year": 2025,
+   "from": "2025-05-01",
+   "to": "2025-05-04",
+   "days": 4,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1335"
+  },
+  {
+   "id": "run-2025-05-08",
+   "kind": "run",
+   "year": 2025,
+   "from": "2025-05-08",
+   "to": "2025-05-11",
+   "days": 4,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1335"
+  },
+  {
+   "id": "run-2025-06-12",
+   "kind": "run",
+   "year": 2025,
+   "from": "2025-06-12",
+   "to": "2025-06-15",
+   "days": 4,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1335"
+  },
+  {
+   "id": "run-2025-11-02",
+   "kind": "run",
+   "year": 2025,
+   "from": "2025-11-02",
+   "to": "2025-11-04",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1335"
+  },
+  {
+   "id": "run-2025-12-31",
+   "kind": "run",
+   "year": 2025,
+   "from": "2025-12-31",
+   "to": "2026-01-11",
+   "days": 12,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1335"
+  },
+  {
+   "id": "run-2026-02-21",
+   "kind": "run",
+   "year": 2026,
+   "from": "2026-02-21",
+   "to": "2026-02-23",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1466"
+  },
+  {
+   "id": "run-2026-03-07",
+   "kind": "run",
+   "year": 2026,
+   "from": "2026-03-07",
+   "to": "2026-03-09",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1466"
+  },
+  {
+   "id": "run-2026-05-01",
+   "kind": "run",
+   "year": 2026,
+   "from": "2026-05-01",
+   "to": "2026-05-03",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1466"
+  },
+  {
+   "id": "run-2026-05-09",
+   "kind": "run",
+   "year": 2026,
+   "from": "2026-05-09",
+   "to": "2026-05-11",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1466"
+  },
+  {
+   "id": "run-2026-06-12",
+   "kind": "run",
+   "year": 2026,
+   "from": "2026-06-12",
+   "to": "2026-06-14",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1466"
+  },
+  {
+   "id": "run-2026-12-31",
+   "kind": "run",
+   "year": 2026,
+   "from": "2026-12-31",
+   "to": "2027-01-10",
+   "days": 11,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1466"
+  },
+  {
+   "id": "run-2027-02-21",
+   "kind": "run",
+   "year": 2027,
+   "from": "2027-02-21",
+   "to": "2027-02-23",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1187"
+  },
+  {
+   "id": "run-2027-03-06",
+   "kind": "run",
+   "year": 2027,
+   "from": "2027-03-06",
+   "to": "2027-03-08",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1187"
+  },
+  {
+   "id": "run-2027-05-01",
+   "kind": "run",
+   "year": 2027,
+   "from": "2027-05-01",
+   "to": "2027-05-03",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1187"
+  },
+  {
+   "id": "run-2027-05-08",
+   "kind": "run",
+   "year": 2027,
+   "from": "2027-05-08",
+   "to": "2027-05-10",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1187"
+  },
+  {
+   "id": "run-2027-06-12",
+   "kind": "run",
+   "year": 2027,
+   "from": "2027-06-12",
+   "to": "2027-06-14",
+   "days": 3,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1187"
+  },
+  {
+   "id": "run-2027-11-04",
+   "kind": "run",
+   "year": 2027,
+   "from": "2027-11-04",
+   "to": "2027-11-07",
+   "days": 4,
+   "verified": true,
+   "verified_at": "2026-10-11",
+   "source_ref": "pravo-pp-1187"
+  },
+  {
+   "id": "run-2027-12-31",
+   "kind": "run",
+   "year": 2027,
+   "from": "2027-12-31",
+   "to": "2028-01-09",
+   "days": 10,
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "pravo-pp-1187"
+  },
+  {
+   "id": "run-2028-04-29",
+   "kind": "run",
+   "year": 2028,
+   "from": "2028-04-29",
+   "to": "2028-05-01",
+   "days": 3,
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "tk-rf"
+  },
+  {
+   "id": "run-2028-06-10",
+   "kind": "run",
+   "year": 2028,
+   "from": "2028-06-10",
+   "to": "2028-06-12",
+   "days": 3,
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "tk-rf"
+  },
+  {
+   "id": "run-2028-11-04",
+   "kind": "run",
+   "year": 2028,
+   "from": "2028-11-04",
+   "to": "2028-11-06",
+   "days": 3,
+   "verified": false,
+   "verified_at": null,
+   "source_ref": "tk-rf"
+  }
+ ]
+}

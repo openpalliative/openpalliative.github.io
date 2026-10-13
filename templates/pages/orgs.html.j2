@@ -1,0 +1,49 @@
+{% extends "op/base.html.j2" %}
+{% block title %}Для НКО, юристов и разработчиков{% endblock %}
+{% block description %}Как развернуть инструменты openpalliative у себя: статический хостинг, открытые данные, лицензии{% endblock %}
+{% block main %}
+{% set titles = {} %}
+{% for t in opdata.tools %}{% set _ = titles.update({t.repo: t.title}) %}{% endfor %}
+<div class="op-wrap op-page">
+  {{ op.crumbs([("openpalliative", url('')), ("Для НКО, юристов и разработчиков", "")]) }}
+  <h1>Разверните инструменты у себя</h1>
+  <p class="op-lead">Все инструменты открыты и бесплатны. Их можно разместить на сайте хосписа или НКО. Нужен только статический хостинг, без сервера и базы данных</p>
+  <div class="op-prose">
+    <h2>Что можно развернуть</h2>
+    <div class="op-table-wrap" tabindex="0" role="region" aria-label="Таблица: инструменты">
+      <table class="op-table hub-stack">
+        <thead><tr><th scope="col">Инструмент</th><th scope="col">Что делает</th><th scope="col">Открытые данные</th><th scope="col">Исходный код</th></tr></thead>
+        <tbody>
+          {% for t in opdata.tools %}
+          <tr><th scope="row"><a href="{{ xurl(t.repo, '') }}">{{ t.title }}</a></th><td data-label="Что делает">{{ t.summary }}</td><td data-label="Открытые данные">{% if site.entries.get(t.repo) %}<a href="{{ xurl(t.repo, 'data/') }}">Наборы данных</a>{% else %}{{ op.soon("Готовим") }}{% endif %}</td><td data-label="Исходный код"><a href="https://github.com/openpalliative/{{ t.repo }}">{{ t.repo }}</a></td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p>Откуда взяты данные и сколько записей сверено, собрано на странице <a href="{{ url('sources/') }}">«Откуда данные»</a></p>
+    <h2>Как это устроено</h2>
+    <p>Данные семьи хранятся в браузере, сервера нет. За развёрнутую копию отвечает тот, кто её развернул</p>
+    <p>Каждый инструмент публикует свои данные файлами JSON. У каждой записи есть источник и пометка, сверена ли она. Для норм источник - официальная публикация на publication.pravo.gov.ru, а там, где текст пока взят из другой базы законов, запись помечена «Не проверено»</p>
+    <p>Источники проверяются по расписанию. Служебные снимки источников (хеши файлов и счётчики) и дата последней проверки обновляются автоматически. Цитаты, правила, сроки и тексты для семей меняются только после того, как правку примет человек</p>
+    <h2 id="licenses">Лицензии</h2>
+    <p>{{ content.licenses.code }}. Условия для данных ниже взяты дословно из файла LICENSE-DATA каждого репозитория</p>
+    <div class="op-table-wrap" tabindex="0" role="region" aria-label="Таблица: лицензии данных">
+      <table class="op-table hub-licenses hub-stack">
+        <thead><tr><th scope="col">Инструмент</th><th scope="col">Что</th><th scope="col">Условия</th></tr></thead>
+        <tbody>
+          {% for r in content.licenses.repos %}
+          {% for row in r.rows %}
+          <tr>{% if loop.first %}<th scope="rowgroup" rowspan="{{ r.rows | length }}"><a href="https://github.com/openpalliative/{{ r.repo }}/blob/main/LICENSE-DATA">{{ titles.get(r.repo, r.repo) }}</a></th>{% endif %}<td data-label="Что">{{ row.what }}</td><td data-label="Условия" data-verbatim>{{ row.terms }}</td></tr>
+          {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p>Тексты этого сайта распространяются по лицензии CC BY-SA 4.0</p>
+    <h2>Чего мы не делаем</h2>
+    <p>Мейнтейнеры проекта не внедряют, не настраивают и не сопровождают инструменты для конкретных организаций. Инструкции написаны так, чтобы справиться самостоятельно</p>
+    <h2>Ищем мейнтейнеров в России</h2>
+    <p>Юриста, медика и разработчика. <a href="{{ url('help-us/') }}">Как помочь</a></p>
+  </div>
+</div>
+{% endblock %}
