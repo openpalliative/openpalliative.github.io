@@ -7,10 +7,10 @@ obrashchenie-kit:
   content_sha256: {addressees-federal: 097faef09c7c4b41f0d2093ee0780d6c32b8723216f5fcdf3fda39e3b3dbd8dc,
     channels: b45203028cacaca83c541c7b8fc5e0ee220f0816bab55c1fd4e69652fdd878d1, documents: a83eb8d3ac96b43e7b0a239574cbb862584a569ce51947dba1446f880ec18d91,
     entrypoints: d2bde2caaaff7ac30c2a25cb7b47c0ddca2b7bdc844188b534e4068489f13a2d,
-    ladder: 1ecc6fd4a3825e76225022221ec00b0f3f71e21b7f81d14609431449bf564785, pack: 97dd9375621fc3d928c476ba2ce5174b06c5336486a569b7e2f788c2d6dab1ae,
+    ladder: 1ecc6fd4a3825e76225022221ec00b0f3f71e21b7f81d14609431449bf564785, pack: edd8b8495aaf627011ab56879923220adeb71731ae92854abec490ab2e028e4b,
     reply-types: 82059ac5cb272d7dcda186af928dc3c1ab0ce020a3f1449efc2e266c898f7f32,
     scenarios: df5e31e751da8a759e545070f36ca429a2538c79fa7b5c445ab4e0ea5f360a0c, turning18: 949b3fbff26ed824427f18b55f8aa16a396293d28d8327ed8aa9d9ae14fd6cfb}
-  synced_at: '2026-10-13T06:32:06Z'
+  synced_at: '2026-10-20T10:24:47Z'
 home-care-kit:
   major: 1
   datasets: [entrypoints, holiday-runs, norm-view, region-view, sheets]
@@ -39,15 +39,15 @@ pal-directory:
   datasets: [addressees, entrypoints, federal-lines, region-acts, region-lines, regions,
     routers, routes]
   version: 2026.10.11
-  data_date: '2026-10-13'
-  content_sha256: {addressees: 1e5ded6c8ea5baf282a0421e4b185ce88f7e47ac46153c0f6393d6923dea1424,
+  data_date: '2026-10-19'
+  content_sha256: {addressees: ac3df7bd5e42f723235c2893d757210a0ae9049810ee93098cb3244bfbc7c7c0,
     entrypoints: b6dfd99968d8faa65013236b5162fe873c3b0adf5f359c6a66b9321db41a70b5,
-    federal-lines: aa449ff9d35ab752a5df22bfcaf73ba4cf351e579199137cba6d3dc309cbfeb8,
+    federal-lines: 56e7fbfe06a456ebe35635f94844ec33f093b8d910732c588d3833360532bce7,
     region-acts: 985cbdcb3c58cad0ce0e6a4bae32045581d6e1a17c35b5f833b03d0c5cc2200d,
-    region-lines: 543878f48b14d2569162896495ed3becbfbfa6c796e2efe3109ead7154e3d2a9,
-    regions: 83745e83d632d397a07c063a205aac474df41a0b73cc94441557ae577b3823f5, routers: f4826d83df7c64a9c94296cb7a65c2031c7b3ab6fb461b1b5f25f59b21d49ced,
+    region-lines: f9156f1fc527592f2c41e944fa65704eaeb6fce231759ff4fe185f294e712bde,
+    regions: 915198e189112cb83b88cb7cf3a6dcf3034d1280cb552293074cfaf2b5fe86a7, routers: f4826d83df7c64a9c94296cb7a65c2031c7b3ab6fb461b1b5f25f59b21d49ced,
     routes: 25e49e732fb2a39500d99aa492e899c6ff67535889c0d96325eabfc098dbd8df}
-  synced_at: '2026-10-13T06:32:06Z'
+  synced_at: '2026-10-20T10:24:53Z'
 pal-norms:
   major: 1
   datasets: [acts, calendar, changes, deadline-rules, entrypoints, escalation, indications,

@@ -4,7 +4,7 @@
  "repo": "obrashchenie-kit",
  "schema_version": "1.0.0",
  "version": "2026.10.11",
- "generated_at": "2026-10-13T06:32:05Z",
+ "generated_at": "2026-10-13T08:47:34Z",
  "data_date": "2026-10-11",
  "stale_after_days": 365,
  "license": "CC-BY-SA-4.0",
@@ -35,7 +35,7 @@
    "retrieved_at": "2026-10-13"
   }
  ],
- "content_sha256": "97dd9375621fc3d928c476ba2ce5174b06c5336486a569b7e2f788c2d6dab1ae",
+ "content_sha256": "edd8b8495aaf627011ab56879923220adeb71731ae92854abec490ab2e028e4b",
  "counts": {
   "items": 1,
   "unverified": 1,
@@ -53,7 +53,7 @@
    "reviewed_at": null,
    "released_at": "2026-10-11",
    "expires_after_days": 365,
-   "first_public_at": null,
+   "first_public_at": "2026-10-13",
    "notice": "Пример. Не используйте без проверки юристом в РФ",
    "documents": [
     "written-answer",
