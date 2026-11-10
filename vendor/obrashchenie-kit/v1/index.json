@@ -1,7 +1,7 @@
 {
  "repo": "obrashchenie-kit",
- "generated_at": "2026-10-13T06:32:05Z",
- "opsite_version": "0.2.16",
+ "generated_at": "2026-10-13T08:47:34Z",
+ "opsite_version": "0.2.18",
  "datasets": [
   {
    "name": "addressees-federal",
@@ -13,7 +13,7 @@
    "content_sha256": "097faef09c7c4b41f0d2093ee0780d6c32b8723216f5fcdf3fda39e3b3dbd8dc",
    "bytes": 2728,
    "items": 3,
-   "sha256": "a2caf1045b4c7d7ae37f7b8c2006bcd8f9b4030cba1bbaedd5106a79ae3e6c6f"
+   "sha256": "6b572fa62c201f6b985304881557d0547f702f0e2ba10d77bebe40a180a0d401"
   },
   {
    "name": "channels",
@@ -25,7 +25,7 @@
    "content_sha256": "b45203028cacaca83c541c7b8fc5e0ee220f0816bab55c1fd4e69652fdd878d1",
    "bytes": 5720,
    "items": 5,
-   "sha256": "42fabd7d19b38e1ff95ef68bfdf64c06a8720166bfb98c87729423ad21242c98"
+   "sha256": "56a307c497e06278befa33c9a1f1b6ca0c1f79b3bb9af586d72480a57a39b83b"
   },
   {
    "name": "documents",
@@ -37,7 +37,7 @@
    "content_sha256": "a83eb8d3ac96b43e7b0a239574cbb862584a569ce51947dba1446f880ec18d91",
    "bytes": 82826,
    "items": 6,
-   "sha256": "211e19640dd3cbff795ad657fc79318f730fab625fb803a3a0e4dd96aeb35db4"
+   "sha256": "c55ebb30e6c10fc35ca99f369c4f4f4d45e4f74d1496393f758022acd60e9a09"
   },
   {
    "name": "entrypoints",
@@ -49,7 +49,7 @@
    "content_sha256": "d2bde2caaaff7ac30c2a25cb7b47c0ddca2b7bdc844188b534e4068489f13a2d",
    "bytes": 4609,
    "items": 9,
-   "sha256": "ca9f83c3238a53f218f1fb7b00555e62daef2836f767e3e32cbce9568978d7f4"
+   "sha256": "f2f78ed25bbb20a70b324a1e05ad848d4cc947fa521c8bb7590945c3346d3b2a"
   },
   {
    "name": "ladder",
@@ -61,7 +61,7 @@
    "content_sha256": "1ecc6fd4a3825e76225022221ec00b0f3f71e21b7f81d14609431449bf564785",
    "bytes": 32501,
    "items": 51,
-   "sha256": "51709dd0492b95c4226c092ec77542bd593d0e4191a4cb2161d3cf8f4de02f54"
+   "sha256": "1d828a67edfcf9bb0ea0693d6f7b3071c809b20f5a8ce134b58196355b4ee9c5"
   },
   {
    "name": "pack",
@@ -70,10 +70,10 @@
    "schema_version": "1.0.0",
    "version": "2026.10.11",
    "data_date": "2026-10-11",
-   "content_sha256": "97dd9375621fc3d928c476ba2ce5174b06c5336486a569b7e2f788c2d6dab1ae",
-   "bytes": 9968,
+   "content_sha256": "edd8b8495aaf627011ab56879923220adeb71731ae92854abec490ab2e028e4b",
+   "bytes": 9976,
    "items": 1,
-   "sha256": "aa5efd80807847841dff5ee72b49defee9a2790bf0bc31d7211732dd132cd17e"
+   "sha256": "0283ccac702d0d2d005c58889f12102961c11106ffd5724d95859c8dd6a68663"
   },
   {
    "name": "reply-types",
@@ -85,7 +85,7 @@
    "content_sha256": "82059ac5cb272d7dcda186af928dc3c1ab0ce020a3f1449efc2e266c898f7f32",
    "bytes": 7188,
    "items": 13,
-   "sha256": "371e28f239b68048ff48cee37529eee797f65a36cfbf8a6505a63f39cbdf828b"
+   "sha256": "d320d6c24f4053b9919de9e6b04035b6bcacc97e6f4089a0d41e062e87e98cc7"
   },
   {
    "name": "scenarios",
@@ -97,7 +97,7 @@
    "content_sha256": "df5e31e751da8a759e545070f36ca429a2538c79fa7b5c445ab4e0ea5f360a0c",
    "bytes": 8696,
    "items": 5,
-   "sha256": "52ee3d31710308fb1b0d6ee07ec3d763e04ba8095189bae58c644ac2fb2bc76b"
+   "sha256": "b0259213e6f14959ebafb7118a921cb8a395e43dfdbe2e6d90a2e0f7aba6735c"
   },
   {
    "name": "turning18",
@@ -109,7 +109,7 @@
    "content_sha256": "949b3fbff26ed824427f18b55f8aa16a396293d28d8327ed8aa9d9ae14fd6cfb",
    "bytes": 4009,
    "items": 4,
-   "sha256": "327666d87a2acd3602a0c694a5d506c1390f6b775240c5168bc33c0652c5f54f"
+   "sha256": "424d50f7f2442d24b540ba849a2b26c0e52e424bd2b9ce2185989699dfbb15d3"
   }
  ]
 }
